@@ -116,6 +116,7 @@
     <Content Include="Bloodbank\campaign\update.aspx" />
     <Content Include="Bloodbank\home.aspx" />
     <Content Include="Bloodbank\profile.aspx" />
+    <Content Include="js\try.js" />
     <Content Include="login.aspx" />
     <Content Include="js\header.js" />
     <Content Include="style\addremove.css" />
