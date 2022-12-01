@@ -17,7 +17,7 @@
             <li ><asp:HyperLink ID="HyperLink1" runat="server" 
                     NavigateUrl="~/Bloodbank/home.aspx">Home</asp:HyperLink></li>
          <li ><asp:HyperLink ID="HyperLink2" runat="server" 
-                    NavigateUrl="~/Bloodbank/campaign.aspx">Campaign</asp:HyperLink></li>
+                    NavigateUrl="~/Bloodbank/campaign/campaignhome.aspx">Campaign</asp:HyperLink></li>
                 <li ><asp:HyperLink ID="HyperLink3" runat="server" 
                     NavigateUrl="~/Bloodbank/Blooddata.aspx">Blood Data</asp:HyperLink></li>
                 <li ><asp:HyperLink ID="HyperLink4" runat="server" 

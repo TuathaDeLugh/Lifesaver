@@ -21,6 +21,12 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -104,7 +110,10 @@
     <Content Include="AdminPanal\tipoftheday.aspx" />
     <Content Include="AdminPanal\todupdate.aspx" />
     <Content Include="Bloodbank\Blooddata.aspx" />
-    <Content Include="Bloodbank\campaign.aspx" />
+    <Content Include="Bloodbank\campaign\Addcampaign.aspx" />
+    <Content Include="Bloodbank\campaign\campaignhome.aspx" />
+    <Content Include="Bloodbank\campaign\deletecampaign.aspx" />
+    <Content Include="Bloodbank\campaign\update.aspx" />
     <Content Include="Bloodbank\home.aspx" />
     <Content Include="Bloodbank\profile.aspx" />
     <Content Include="login.aspx" />
@@ -112,6 +121,7 @@
     <Content Include="style\addremove.css" />
     <Content Include="style\adminbbhome.css" />
     <Content Include="style\alert.css" />
+    <Content Include="style\bbcampaign.css" />
     <Content Include="style\bbprofile.css" />
     <Content Include="style\blooddata.css" />
     <Content Include="style\recoveracc.css" />
@@ -216,11 +226,32 @@
       <DependentUpon>Blooddata.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Bloodbank\campaign.aspx.designer.vb">
-      <DependentUpon>campaign.aspx</DependentUpon>
+    <Compile Include="Bloodbank\campaign\Addcampaign.aspx.designer.vb">
+      <DependentUpon>Addcampaign.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Bloodbank\campaign.aspx.vb">
-      <DependentUpon>campaign.aspx</DependentUpon>
+    <Compile Include="Bloodbank\campaign\Addcampaign.aspx.vb">
+      <DependentUpon>Addcampaign.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Bloodbank\campaign\campaignhome.aspx.designer.vb">
+      <DependentUpon>campaignhome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bloodbank\campaign\campaignhome.aspx.vb">
+      <DependentUpon>campaignhome.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Bloodbank\campaign\deletecampaign.aspx.designer.vb">
+      <DependentUpon>deletecampaign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bloodbank\campaign\deletecampaign.aspx.vb">
+      <DependentUpon>deletecampaign.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Bloodbank\campaign\update.aspx.designer.vb">
+      <DependentUpon>update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bloodbank\campaign\update.aspx.vb">
+      <DependentUpon>update.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Bloodbank\home.aspx.designer.vb">
@@ -235,6 +266,13 @@
     </Compile>
     <Compile Include="Bloodbank\master\bbmain.Master.vb">
       <DependentUpon>bbmain.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bloodbank\master\bbcapaign.master.designer.vb">
+      <DependentUpon>bbcapaign.master</DependentUpon>
+    </Compile>
+    <Compile Include="Bloodbank\master\bbcapaign.master.vb">
+      <DependentUpon>bbcapaign.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Bloodbank\profile.aspx.designer.vb">
@@ -284,6 +322,7 @@
     <Content Include="AdminPanal\master\main.Master" />
     <Content Include="Bloodbank\master\bbmain.Master" />
     <Content Include="AdminPanal\master\bb.master" />
+    <Content Include="Bloodbank\master\bbcapaign.master" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
