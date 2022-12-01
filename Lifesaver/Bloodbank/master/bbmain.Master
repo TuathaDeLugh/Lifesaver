@@ -5,7 +5,7 @@
 <head runat="server">
     <link href="../../style/master.css" rel="stylesheet" type="text/css" />
     <link href="../../style/dark.css" rel="stylesheet" />
-    <title></title>
+    <title>Life Saver Blood Bank</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
