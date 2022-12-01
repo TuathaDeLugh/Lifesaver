@@ -1,0 +1,45 @@
+﻿table
+{
+    text-align:center;
+}
+td 
+{   font-size:20px;
+    width:200px;
+  padding: 15px;
+  text-align: left;
+   border-bottom: 1px solid #ddd;
+}
+input[type="text"]
+{ 
+    border:1px solid Red; 
+    border-radius: 5px;  
+    padding :5px;
+    font: 15px/24px 'Muli', sans-serif;  
+    width: 300px; 
+    letter-spacing: 1px;
+}
+textarea
+{ 
+    border:1px solid Red; 
+    border-radius: 5px; 
+     padding :5px;
+    font: 15px/24px 'Muli', sans-serif; 
+    height: 150px;
+    width: 315px; 
+    box-sizing: border-box; letter-spacing: 1px;
+}
+input[type="submit"]
+{
+	border: none;
+	outline: none;
+	padding: 11px 25px;
+	background: #ff4545;
+	cursor: pointer;
+	border-radius: 4px;
+	font-weight: 600;
+	width: 100%;
+}
+input[type="submit"]:active 
+{
+	opacity: 0.8;
+}

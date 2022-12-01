@@ -1,0 +1,24 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/AdminPanal/master/main.Master" AutoEventWireup="false" CodeBehind="bb.master.vb" Inherits="Lifesaver.bb" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="../../style/side.css" rel="stylesheet" type="text/css" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="block" style="height:inherit">
+<div class="heading">
+<h2><i>Blood Bank</i></h2></div>
+<div class="container">
+<div class="sidenav">
+<ul>
+<li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/AdminPanal/bb/home.aspx">Home</asp:HyperLink></li>
+<li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/AdminPanal/bb/Blooddata.aspx">Blood Data</asp:HyperLink></li>
+<li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/AdminPanal/bb/add.aspx">Add</asp:HyperLink></li>
+<li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/AdminPanal/bb/remove.aspx">Remove</asp:HyperLink></li></ul>
+</div>
+<div class="data">
+<asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+</div>
+</div>
+</div>
+</asp:Content>
