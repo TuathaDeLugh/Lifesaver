@@ -124,6 +124,7 @@
     <Content Include="style\bbcampaign.css" />
     <Content Include="style\bbprofile.css" />
     <Content Include="style\blooddata.css" />
+    <Content Include="style\dark.css" />
     <Content Include="style\recoveracc.css" />
     <Content Include="style\homepage.css" />
     <Content Include="style\master.css" />
