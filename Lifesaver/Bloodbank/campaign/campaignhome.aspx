@@ -5,10 +5,12 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 <div class="detail">
 <table >
-
+    <tr>
+        <td><u>Approved</u></td>
+    </tr>
 <tr>
 <td class="detail">
-    <u>approved</u>
+    
     <asp:GridView ID="GridView1" runat="server">
     </asp:GridView>
 
@@ -20,19 +22,28 @@
     </div>
     <div class="detail">
 <table >
-
+   <tr>
+        <td><u>Panding</u></td>
+    </tr>
 <tr>
 <td class="detail">
-    <u>not approved</u>
+    
     <asp:GridView ID="GridView2" runat="server">
     </asp:GridView>
 
     <br />
 </td>
 </tr>
+</table>
+        </div>
+    <div class="detail">
+    <table>
+           <tr>
+        <td><u>Rejected</u></td>
+    </tr>
     <tr>
 <td class="detail">
-    <u>rejected</u>
+    
     <asp:GridView ID="GridView3" runat="server">
     </asp:GridView>
 
