@@ -1,6 +1,11 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Bloodbank/master/bbmain.Master" CodeBehind="home.aspx.vb" Inherits="Lifesaver.home2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="../style/homepage.css" rel="stylesheet" />
+    <link href="../style/common/homepage.css" rel="stylesheet" />
+    <style type="text/css">
+        .card {
+            width: 20%;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <div class ="block">

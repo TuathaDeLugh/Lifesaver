@@ -1,7 +1,7 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Damion|Muli:400,600');
 /*light*/
 @media (prefers-color-scheme: light) {
-    .mdata {
+    .block {
         box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
     }
 
@@ -11,7 +11,7 @@
 }
 /*dark*/
 @media (prefers-color-scheme: dark) {
-    .mdata {
+    .block {
         box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
     }
 
@@ -29,7 +29,14 @@
     }
 }
 /*Design*/
-
+.block {
+    left: inherit;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    width: 650px;
+    border-radius: 10px;
+}
 table {
     margin-left: auto;
     margin-right: auto;

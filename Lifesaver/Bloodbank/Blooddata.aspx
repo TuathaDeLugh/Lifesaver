@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <center>
-<div class="mdata">
+<div class="block">
 <div class="heading"><center><h2><i><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label> Blood Data</i></h2></center></div>
     <table>
     <tr>
