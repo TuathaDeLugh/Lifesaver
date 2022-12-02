@@ -39,7 +39,7 @@ Public Class profile1
             End While
             con.Close()
         End If
-        If TextBox2.Enabled = False Then
+        If TextBox3.Enabled = False Then
             TextBox2.Enabled = True
             TextBox3.Enabled = True
             TextBox4.Enabled = True

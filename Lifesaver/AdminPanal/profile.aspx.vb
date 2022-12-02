@@ -35,8 +35,7 @@ Public Class profile
             End While
             con.Close()
         End If
-        If TextBox2.Enabled = False Then
-            TextBox2.Enabled = True
+        If TextBox3.Enabled = False Then
             TextBox3.Enabled = True
             TextBox4.Enabled = True
             TextBox5.Enabled = True
@@ -47,7 +46,6 @@ Public Class profile
             TextBox10.Enabled = True
             TextBox11.Enabled = True
         Else
-            TextBox2.Enabled = False
             TextBox3.Enabled = False
             TextBox4.Enabled = False
             TextBox5.Enabled = False
@@ -62,10 +60,9 @@ Public Class profile
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         con.Open()
-        Dim cmd As New SqlCommand("update weblogin set username='" & TextBox2.Text & "',name='" & TextBox3.Text & "',password='" & TextBox4.Text & "',email='" & TextBox5.Text & "',address='" & TextBox6.Text & "',pincode='" & TextBox7.Text & "',mno='" & TextBox8.Text & "',question='" & TextBox9.Text & "',answer='" & TextBox10.Text & "',time='" & TextBox11.Text & "' where id=" & TextBox1.Text & "", con)
+        Dim cmd As New SqlCommand("update weblogin set name='" & TextBox3.Text & "',password='" & TextBox4.Text & "',email='" & TextBox5.Text & "',address='" & TextBox6.Text & "',pincode='" & TextBox7.Text & "',mno='" & TextBox8.Text & "',question='" & TextBox9.Text & "',answer='" & TextBox10.Text & "',time='" & TextBox11.Text & "' where id=" & TextBox1.Text & "", con)
         cmd.ExecuteNonQuery()
         con.Close()
-        TextBox2.Enabled = False
         TextBox3.Enabled = False
         TextBox4.Enabled = False
         TextBox5.Enabled = False
