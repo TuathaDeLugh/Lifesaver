@@ -119,19 +119,16 @@
     <Content Include="login.aspx" />
     <Content Include="js\header.js" />
     <Content Include="style\accrecov.css" />
-    <Content Include="style\addremove.css" />
-    <Content Include="style\adminbbhome.css" />
-    <Content Include="style\alert.css" />
-    <Content Include="style\bbcampaign.css" />
-    <Content Include="style\bbprofile.css" />
-    <Content Include="style\blooddata.css" />
-    <Content Include="style\dark.css" />
+    <Content Include="style\Admin\addremove.css" />
+    <Content Include="style\Admin\adminbbhome.css" />
+    <Content Include="style\Bloodbank\bbblooddata.css" />
+    <Content Include="style\Bloodbank\bbcampaign.css" />
     <Content Include="style\common\homepage.css" />
     <Content Include="style\Master\master.css" />
     <Content Include="style\common\profile.css" />
     <Content Include="style\Master\side.css" />
     <Content Include="style\style.css" />
-    <Content Include="style\TOD.css" />
+    <Content Include="style\Admin\TOD.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

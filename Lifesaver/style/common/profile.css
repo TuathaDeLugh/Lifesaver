@@ -61,6 +61,11 @@ input[type="text"]
     width: 300px; 
     letter-spacing: 1px;
 }
+input[type="text"]:disabled 
+{
+        opacity: 0.4;
+        cursor: no-drop;
+    }
 textarea
 { 
     border:1px solid Red; 
