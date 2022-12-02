@@ -23,20 +23,12 @@
         border-bottom: 1px solid white;
     }
 
-    input[type="text"] {
+    input[type="text"], input[type="number"]{
         background-color: #181818;
         color: white;
     }
 
     textarea {
-        background-color: #181818;
-        color: white;
-    }
-    input[type="number"] {
-        background-color: #181818;
-        color: white;
-    }
-        input[type="date"] {
         background-color: #181818;
         color: white;
     }
@@ -62,7 +54,7 @@ td {
     text-align: left;
 }
 
-input[type="text"] {
+input[type="text"], input[type="number"]{
     border: 1px solid Red;
     border-radius: 5px;
     padding: 5px;
@@ -80,24 +72,6 @@ textarea {
     height: 150px;
     width: 410px;
     box-sizing: border-box;
-    letter-spacing: 1px;
-}
-
-input[type="number"] {
-    border: 1px solid Red;
-    border-radius: 5px;
-    padding: 5px;
-    font: 15px/24px 'Muli', sans-serif;
-    width: 400px;
-    letter-spacing: 1px;
-}
-
-input[type="date"] {
-    border: 1px solid Red;
-    border-radius: 5px;
-    padding: 5px;
-    font: 15px/24px 'Muli', sans-serif;
-    width: 400px;
     letter-spacing: 1px;
 }
 

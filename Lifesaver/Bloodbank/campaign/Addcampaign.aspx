@@ -39,7 +39,7 @@
 <tr>
 <td>Date</td>
 <td>
-    <asp:TextBox ID="TextBox6" runat="server"  CssClass="design" TextMode="Date"></asp:TextBox>
+    <asp:TextBox ID="TextBox6" runat="server"  CssClass="design" ></asp:TextBox>
     </td>
 </tr>
 <tr>
