@@ -76,18 +76,21 @@ textarea
     width: 315px; 
     box-sizing: border-box; letter-spacing: 1px;
 }
+    textarea:disabled {
+        opacity: 0.4;
+        cursor: no-drop;
+    }
 
-input[type="submit"]
-{
-	border: none;
-	outline: none;
-	padding: 11px 25px;
-	background: #ff4545;
-	cursor: pointer;
-	border-radius: 4px;
-	font-weight: 600;
-	width: 100%;
-}
+    input[type="submit"] {
+        border: none;
+        outline: none;
+        padding: 11px 25px;
+        background: #ff4545;
+        cursor: pointer;
+        border-radius: 4px;
+        font-weight: 600;
+        width: 100%;
+    }
 input[type="submit"]:active 
 {
 	opacity: 0.8;
