@@ -75,7 +75,7 @@
 .card {
     margin: 20px;
     padding: 20px;
-    width: 15%;
+    width: 25%;
     min-height: 150px;
     display: grid;
     grid-template-rows: 10px 10px 1fr 30px;
