@@ -5,7 +5,7 @@
         
         SelectCommand="SELECT [name], [email], [address], [time], [mno], [pincode] FROM [weblogin] where id>1 ORDER BY [name]">
     </asp:SqlDataSource>
-    <link href="../../style/adminbbhome.css" rel="stylesheet" type="text/css" />
+    <link href="../../style/Admin/adminbbhome.css" rel="stylesheet" type="text/css" />
 
     <asp:ListView ID="ListView1" runat="server" DataSourceID="SqlDataSource1">
         <AlternatingItemTemplate>

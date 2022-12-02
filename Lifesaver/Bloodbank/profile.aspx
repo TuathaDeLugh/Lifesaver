@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Bloodbank/master/bbmain.Master" CodeBehind="profile.aspx.vb" Inherits="Lifesaver.profile1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="../style/bbprofile.css" rel="stylesheet" type="text/css" />
+    <link href="../style/common/profile.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"><center>
-<div class="block1">
+<div class="block">
     <div class="heading"><h2><i><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label> Profile</i></h2></div>
     <table>
     <tr><td><asp:Button ID="Button3" runat="server" Text="Watch" /></td></tr>

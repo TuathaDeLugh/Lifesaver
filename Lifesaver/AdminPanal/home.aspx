@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/main.Master" CodeBehind="home.aspx.vb" Inherits="Lifesaver.home" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
-    <link href="../style/homepage.css" rel="stylesheet" type="text/css" />
+    <link href="../style/common/homepage.css" rel="stylesheet" type="text/css" />
     
 </asp:Content>
 

@@ -1,11 +1,25 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
-*
- {
-     margin:0;
-     padding:0;
-     
+@media (prefers-color-scheme: light) {
+ body{
+     background-color:white;
  }
+ .heading h2 i {
+        background: white;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #181818;
+    }
+    .heading h2 i {
+        background: #181818;
+    }
+}
+* {
+    margin:0;
+    padding:0;
+}
+
  .footer
 {  background:black;
    color:White;
@@ -75,7 +89,6 @@
 }
 .heading h2 i {
     font-style: normal;
-    background: white;
     position: relative;
     padding: 10px;
 }

@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/main.Master" CodeBehind="profile.aspx.vb" Inherits="Lifesaver.profile" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="../style/profile.css" rel="stylesheet" type="text/css" />
+    <link href="../style/homepage.css" rel="stylesheet" />
+    <link href="../style/common/profile.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"><center>
 <div class="block">

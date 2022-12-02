@@ -1,13 +1,38 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Damion|Muli:400,600');
-.block1
-{   left:inherit;
-  flex-wrap: wrap;
-  margin: 10px;
-  padding: 10px;
-  width: 650px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+﻿/*light*/
+@media (prefers-color-scheme: light) {
+    .block {
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    td {
+        border-bottom: 1px solid #ddd;
+    }
 }
+/*dark*/
+@media (prefers-color-scheme: dark) {
+    .block {
+        box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
+    }
+
+    table {
+        color: white;
+    }
+
+    td {
+        border-bottom: 1px solid white;
+    }
+
+    input[type="text"] {
+        background-color: #181818;
+        color: white;
+    }
+
+    textarea {
+        background-color: #181818;
+        color: white;
+    }
+}
+
 table
 {
     text-align:center;
@@ -17,7 +42,7 @@ td
     width:200px;
   padding: 15px;
   text-align: left;
-   border-bottom: 1px solid #ddd;
+
 }
 input[type="text"]
 { 
@@ -38,7 +63,6 @@ textarea
     width: 315px; 
     box-sizing: border-box; letter-spacing: 1px;
 }
-
 input[type="submit"]
 {
 	border: none;
@@ -54,4 +78,3 @@ input[type="submit"]:active
 {
 	opacity: 0.8;
 }
-

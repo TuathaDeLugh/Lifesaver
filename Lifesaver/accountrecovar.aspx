@@ -4,8 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <link href="style/accrecov.css" rel="stylesheet" />
 	<title>Life Saver Login</title>
-    <link href="style/recoveracc.css" rel="stylesheet" type="text/css" />
+    
 </head>
 <body>
 	  <div class="header">
