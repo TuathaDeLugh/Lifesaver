@@ -6,8 +6,10 @@
 	table {
 		border: 1px solid black;
 	}
-
-}
+	th {
+		background: red;
+	}
+	}
 /*dark*/
 @media (prefers-color-scheme: dark) {
 	.block {
@@ -15,13 +17,13 @@
 	}
 
 	table {
-		border: 1px solid White;
+		border: 1px solid rgba(150, 150, 150);
 		color: white;
 	}
-
-
-
-	input[type="text"] {
+	th {
+		background:#800000;
+	}
+		input [type="text"] {
 		background-color: #181818;
 		color: white;
 	}
@@ -46,7 +48,7 @@ td
    
 }
 th 
-{  background:red;
+{ 
     color:White;
     font-size:20px;
   padding: 15px;

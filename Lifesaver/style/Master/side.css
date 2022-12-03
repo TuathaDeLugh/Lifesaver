@@ -22,7 +22,7 @@
     }
 
     .sidenav {
-        border-color: white;
+        border-color: rgba(237, 237, 237, 0.25);
     }
 
         .sidenav ul li, .sidenav a {

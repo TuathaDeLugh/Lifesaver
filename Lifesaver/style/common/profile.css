@@ -20,7 +20,7 @@
         color: white;
     }
     td {
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid rgba(237, 237, 237, 0.25);
     }
     input[type="text"], input[type="number"] {
         background-color: #181818;

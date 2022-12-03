@@ -34,7 +34,7 @@
 
 
     .card {
-        box-shadow: 0px 6px 10px rgba(255, 255, 255, 0.25);
+        box-shadow: 0px 6px 10px rgba(237, 237, 237, 0.25);
     }
 
         .card:hover {
@@ -42,15 +42,15 @@
         }
 
     .card__title {
-        color: #181818;
+        color: #ededed;
     }
 
     .card__apply {
-        color: rgba(0, 0, 0, 0.9);
+        color: rgba(237, 237, 237, 0.9);
     }
 
     .card-1 {
-        background: radial-gradient(#1fe4f5, #3fbafe);
+        background: radial-gradient(#0a60fa,#035b87 );
     }
 }
 
