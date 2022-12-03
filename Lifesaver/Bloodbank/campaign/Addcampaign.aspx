@@ -21,7 +21,7 @@
 <tr>
 <td>Pincode</td>
 <td>
-    <asp:TextBox ID="TextBox3" runat="server"  CssClass="design" TextMode="number"></asp:TextBox>
+    <asp:TextBox ID="TextBox3" runat="server"  CssClass="design" TextMode="Number"></asp:TextBox>
     </td>
 </tr>
 <tr>
@@ -39,19 +39,20 @@
 <tr>
 <td>Date</td>
 <td>
-    <asp:TextBox ID="TextBox6" runat="server"  CssClass="design" ></asp:TextBox>
+    <asp:TextBox ID="TextBox6" runat="server"  CssClass="design" TextMode="Date" ></asp:TextBox>  To <asp:TextBox ID="TextBox7" runat="server"  CssClass="design" TextMode="Date" ></asp:TextBox>
     </td>
 </tr>
 <tr>
 <td>Time</td>
 <td>
-    <asp:TextBox ID="TextBox7" runat="server"  CssClass="design"></asp:TextBox>
+    <asp:TextBox ID="TextBox8" runat="server"  CssClass="design" TextMode="Time"></asp:TextBox>  To <asp:TextBox ID="TextBox9" runat="server"  CssClass="design" TextMode="Time" ></asp:TextBox>
     </td>
 </tr>
 
 <tr><td><asp:Button ID="Button1" runat="server" Text="Create Campaign" Height="40px" 
         Width="200px" /></td>
-    
+    <td>
+        <asp:Label ID="Label1" runat="server" Text="Label" Visible="False" ForeColor="Red"></asp:Label></td>
 </tr>
     </table></div>
 </asp:Content>
