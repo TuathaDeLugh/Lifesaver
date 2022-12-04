@@ -127,7 +127,6 @@
     <Content Include="style\common\homepage.css" />
     <Content Include="style\Master\master.css" />
     <Content Include="style\common\profile.css" />
-    <Content Include="style\Master\scroll.css" />
     <Content Include="style\Master\side.css" />
     <Content Include="style\style.css" />
     <Content Include="style\Admin\TOD.css" />
