@@ -35,3 +35,7 @@ Insert into weblogin values(‘admin’,‘admin’,‘admin’,’not applicabl
 Open project in vs
 Change connection string in web.config file.
 & f5
+
+
+Live website Demo available here
+https://umangsailor.bsite.net/login.aspx
