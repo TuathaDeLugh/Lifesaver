@@ -39,3 +39,12 @@ Change connection string in web.config file.
 
 Live website Demo available here
 https://umangsailor.bsite.net/login.aspx
+
+admin panel
+id admin
+pass admin
+
+blood bank
+id LifeLine
+pass 123
+
