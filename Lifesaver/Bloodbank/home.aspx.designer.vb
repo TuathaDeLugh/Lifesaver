@@ -14,13 +14,13 @@ Option Explicit On
 Partial Public Class home2
 
     '''<summary>
-    '''Labe0 control.
+    '''Label0 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Labe0 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Label0 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Label1 control.

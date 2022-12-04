@@ -13,7 +13,7 @@
 <h2><i>Blood Data</i></h2></div>
 <div class="cards">
      <div class="card card-1">
-    <h1 class="card__title"><asp:Label ID="Labe0" runat="server" Text="Label"></asp:Label></h1>
+    <h1 class="card__title"><asp:Label ID="Label0" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
           O+  Blood 
       </h3>
@@ -70,19 +70,19 @@
      <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label8" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
-          Avalable Campaign
+          Available Campaign
       </h3>
     </div>
          <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label9" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
-          Rejected Campaign
+          On hold campaign
       </h3>
     </div>
          <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label10" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
-          On hold campaign
+          Rejected Campaign
       </h3>
     </div>
          <div class="card card-1">

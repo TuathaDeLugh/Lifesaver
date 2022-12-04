@@ -10,14 +10,15 @@ Public Class login
         
     End Sub
     Protected Sub Rememberme_CheckedChanged(ByVal sender As Object, ByVal e As EventArgs) Handles Rememberme.CheckedChanged
+
+    End Sub
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If Rememberme.Checked Then
             PASS.TextMode = TextBoxMode.SingleLine
             Response.Cookies("loginid").Value = ID.Text
             Response.Cookies("loginpass").Value = PASS.Text
         End If
-    End Sub
-
-    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         con.Open()
         Dim ad As New SqlDataAdapter("select * from weblogin where username='" & ID.Text & "'AND password='" & PASS.Text & "'", con)
         Dim ds As New DataSet
