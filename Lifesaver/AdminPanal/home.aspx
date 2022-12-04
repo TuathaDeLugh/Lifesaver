@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
     <link href="../style/common/homepage.css" rel="stylesheet" type="text/css" />
+
     <style type="text/css">
         .card {
             width: 15%;

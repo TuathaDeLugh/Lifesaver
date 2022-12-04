@@ -63,15 +63,16 @@ input[type="text"], input[type="number"]{
     input[type="text"]:disabled, input[type="number"]:disabled{
         cursor: no-drop;
     }
-textarea
-{ 
-    border:1px solid Red; 
-    border-radius: 5px; 
-     padding :5px;
-    font: 15px/24px 'Muli', sans-serif; 
+textarea {
+    border: 1px solid Red;
+    border-radius: 5px;
+    padding: 5px;
+    font: 15px/24px 'Muli', sans-serif;
     height: 150px;
-    width: 315px; 
-    box-sizing: border-box; letter-spacing: 1px;
+    width: 315px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    resize: none;
 }
     textarea:disabled {
         cursor: no-drop;
