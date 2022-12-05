@@ -5,12 +5,12 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\ursai\Desktop\New folder</_PublishTargetUrl>
-    <History>True|2022-12-04T13:24:35.5327418Z;</History>
+    <History>True|2022-12-05T07:19:24.2657734Z;True|2022-12-05T12:37:14.1878064+05:30;True|2022-12-04T18:54:35.5327418+05:30;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
     <File Include="accountrecovar.aspx">
-      <publishTime>12/02/2022 12:16:05</publishTime>
+      <publishTime>12/05/2022 12:47:16</publishTime>
     </File>
     <File Include="AdminPanal/bb/add.aspx">
       <publishTime>12/02/2022 13:12:14</publishTime>
@@ -31,7 +31,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>12/02/2022 12:50:07</publishTime>
     </File>
     <File Include="AdminPanal/master/main.Master">
-      <publishTime>12/02/2022 12:53:57</publishTime>
+      <publishTime>12/05/2022 12:48:27</publishTime>
     </File>
     <File Include="AdminPanal/profile.aspx">
       <publishTime>12/02/2022 13:04:02</publishTime>
@@ -43,13 +43,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>12/02/2022 13:30:15</publishTime>
     </File>
     <File Include="bin/Lifesaver.dll">
-      <publishTime>12/04/2022 18:54:32</publishTime>
+      <publishTime>12/05/2022 12:49:23</publishTime>
     </File>
     <File Include="bin/Lifesaver.pdb">
-      <publishTime>12/04/2022 18:54:32</publishTime>
+      <publishTime>12/05/2022 12:49:23</publishTime>
     </File>
     <File Include="bin/Lifesaver.xml">
-      <publishTime>12/04/2022 18:54:31</publishTime>
+      <publishTime>12/05/2022 12:49:23</publishTime>
     </File>
     <File Include="Bloodbank/Blooddata.aspx">
       <publishTime>12/02/2022 16:19:49</publishTime>
@@ -73,55 +73,67 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>12/02/2022 13:44:49</publishTime>
     </File>
     <File Include="Bloodbank/master/bbmain.Master">
-      <publishTime>12/02/2022 13:45:52</publishTime>
+      <publishTime>12/05/2022 12:48:55</publishTime>
     </File>
     <File Include="Bloodbank/profile.aspx">
       <publishTime>12/02/2022 16:01:17</publishTime>
+    </File>
+    <File Include="Default.html">
+      <publishTime>12/05/2022 12:34:48</publishTime>
+    </File>
+    <File Include="files/logo.png">
+      <publishTime>12/05/2022 12:45:29</publishTime>
+    </File>
+    <File Include="files/pngtree-business-man-sleeping-at-work-desk-during-working-hours-png-image_6176467.png">
+      <publishTime>12/05/2022 12:23:22</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>12/05/2022 12:46:14</publishTime>
     </File>
     <File Include="js/header.js">
       <publishTime>10/28/2022 10:25:10</publishTime>
     </File>
     <File Include="login.aspx">
-      <publishTime>12/01/2022 23:02:55</publishTime>
+      <publishTime>12/05/2022 12:47:28</publishTime>
     </File>
     <File Include="style/accrecov.css">
-      <publishTime>12/02/2022 12:24:47</publishTime>
+      <publishTime>12/05/2022 11:45:15</publishTime>
     </File>
     <File Include="style/Admin/addremove.css">
       <publishTime>12/03/2022 19:39:44</publishTime>
     </File>
     <File Include="style/Admin/adminbbhome.css">
-      <publishTime>12/03/2022 19:38:23</publishTime>
+      <publishTime>12/05/2022 10:50:38</publishTime>
     </File>
     <File Include="style/Admin/TOD.css">
-      <publishTime>12/04/2022 11:54:20</publishTime>
+      <publishTime>12/05/2022 11:55:00</publishTime>
     </File>
     <File Include="style/Bloodbank/addcampaign.css">
-      <publishTime>12/04/2022 17:37:08</publishTime>
+      <publishTime>12/05/2022 11:57:17</publishTime>
     </File>
     <File Include="style/Bloodbank/bbblooddata.css">
-      <publishTime>12/03/2022 19:31:25</publishTime>
+      <publishTime>12/05/2022 10:49:55</publishTime>
     </File>
     <File Include="style/Bloodbank/bbcampaign.css">
-      <publishTime>12/03/2022 19:28:30</publishTime>
+      <publishTime>12/05/2022 10:50:10</publishTime>
     </File>
     <File Include="style/common/homepage.css">
-      <publishTime>12/03/2022 19:47:03</publishTime>
+      <publishTime>12/05/2022 11:17:04</publishTime>
     </File>
     <File Include="style/common/profile.css">
-      <publishTime>12/04/2022 11:53:59</publishTime>
+      <publishTime>12/05/2022 10:49:11</publishTime>
     </File>
     <File Include="style/Master/master.css">
-      <publishTime>12/04/2022 17:31:06</publishTime>
+      <publishTime>12/05/2022 11:20:58</publishTime>
     </File>
     <File Include="style/Master/side.css">
-      <publishTime>12/03/2022 19:30:33</publishTime>
+      <publishTime>12/05/2022 11:18:03</publishTime>
     </File>
     <File Include="style/style.css">
-      <publishTime>12/02/2022 12:02:22</publishTime>
+      <publishTime>12/05/2022 11:41:46</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/04/2022 18:54:34</publishTime>
+      <publishTime>12/05/2022 12:37:13</publishTime>
     </File>
   </ItemGroup>
 </Project>

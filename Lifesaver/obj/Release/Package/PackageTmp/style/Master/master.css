@@ -42,15 +42,22 @@
     margin:0;
     padding:0;      
 }
-::selection {
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+}
+    ::selection {
     color: white;
     background: #970000;
 }
  .footer
 {  background:black;
    color:White;
-   padding-top:3px;
-   padding-bottom:3px; 
+   padding-top: .3rem;
+   padding-bottom: .3rem; 
     
     left:0;
     position :absolute;
@@ -80,11 +87,11 @@
     text-decoration: none;
     display: inline-block;
     list-style: none;
-    margin:10px 7px;
+    margin:1.0rem .7rem;
     color:#fff;
 } 
 .content
-{  padding-top:75px;
+{  padding-top:6.8rem;
 }
 
 .scroll-down .header{
@@ -94,13 +101,13 @@
 
 .scroll-up .header{
 	 
-		filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+		filter: drop-shadow(0 -1.0rem 2.0rem rgb(170, 170, 170));
 	}
 .heading h2 {
     font-family: 'Damion', cursive;
     font-weight: 400;
     color: red;
-    font-size: 35px;
+    font-size: 3.5rem;
     text-align: center;
     position: relative;
 }
@@ -109,14 +116,14 @@
     content: '';
     width: 100%;
     left: 0;
-    top: 22px;
+    top: 2.2rem;
     background:red;
-    height: 1px;
+    height: .1rem;
 }
 .heading h2 i {
     font-style: normal;
     position: relative;
-    padding: 10px;
+    padding: 1.0rem;
 }
 .header a:hover
 {
@@ -125,17 +132,17 @@
 /*Scroll*/
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 1.0rem;
 }
 ::-webkit-scrollbar-track {
     opacity: 0;
 }
 ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
+    border-radius: 1.0rem;
 }
 
  ::-webkit-scrollbar-thumb:hover {
-        border-radius: 10px;
+        border-radius: 1.0rem;
     }
 
 

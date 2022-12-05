@@ -116,7 +116,9 @@
     <Content Include="Bloodbank\campaign\update.aspx" />
     <Content Include="Bloodbank\home.aspx" />
     <Content Include="Bloodbank\profile.aspx" />
-    <Content Include="Default.html" />
+    <Content Include="files\logo.png" />
+    <Content Include="index.html" />
+    <Content Include="files\pngtree-business-man-sleeping-at-work-desk-during-working-hours-png-image_6176467.png" />
     <Content Include="login.aspx" />
     <Content Include="js\header.js" />
     <Content Include="style\accrecov.css" />
@@ -333,9 +335,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="files\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

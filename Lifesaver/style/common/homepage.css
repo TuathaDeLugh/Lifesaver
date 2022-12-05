@@ -1,5 +1,6 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Damion|Muli:400,600');
 /*Light*/
+
 @media (prefers-color-scheme: light) {
     .block {
         box-shadow: 0rem 0rem .2rem rgba(0, 0, 0, 0.25);
@@ -7,11 +8,11 @@
 
 
     .card {
-        box-shadow: 0rem 6rem 1.0rem rgba(0, 0, 0, 0.25);
+        box-shadow: 0rem 0.6rem 1.0rem rgba(0, 0, 0, 0.25);
     }
 
         .card:hover {
-            box-shadow: 0rem 6rem 1.0rem rgba(0, 0, 0, 0.4);
+            box-shadow: 0rem 0.6rem 1.0rem rgba(0, 0, 0, 0.4);
         }
 
     .card__title {
@@ -75,7 +76,6 @@
 .card {
     margin: 2.0rem;
     padding: 2.0rem;
-    
     min-height: 15.0rem;
     display: grid;
     grid-template-rows: 1.0rem 1.0rem 1fr 3.0rem;
