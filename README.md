@@ -35,3 +35,16 @@ Insert into weblogin values(‘admin’,‘admin’,‘admin’,’not applicabl
 Open project in vs
 Change connection string in web.config file.
 & f5
+
+
+Live website Demo available here
+https://umangsailor.bsite.net/login.aspx
+
+admin panel
+id admin
+pass admin
+
+blood bank
+id LifeLine
+pass 123
+
