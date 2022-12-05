@@ -15,17 +15,17 @@
     <form id="form1" runat="server">
         <div class = "header">
             <ul id="menu">
-            <li style="float:left;font-size : 30px;">Life Saver</li>
-            <li ><asp:HyperLink ID="HyperLink1" runat="server" 
+            <li  style="float:left;font-size : 30px;"><a class="logo" href="~/index.html">Life Saver</a></li>
+            <li class="data"><asp:HyperLink ID="HyperLink1" runat="server" 
                     NavigateUrl="~/AdminPanal/home.aspx">Home</asp:HyperLink></li>
-            <li ><asp:HyperLink ID="HyperLink2" runat="server">User</asp:HyperLink></li>
-            <li ><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/AdminPanal/bb/home.aspx">Bloodbank</asp:HyperLink></li>
-            <li >
+            <li class="data"><asp:HyperLink ID="HyperLink2" runat="server">User</asp:HyperLink></li>
+            <li class="data"><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/AdminPanal/bb/home.aspx">Bloodbank</asp:HyperLink></li>
+            <li class="data">
                 <asp:HyperLink ID="HyperLink4" runat="server" 
                     NavigateUrl="~/AdminPanal/tipoftheday.aspx">Tip of The Day</asp:HyperLink></li>
-            <li ><asp:HyperLink ID="HyperLink5" runat="server">F & Q</asp:HyperLink></li>
-           <li ><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/AdminPanal/profile.aspx"><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></asp:HyperLink></li>
-           <li style="float:right">
+            <li class="data"><asp:HyperLink ID="HyperLink5" runat="server">F & Q</asp:HyperLink></li>
+           <li class="data"><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/AdminPanal/profile.aspx"><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></asp:HyperLink></li>
+           <li class="data" style="float:right">
                
                <asp:LinkButton ID="LinkButton1" runat="server">Log Out</asp:LinkButton></li>
             </ul>

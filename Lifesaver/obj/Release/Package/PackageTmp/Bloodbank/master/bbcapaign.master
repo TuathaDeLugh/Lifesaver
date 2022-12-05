@@ -17,7 +17,7 @@
 <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Bloodbank/campaign/update.aspx">Update</asp:HyperLink></li>
 <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Bloodbank/campaign/deletecampaign.aspx">Remove</asp:HyperLink></li></ul>
 </div>
-<div class="data">
+<div class="d">
 <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
         
         </asp:ContentPlaceHolder>

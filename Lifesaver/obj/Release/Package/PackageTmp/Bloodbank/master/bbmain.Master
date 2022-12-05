@@ -14,16 +14,16 @@
     <form id="form1" runat="server">
         <div class = "header">
             <ul id="menu">
-            <li style="float:left;font-size : 30px;">Life Saver</li>
-            <li ><asp:HyperLink ID="HyperLink1" runat="server" 
+            <li  style="float:left;font-size : 30px;"><a class="logo" href="~../index.html">Life Saver</a></li>
+            <li class="data"><asp:HyperLink ID="HyperLink1" runat="server" 
                     NavigateUrl="~/Bloodbank/home.aspx">Home</asp:HyperLink></li>
-         <li ><asp:HyperLink ID="HyperLink2" runat="server" 
+         <li class="data"><asp:HyperLink ID="HyperLink2" runat="server" 
                     NavigateUrl="~/Bloodbank/campaign/campaignhome.aspx">Campaign</asp:HyperLink></li>
-                <li ><asp:HyperLink ID="HyperLink3" runat="server" 
+                <li class="data"><asp:HyperLink ID="HyperLink3" runat="server" 
                     NavigateUrl="~/Bloodbank/Blooddata.aspx">Blood Data</asp:HyperLink></li>
-                <li ><asp:HyperLink ID="HyperLink4" runat="server" 
+                <li class="data"><asp:HyperLink ID="HyperLink4" runat="server" 
                     NavigateUrl="~/Bloodbank/profile.aspx"><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></asp:HyperLink></li>
-           <li style="float:right">
+           <li class="data" style="float:right">
                
                <asp:LinkButton ID="LinkButton1" runat="server">Log Out</asp:LinkButton></li>
             </ul>

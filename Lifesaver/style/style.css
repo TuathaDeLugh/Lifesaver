@@ -331,14 +331,14 @@ input[type="submit"]:active
   .header ul {   
 	list-style-type: none;  
 	margin: 0;  
-	padding: .5rem;  
 	overflow: hidden;
 	font-size: 3.0rem;
 	
-  }  
-	
-  .header li {   
-	float: left;
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 4.0rem;
   }
+.header ul a {
+	text-decoration: none;
+	display: inline-block;
+	list-style: none;
+	margin: 1.0rem .7rem;
+	color: #fff;
+}

@@ -10,7 +10,7 @@
 <body>
 	  <div class="header">
 		<ul>
-			<li>Life Saver</li>
+			<li><a href="index.html">Life Saver</a></li>
 		</ul>
 
 	  </div>

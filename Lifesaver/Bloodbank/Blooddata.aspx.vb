@@ -6,7 +6,7 @@ Public Class Blooddata
     Dim con As New SqlConnection(str)
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
+        Label1.Text = Session("a")
     End Sub
 
     Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click

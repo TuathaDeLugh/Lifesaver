@@ -55,6 +55,12 @@ th
   text-align: left;
   border-right:.1rem;
 }
+	th > a {
+		color:white;
+		text-decoration: none;
+		display: inline-block;
+		list-style: none;
+	}
 input[type="submit"]
 {
     color:white;
