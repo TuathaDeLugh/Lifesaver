@@ -32,19 +32,22 @@ Public Class login
 
             End If
         Else
-            MsgBox("Invalid email or password you noob")
+            Label1.Visible = True
+            Label1.Text = "Invalid email or password you noob"
         End If
         con.Close()
 
     End Sub
 
     Protected Sub autofill_Click(sender As Object, e As EventArgs) Handles autofill.Click
+        '0;c;1;P;c;5;h;0;0t;4;0l;1;0o;1;0a;1;0m;1;0s;0.045;0e;0.083;1o;2;1a;1;1m;0;1f;0
         Try
             PASS.TextMode = TextBoxMode.SingleLine
             ID.Text = Request.Cookies("loginid").Value
             PASS.Text = Request.Cookies("loginpass").Value
         Catch CookieException As Exception
-            MsgBox("cookie not found")
+            Label1.Visible = True
+            Label1.Text = "cookie not found"
         End Try
         PASS.TextMode = TextBoxMode.Password
     End Sub

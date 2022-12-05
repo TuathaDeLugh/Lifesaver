@@ -2,17 +2,17 @@
 /*light*/
 @media (prefers-color-scheme: light) {
     .block1 {
-        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+        box-shadow: .0rem .0rem .2rem rgba(0, 0, 0, 0.25);
     }
 
     td {
-        border-bottom: 1px solid #ddd;
+        border-bottom: .1rem solid #ddd;
     }
 }
 /*dark*/
 @media (prefers-color-scheme: dark) {
     .block1 {
-        box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
+        box-shadow: .0rem .0rem .2rem rgba(255, 255, 255, 0.25);
     }
 
     table {
@@ -20,7 +20,7 @@
     }
 
     td {
-        border-bottom: 1px solid rgba(237, 237, 237, 0.25);
+        border-bottom: .1rem solid rgba(237, 237, 237, 0.25);
     }
 
     input[type="text"], input[type="number"], input[type="date"], input[type="time"] {
@@ -37,10 +37,10 @@
 .block1 {
     left: inherit;
     flex-wrap: wrap;
-    margin: 10px;
-    padding: 10px;
-    width: 900px;
-    border-radius: 10px;
+    margin: 1.0rem;
+    padding: 1.0rem;
+    width: 90.0rem;
+    border-radius: 1.0rem;
 }
 
 table {
@@ -48,50 +48,50 @@ table {
 }
 
 td {
-    font-size: 20px;
-    width: 500px;
-    padding: 15px;
+    font-size: 2.0rem;
+    width: 50.0rem;
+    padding: 1.5rem;
     text-align: left;
 }
 
 input[type="text"], input[type="number"]{
-    border: 1px solid Red;
-    border-radius: 5px;
-    padding: 5px;
-    font: 15px/24px 'Muli', sans-serif;
-    width: 400px;
-    letter-spacing: 1px;
+    border: .1rem solid Red;
+    border-radius: .5rem;
+    padding: .5rem;
+    font: 1.5rem/2.4rem 'Muli', sans-serif;
+    width: 40.0rem;
+    letter-spacing: .1rem;
 }
 input[type="date"], input[type="time"] {
-    border: 1px solid Red;
-    border-radius: 5px;
-    padding: 5px;
-    font: 15px/24px 'Muli', sans-serif;
-    width: 178px;
-    letter-spacing: 1px;
+    border: .1rem solid Red;
+    border-radius: .5rem;
+    padding: .5rem;
+    font: 1.5rem/2.4rem 'Muli', sans-serif;
+    width: 17.8rem;
+    letter-spacing: .1rem;
 }
 
 
 
 textarea {
-    border: 1px solid Red;
-    border-radius: 5px;
-    padding: 5px;
-    font: 15px/24px 'Muli', sans-serif;
-    height: 150px;
-    width: 410px;
+    border: .1rem solid Red;
+    border-radius: .5rem;
+    padding: .5rem;
+    font: 1.5rem/2.4rem 'Muli', sans-serif;
+    height: 15.0rem;
+    width: 41.0rem;
     box-sizing: border-box;
-    letter-spacing: 1px;
+    letter-spacing: .1rem;
     resize:none;
 }
 
 input[type="submit"] {
     border: none;
     outline: none;
-    padding: 11px 25px;
+    padding: 1.1rem 2.5rem;
     background: #ff4545;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: .4rem;
     font-weight: 600;
     width: 100%;
 }

@@ -23,28 +23,29 @@
 	<div class="box">
 		<form id="form1" runat="server">
 			<h2>Sign in</h2>
-            <div class="autofill">
-				    <asp:LinkButton ID="autofill" runat="server">auto fill</asp:LinkButton>
+            <div class="autofill" style="margin-bottom:1rem;">
+				    <asp:LinkButton ID="autofill" runat="server" CausesValidation="False">auto fill</asp:LinkButton>
 			</div>
 			<div class="inputBox">
             <span>User ID</span>
 				<asp:TextBox ID="ID" runat="server"></asp:TextBox>
+				<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="You need to fill Userid" ControlToValidate="ID" ForeColor="#FF5050"></asp:RequiredFieldValidator>
 				
 				<i></i>
 			</div>
 			<div class="inputBox">
             <span>Password</span>
 				<asp:TextBox ID="PASS" runat="server" TextMode="Password"></asp:TextBox>
+				<asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="You need to fill password" ControlToValidate="PASS" ForeColor="#FF5050"></asp:RequiredFieldValidator>
 				
                 </div>
-                <div class="links" style="margin-top:15px;">
+                <div class="links" style="margin-top:1rem;">
 				<asp:CheckBox ID="Rememberme" runat="server" Text="Remember me" />
                 <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/accountrecovar.aspx">Forgot Password</asp:LinkButton>
 			</div>
-                
-	
+			
 			<asp:Button ID="Button1" runat="server" Text="Login"/>
-			<span></span>
+			<asp:Label ID="Label1" runat="server" Text="Label" ForeColor="#FF5050" Visible="False"></asp:Label>
 		</form>
 		
 	</div>

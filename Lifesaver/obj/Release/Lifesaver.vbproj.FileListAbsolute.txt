@@ -1,0 +1,11 @@
+D:\DATAOFASP\Lifesaver\Lifesaver\bin\Lifesaver.dll.config
+D:\DATAOFASP\Lifesaver\Lifesaver\bin\Lifesaver.dll
+D:\DATAOFASP\Lifesaver\Lifesaver\bin\Lifesaver.pdb
+D:\DATAOFASP\Lifesaver\Lifesaver\bin\Lifesaver.xml
+D:\DATAOFASP\Lifesaver\Lifesaver\obj\Release\Lifesaver.vbproj.AssemblyReference.cache
+D:\DATAOFASP\Lifesaver\Lifesaver\obj\Release\Lifesaver.Resources.resources
+D:\DATAOFASP\Lifesaver\Lifesaver\obj\Release\Lifesaver.vbproj.GenerateResource.cache
+D:\DATAOFASP\Lifesaver\Lifesaver\obj\Release\Lifesaver.vbproj.CoreCompileInputs.cache
+D:\DATAOFASP\Lifesaver\Lifesaver\obj\Release\Lifesaver.dll
+D:\DATAOFASP\Lifesaver\Lifesaver\obj\Release\Lifesaver.xml
+D:\DATAOFASP\Lifesaver\Lifesaver\obj\Release\Lifesaver.pdb

@@ -1,0 +1,141 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@media (prefers-color-scheme: light) {
+ body{
+
+     background-color:white;
+ }
+ .heading h2 i {
+        background: white;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #c7c6c1;
+    }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #999da0;
+        }
+
+}
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: #181818;
+    }
+    .heading h2 i {
+        background: #181818;
+    }
+    /*:root {
+        color-scheme: dark;
+    }*/
+    
+
+    ::-webkit-scrollbar-thumb {
+        background:#777b7e ;
+    }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #48494b;
+        }
+    }
+* {
+    margin:0;
+    padding:0;      
+}
+::selection {
+    color: white;
+    background: #970000;
+}
+ .footer
+{  background:black;
+   color:White;
+   padding-top:3px;
+   padding-bottom:3px; 
+    
+    left:0;
+    position :absolute;
+    width : 100%;
+    text-align : center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header
+{  font-family: 'Poppins', sans-serif; 
+    top:0;
+    left:0;
+     position:fixed;
+    width : 100%;
+    text-align : center;
+    transition: all 300ms ease-in-out;
+    z-index:999999;
+}
+.header ul
+{
+    overflow: hidden;
+    background:#000;
+    width : 100%;
+}
+.header ul li,a
+{
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    margin:10px 7px;
+    color:#fff;
+} 
+.content
+{  padding-top:75px;
+}
+
+.scroll-down .header{
+	 
+		transform: translate3d(0, -100%, 0);
+	}
+
+.scroll-up .header{
+	 
+		filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+	}
+.heading h2 {
+    font-family: 'Damion', cursive;
+    font-weight: 400;
+    color: red;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+}
+.heading h2:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    left: 0;
+    top: 22px;
+    background:red;
+    height: 1px;
+}
+.heading h2 i {
+    font-style: normal;
+    position: relative;
+    padding: 10px;
+}
+.header a:hover
+{
+    transform: scale(1.05);
+}
+/*Scroll*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    opacity: 0;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+        border-radius: 10px;
+    }
+
+

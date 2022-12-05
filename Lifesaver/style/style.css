@@ -24,7 +24,7 @@
 	}
 		.inputBox input {	
 			color: #333;
-			border: 1px solid Red;
+			border: .1rem solid Red;
 			
 		}
 
@@ -37,10 +37,10 @@
 	}
 
 	.design .squre {
-		box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
-		border: 1px solid rgba(255, 255, 255, 0.5);
-		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-		border-right: 1px solid rgba(255, 255, 255, 0.2);
+		box-shadow: 0 2.5rem 4.5rem rgba(0, 0, 0, 0.1);
+		border: .1rem solid rgba(255, 255, 255, 0.5);
+		border-bottom: .1rem solid rgba(255, 255, 255, 0.2);
+		border-right: .1rem solid rgba(255, 255, 255, 0.2);
 		background: rgb(255, 163, 217,0.9);
 	}
 
@@ -85,7 +85,7 @@
 	}
 	.inputBox input {
 		color: White;
-		border: 1px solid Red;
+		border: .1rem solid Red;
 		background: #242424;
 	}
 
@@ -98,10 +98,10 @@
 	}
 
 	.design .squre {
-		box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
-		border: 1px solid rgba(255, 255, 255, 0.5);
-		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-		border-right: 1px solid rgba(255, 255, 255, 0.2);
+		box-shadow: 0 2.5rem 4.5rem rgba(0, 0, 0, 0.1);
+		border: .1rem solid rgba(255, 255, 255, 0.5);
+		border-bottom: .1rem solid rgba(255, 255, 255, 0.2);
+		border-right: .1rem solid rgba(255, 255, 255, 0.2);
 		background: rgb(255, 163, 217,0.9);
 	}
 
@@ -124,8 +124,11 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
-body 
-{
+html{
+	font-size:62.5%;
+}
+body {
+	font-size: 1.5rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -135,9 +138,9 @@ body
 .box 
 {
 	position: relative;
-	width: 380px;
-	height: 420px;
-	border-radius: 8px;
+	width: 38.0rem;
+	height: 42.0rem;
+	border-radius: .8rem;
 	overflow: hidden;
 }
 .box::before 
@@ -147,8 +150,8 @@ body
 	position: absolute;
 	top: -50%;
 	left: -50%;
-	width: 380px;
-	height: 420px;
+	width: 38.0rem;
+	height: 42.0rem;
 	transform-origin: bottom right;
 
 	animation: animate 6s linear infinite;
@@ -160,8 +163,8 @@ body
 	position: absolute;
 	top: -50%;
 	left: -50%;
-	width: 380px;
-	height: 420px;
+	width: 38.0rem;
+	height: 42.0rem;
 	transform-origin: bottom right;
 
 	animation: animate 6s linear infinite;
@@ -181,10 +184,10 @@ body
 form 
 {
 	position: absolute;
-	inset: 2px;
-
-	padding: 30px 40px;
-	border-radius: 8px;
+	inset: .2rem;
+	font-size:1.5rem;
+	padding: 3.0rem 4.0rem;
+	border-radius: .8rem;
 	z-index: 2;
 	display: flex;
 	flex-direction: column;
@@ -195,23 +198,23 @@ h2
 	font-weight: 500;
 	text-align: center;
 	letter-spacing: 0.1em;
-	font-size:40px;
+	font-size:4.0rem;
 }
 .inputBox 
 {   
 	position: relative;
-	width: 300px;
-	margin-top: 20px;
+	width: 30.0rem;
+	margin-top: 0.3rem;
 }
 .inputBox input 
 { 
-    border-radius: 5px;
-    padding :5px;
-    font-size:15px;
+    border-radius: .5rem;
+    padding :.5rem;
+    font-size:1.5rem;
  
-    width: 300px;
+    width: 30.0rem;
 
-     letter-spacing: 1px;
+     letter-spacing: .1rem;
 }
 
 .links , .autofill
@@ -225,13 +228,13 @@ input[type="submit"]
 {
 	border: none;
 	outline: none;
-	padding: 11px 25px;
+	padding: 1.1rem 2.5rem;
 
 	cursor: pointer;
-	border-radius: 4px;
+	border-radius: .4rem;
 	font-weight: 600;
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 2.5rem;
 }
 input[type="submit"]:active 
 {
@@ -240,14 +243,14 @@ input[type="submit"]:active
 
 .design .squre{
 	position: absolute;
-	border-radius: 10px;
+	border-radius: 1.0rem;
 	animation: animate2 5s linear infinite;
 	animation-delay: calc(-1s * var(--i));
 }
 
 @keyframes animate2{
 	0%{
-		transform: translateY(0px);
+		transform: translateY(.0rem);
 		opacity: 100%;
 		
 	}
@@ -256,7 +259,7 @@ input[type="submit"]:active
 		opacity: 50%;
 	}
 	50%{
-		transform: translateY(90px);
+		transform: translateY(9.0rem);
 		opacity: 100%;
 	}
 	75%{
@@ -268,47 +271,47 @@ input[type="submit"]:active
 {
 	top: 60%;
 	right: 20%;
-	width: 70px;
-	height: 70px;
+	width: 7.0rem;
+	height: 7.0rem;
 	z-index: 2;
 }
 .design .squre:nth-child(2)
 {
 	top: 30%;
 	right: 30%;
-	width: 100px;
-	height: 100px;
+	width: 10.0rem;
+	height: 10.0rem;
 	z-index: 2;
 }
 .design .squre:nth-child(3)
 {
 	top: 60%;
 	left: 30%;
-	width: 50px;
-	height: 50px;
+	width: 5.0rem;
+	height: 5.0rem;
 	z-index: 2;
 }
 .design .squre:nth-child(4)
 {
 	top: 30%;
 	left: 20%;
-	width: 80px;
-	height: 80px;
+	width: 8.0rem;
+	height: 8.0rem;
 	z-index: 2;
 }
 .design .squre:nth-child(5)
 {
 	top: 80%;
 	left: 50%;
-	width: 30px;
-	height: 30px;
+	width: 3.0rem;
+	height: 3.0rem;
 	z-index: 2;
 }
 
 /* footer */
  .footer
 { 
-  padding: 5px;
+  padding: .5rem;
 
   overflow: hidden;
   position: fixed;
@@ -328,14 +331,14 @@ input[type="submit"]:active
   .header ul {   
 	list-style-type: none;  
 	margin: 0;  
-	padding: 5px;  
+	padding: .5rem;  
 	overflow: hidden;
-	font-size: 30px;
+	font-size: 3.0rem;
 	
   }  
 	
   .header li {   
 	float: left;
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 40px;
+	font-size: 4.0rem;
   }

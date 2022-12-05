@@ -47,7 +47,7 @@
 			<asp:Button ID="Button2" runat="server" Text="Reset Password" Enabled="False"/>
             <div class="inputBox">
             <center><asp:Label ID="Label4" runat="server" Text="error" Visible="False" 
-                    ForeColor="Maroon"></asp:Label></center>
+                    ForeColor="#FF5050"></asp:Label></center>
 			<span></span>
             </div>
 		</form>

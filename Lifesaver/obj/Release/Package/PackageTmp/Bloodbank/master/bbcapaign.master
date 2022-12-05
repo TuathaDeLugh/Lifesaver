@@ -1,0 +1,27 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Bloodbank/master/bbmain.Master" AutoEventWireup="false" CodeBehind="bbcapaign.master.vb" Inherits="Lifesaver.NestedMasterPage1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="../../style/Master/side.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="block" style="height:inherit">
+<div class="heading">
+<h2><i>Campaign</i></h2></div>
+<div class="container">
+<div class="sidenav">
+<ul>
+<li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Bloodbank/campaign/campaignhome.aspx">Home</asp:HyperLink></li>
+<li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Bloodbank/campaign/Addcampaign.aspx">Add</asp:HyperLink></li>
+<li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Bloodbank/campaign/update.aspx">Update</asp:HyperLink></li>
+<li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Bloodbank/campaign/deletecampaign.aspx">Remove</asp:HyperLink></li></ul>
+</div>
+<div class="data">
+<asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+</div>
+</div>
+</div>
+</asp:Content>

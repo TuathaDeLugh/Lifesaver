@@ -1,0 +1,39 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="bbmain.master.vb" Inherits="Lifesaver.bbmain" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="../../style/Master/master.css" rel="stylesheet" type="text/css" />
+  
+    <title>Life Saver Blood Bank</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <script src="../../js/header.js" type="text/javascript"></script>
+    <form id="form1" runat="server">
+        <div class = "header">
+            <ul id="menu">
+            <li style="float:left;font-size : 30px;">Life Saver</li>
+            <li ><asp:HyperLink ID="HyperLink1" runat="server" 
+                    NavigateUrl="~/Bloodbank/home.aspx">Home</asp:HyperLink></li>
+         <li ><asp:HyperLink ID="HyperLink2" runat="server" 
+                    NavigateUrl="~/Bloodbank/campaign/campaignhome.aspx">Campaign</asp:HyperLink></li>
+                <li ><asp:HyperLink ID="HyperLink3" runat="server" 
+                    NavigateUrl="~/Bloodbank/Blooddata.aspx">Blood Data</asp:HyperLink></li>
+                <li ><asp:HyperLink ID="HyperLink4" runat="server" 
+                    NavigateUrl="~/Bloodbank/profile.aspx"><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></asp:HyperLink></li>
+           <li style="float:right">
+               
+               <asp:LinkButton ID="LinkButton1" runat="server">Log Out</asp:LinkButton></li>
+            </ul>
+        </div>
+    <div class="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+       <div class="footer"><center>All copyrights are belongs to Lifesaver.co.in</center></div>
+    </form>
+</body>
+</html>
