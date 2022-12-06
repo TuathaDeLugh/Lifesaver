@@ -37,10 +37,12 @@ Public Class profile1
                 TextBox10.Text = rd("answer")
                 TextBox11.Text = rd("time")
             End While
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Update Cancel','','error')", True)
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Update Cancel','','error')", True)
             con.Close()
         End If
         If TextBox3.Enabled = False Then
-            TextBox2.Enabled = True
+
             TextBox3.Enabled = True
             TextBox4.Enabled = True
             TextBox5.Enabled = True
@@ -66,23 +68,26 @@ Public Class profile1
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         con.Open()
-        
-        Dim cmd As New SqlCommand("update weblogin set username='" & TextBox2.Text & "',name='" & TextBox3.Text & "',password='" & TextBox4.Text & "',email='" & TextBox5.Text & "',address='" & TextBox6.Text & "',pincode='" & TextBox7.Text & "',mno='" & TextBox8.Text & "',question='" & TextBox9.Text & "',answer='" & TextBox10.Text & "',time='" & TextBox11.Text & "' where id=" & TextBox1.Text & "", con)
-        cmd.ExecuteNonQuery()
-        Dim cmd1 As New SqlCommand("update blooddata set username='" & TextBox2.Text & "' where id=" & bdid & "", con)
-        cmd1.ExecuteNonQuery()
-        TextBox2.Enabled = False
-        TextBox3.Enabled = False
-        TextBox4.Enabled = False
-        TextBox5.Enabled = False
-        TextBox6.Enabled = False
-        TextBox7.Enabled = False
-        TextBox8.Enabled = False
-        TextBox9.Enabled = False
-        TextBox10.Enabled = False
-        TextBox11.Enabled = False
-        con.Close()
-        ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('All Data Updated','','success')", True)
+        Try
+            Dim cmd As New SqlCommand("update weblogin set username='" & TextBox2.Text & "',name='" & TextBox3.Text & "',password='" & TextBox4.Text & "',email='" & TextBox5.Text & "',address='" & TextBox6.Text & "',pincode='" & TextBox7.Text & "',mno='" & TextBox8.Text & "',question='" & TextBox9.Text & "',answer='" & TextBox10.Text & "',time='" & TextBox11.Text & "' where id=" & TextBox1.Text & "", con)
+            cmd.ExecuteNonQuery()
+            Dim cmd1 As New SqlCommand("update blooddata set username='" & TextBox2.Text & "' where id=" & bdid & "", con)
+            cmd1.ExecuteNonQuery()
+            TextBox2.Enabled = False
+            TextBox3.Enabled = False
+            TextBox4.Enabled = False
+            TextBox5.Enabled = False
+            TextBox6.Enabled = False
+            TextBox7.Enabled = False
+            TextBox8.Enabled = False
+            TextBox9.Enabled = False
+            TextBox10.Enabled = False
+            TextBox11.Enabled = False
+            con.Close()
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('All Data Updated','','success')", True)
+        Catch ex As Exception
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Can't Update','You Need To Revel Data First','warning')", True)
+        End Try
     End Sub
 
     Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
