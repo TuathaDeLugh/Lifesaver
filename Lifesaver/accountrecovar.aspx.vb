@@ -21,8 +21,7 @@ Public Class accountrecovar
             Button1.Enabled = True
 
         Else
-            Label4.Visible = True
-            Label4.Text = "Invalid email"
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Invalid Email','','error')", True)
         End If
         con.Close()
 
@@ -40,8 +39,7 @@ Public Class accountrecovar
             TextBox4.Enabled = True
             Button2.Enabled = True
         Else
-            Label4.Visible = True
-            Label4.Text = "Invalid Answer"
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Invalid Answer','','error')", True)
         End If
     End Sub
     Protected Sub Button2_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button2.Click
@@ -49,8 +47,6 @@ Public Class accountrecovar
         Dim cmd As New SqlCommand("update weblogin set password='" & TextBox3.Text & "' where email='" & TextBox1.Text & "'", con)
         cmd.ExecuteNonQuery()
         con.Close()
-        Label4.Visible = True
-        Label4.Text = "Updated sucessfully"
         Response.Redirect("~\login.aspx")
     End Sub
 End Class

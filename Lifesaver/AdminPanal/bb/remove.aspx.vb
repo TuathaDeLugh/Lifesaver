@@ -12,12 +12,15 @@ Public Class remove
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         con.Open()
-        Dim cmd As New SqlCommand("delete from weblogin where name='" & TextBox3.Text & "'And email='" & TextBox5.Text & "'", con)
-        cmd.ExecuteNonQuery()
-        Dim cmd2 As New SqlCommand("delete from blooddata where name='" & TextBox3.Text & "'", con)
-        cmd2.ExecuteNonQuery()
-        con.Close()
-        Label1.Visible = True
-        Label1.Text = "Blood Bank Deleted"
+        Try
+            Dim cmd As New SqlCommand("delete from weblogin where name='" & TextBox3.Text & "'And email='" & TextBox5.Text & "'", con)
+            cmd.ExecuteNonQuery()
+            Dim cmd2 As New SqlCommand("delete from blooddata where name='" & TextBox3.Text & "'", con)
+            cmd2.ExecuteNonQuery()
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Blood Bank Deleted Sucessfully','','success')", True)
+        Catch ex As Exception
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Blood Bank Deleted Sucessfully','','error')", True)
+            con.Close()
+        End Try
     End Sub
 End Class

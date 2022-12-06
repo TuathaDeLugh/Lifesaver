@@ -16,8 +16,7 @@ Public Class add
         Dim cmd2 As New SqlCommand("insert into blooddata (username,Name,opve,onve,apve,anve,bpve,bnve,abpve,abnve) values ('" & TextBox2.Text & "','" & TextBox3.Text & "',0,0,0,0,0,0,0,0)", con)
         cmd2.ExecuteNonQuery()
         con.Close()
-        Label1.Visible = True
-        Label1.Text = "Data Added"
+        ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Blood Bank Added Sucessfully','','success')", True)
         con.Close()
     End Sub
 End Class

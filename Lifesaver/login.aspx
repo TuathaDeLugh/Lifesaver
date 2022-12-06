@@ -6,6 +6,7 @@
 	<title>Life Saver Login</title>    
     <link href="style/style.css" rel="stylesheet" type="text/css" />
 	<link rel="icon" href="files/logo.png" type="image/x-icon"/>
+    <script type="text/javascript" src="js/sweetal.js"></script>
 </head>
 <body>
 	  <div class="header">
@@ -41,7 +42,7 @@
                 </div>
                 <div class="links" style="margin-top:1rem;">
 				<asp:CheckBox ID="Rememberme" runat="server" Text="Remember me" />
-                <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/accountrecovar.aspx">Forgot Password</asp:LinkButton>
+                <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/accountrecovar.aspx" CausesValidation="False">Forgot Password</asp:LinkButton>
 			</div>
 			
 			<asp:Button ID="Button1" runat="server" Text="Login"/>

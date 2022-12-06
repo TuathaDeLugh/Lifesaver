@@ -17,8 +17,7 @@ Public Class Addcampaign
         Dim cmd1 As New SqlCommand("insert into campaign (username,name,address,pincode,mno,tagline,date,time,approve) values ('" & Session("a") & "','" & TextBox1.Text & "','" & TextBox2.Text & "','" & TextBox3.Text & "','" & TextBox4.Text & "','" & TextBox5.Text & "','" & datedata & "','" & timedata & "','no')", con)
         cmd1.ExecuteNonQuery()
         con.Close()
-        Label1.Visible = True
-        Label1.Text = "Campaign Added Now Wait For Approvement."
+        ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Campaign Added Now Wait For Approvement','','success')", True)
         con.Close()
     End Sub
 End Class

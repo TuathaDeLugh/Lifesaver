@@ -7,7 +7,7 @@ Public Class login
 
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        
+
     End Sub
     Protected Sub Rememberme_CheckedChanged(ByVal sender As Object, ByVal e As EventArgs) Handles Rememberme.CheckedChanged
 
@@ -32,8 +32,8 @@ Public Class login
 
             End If
         Else
-            Label1.Visible = True
-            Label1.Text = "Invalid email or password you noob"
+
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Invalid Id or Password','','error')", True)
         End If
         con.Close()
 
@@ -46,8 +46,7 @@ Public Class login
             ID.Text = Request.Cookies("loginid").Value
             PASS.Text = Request.Cookies("loginpass").Value
         Catch CookieException As Exception
-            Label1.Visible = True
-            Label1.Text = "cookie not found"
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('cookie not found','','error')", True)
         End Try
         PASS.TextMode = TextBoxMode.Password
     End Sub

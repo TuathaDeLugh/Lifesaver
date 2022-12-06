@@ -72,6 +72,7 @@ Public Class profile
         TextBox9.Enabled = False
         TextBox10.Enabled = False
         TextBox11.Enabled = False
+        ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('All Data Updated','','success')", True)
     End Sub
 
     Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
