@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/bb.master" CodeBehind="remove.aspx.vb" Inherits="Lifesaver.remove" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 <link href="../../style/Admin/addremove.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../js/sweet.js"></script>
 <center><div class="block" >
     <div class="heading"><h2><i>Remove Blood Bank</i></h2></div>
      <table>

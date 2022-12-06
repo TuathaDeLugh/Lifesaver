@@ -47,6 +47,8 @@ Public Class accountrecovar
         Dim cmd As New SqlCommand("update weblogin set password='" & TextBox3.Text & "' where email='" & TextBox1.Text & "'", con)
         cmd.ExecuteNonQuery()
         con.Close()
+        Label4.Visible = True
+        Label4.Text = "Updated sucessfully"
         Response.Redirect("~\login.aspx")
     End Sub
 End Class

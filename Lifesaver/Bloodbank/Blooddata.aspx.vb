@@ -33,5 +33,6 @@ Public Class Blooddata
         Dim cmd As New SqlCommand("update blooddata set opve='" & TextBox1.Text & "',onve='" & TextBox2.Text & "',apve='" & TextBox3.Text & "',anve='" & TextBox4.Text & "',bpve='" & TextBox5.Text & "',bnve='" & TextBox6.Text & "',abpve='" & TextBox7.Text & "',abnve='" & TextBox8.Text & "' where username='" & Session("a") & "'", con)
         cmd.ExecuteNonQuery()
         con.Close()
+        ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Data Updated','','success')", True)
     End Sub
 End Class

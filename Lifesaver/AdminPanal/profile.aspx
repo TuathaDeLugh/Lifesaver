@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../style/homepage.css" rel="stylesheet" />
     <link href="../style/common/profile.css" rel="stylesheet" type="text/css" />
+    <script src="../../js/sweet.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"><center>
 <div class="block">

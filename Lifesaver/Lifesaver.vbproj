@@ -119,7 +119,7 @@
     <Content Include="files\logo.png" />
     <Content Include="index.html" />
     <Content Include="files\pngtree-business-man-sleeping-at-work-desk-during-working-hours-png-image_6176467.png" />
-    <Content Include="js\sweetal.js" />
+    <Content Include="js\sweet.js" />
     <Content Include="login.aspx" />
     <Content Include="js\header.js" />
     <Content Include="style\accrecov.css" />

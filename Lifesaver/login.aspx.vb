@@ -46,6 +46,7 @@ Public Class login
             ID.Text = Request.Cookies("loginid").Value
             PASS.Text = Request.Cookies("loginpass").Value
         Catch CookieException As Exception
+
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('cookie not found','','error')", True)
         End Try
         PASS.TextMode = TextBoxMode.Password

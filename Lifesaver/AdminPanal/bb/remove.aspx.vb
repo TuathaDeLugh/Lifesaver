@@ -19,7 +19,7 @@ Public Class remove
             cmd2.ExecuteNonQuery()
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Blood Bank Deleted Sucessfully','','success')", True)
         Catch ex As Exception
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Blood Bank Deleted Sucessfully','','error')", True)
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Blood Bank  not Deleted Sucessfully','','error')", True)
             con.Close()
         End Try
     End Sub

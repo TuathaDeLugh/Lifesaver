@@ -7,6 +7,7 @@
     <link href="style/accrecov.css" rel="stylesheet" />
 	<title>Life Saver Login</title>
     <link rel="icon" href="files/logo.png" type="image/x-icon"/>
+    <script src="js/sweet.js"></script>
 </head>
 <body>
 	  <div class="header">
