@@ -6,6 +6,7 @@
 	<title>Life Saver Login</title>    
     <link href="style/style.css" rel="stylesheet" type="text/css" />
 	<link rel="icon" href="files/logo.png" type="image/x-icon"/>
+    <script type="text/javascript" src="js/sweet.js"></script>
 </head>
 <body>
 	  <div class="header">
