@@ -10,10 +10,12 @@
         .card:hover {
             box-shadow: .0rem .6rem 1.0rem rgba(0, 0, 0, 0.4);
         }
-
-    .card__title {
-        color: #ffffff;
-    }
+        .card a{
+            color:white;
+        }
+        .card__title {
+            color: #ffffff;
+        }
     .card__apply {
         color: rgba(255, 255, 255, 0.6);
     }
@@ -55,18 +57,19 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .card {
-  margin: 2.0rem;
-  padding: 2.0rem;
-  width: 30.0rem;
-  min-height: 20.0rem;
-  display: grid;
-  grid-template-rows: 2.0rem 5.0rem 1fr 5.0rem;
-  border-radius: 1.0rem;
-  transition: all 0.2s;
+    margin: 2.0rem;
+    padding: 2.0rem;
+    width: 30.0rem;
+    min-height: 20.0rem;
+    display: grid;
+    grid-template-rows: 0rem 3rem 1fr 6rem;
+    border-radius: 1.0rem;
+    transition: all 0.2s;
+    border: solid .1rem rgba(0,0,0,0.5);
 }
 
 .card:hover {
@@ -84,13 +87,19 @@
   transition: all 0.5s;
 }
 
-.card-1,.card-4,.card-7,.card-10 {
-  background: radial-gradient( #ee9ca7 , #ffdde1);
+.card-1, .card-4, .card-7, .card-10 {
+    background: #C0C0C0;
+    
+    /*background: radial-gradient( #ee9ca7 , #ffdde1);*/
 }
-.card-2,.card-5,.card-8,.card-11 {
-  background: radial-gradient( #02aab0 , #00cdac);
+.card-2, .card-5, .card-8, .card-11 {
+    /* background: radial-gradient( #02aab0, #00cdac);
+    */ background: #d4d4d6;
+    
 }
 
-.card-3,.card-6,.card-9,.card-12 {
-  background: radial-gradient( #36d1dc , #5b86e5);
+.card-3, .card-6, .card-9, .card-12 {
+    /*background: radial-gradient( #36d1dc, #5b86e5);
+    */ background: #A9A9A9;
+    
 }

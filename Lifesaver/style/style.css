@@ -240,7 +240,9 @@ input[type="submit"]:active
 {
 	opacity: 0.8;
 }
-
+	input[type="submit"]:hover {
+		background:#a30000;
+	}
 .design .squre{
 	position: absolute;
 	border-radius: 1.0rem;

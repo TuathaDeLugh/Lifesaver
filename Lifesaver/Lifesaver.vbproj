@@ -105,6 +105,7 @@
     <Content Include="AdminPanal\bb\Blooddata.aspx" />
     <Content Include="AdminPanal\bb\home.aspx" />
     <Content Include="AdminPanal\bb\remove.aspx" />
+    <Content Include="AdminPanal\FaQ.aspx" />
     <Content Include="AdminPanal\home.aspx" />
     <Content Include="AdminPanal\profile.aspx" />
     <Content Include="AdminPanal\tipoftheday.aspx" />
@@ -125,6 +126,7 @@
     <Content Include="style\accrecov.css" />
     <Content Include="style\Admin\addremove.css" />
     <Content Include="style\Admin\adminbbhome.css" />
+    <Content Include="style\Admin\faq.css" />
     <Content Include="style\Bloodbank\addcampaign.css" />
     <Content Include="style\Bloodbank\bbblooddata.css" />
     <Content Include="style\Bloodbank\bbcampaign.css" />
@@ -178,6 +180,13 @@
     </Compile>
     <Compile Include="AdminPanal\bb\remove.aspx.vb">
       <DependentUpon>remove.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanal\FaQ.aspx.designer.vb">
+      <DependentUpon>FaQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanal\FaQ.aspx.vb">
+      <DependentUpon>FaQ.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="AdminPanal\home.aspx.designer.vb">
