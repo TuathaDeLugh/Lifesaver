@@ -78,5 +78,5 @@
 <td><asp:Button ID="Button2" runat="server" Text="Save" Height="40px" 
         Visible="False" Width="200px" /></td></tr>
     </table></div></center>
-    <asp:TextBox ID="TextBox1" runat="server" Enabled="False"  CssClass="design" Visible="false"/>
+    
 </asp:Content>

@@ -2,7 +2,8 @@
 Public Class profile
     Inherits System.Web.UI.Page
     Dim str As String = ConfigurationManager.ConnectionStrings("umangpc").ConnectionString
-    Dim con As New SqlConnection(Str)
+    Dim con As New SqlConnection(str)
+    Dim userid As Integer
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Label1.Text = Session("a")
@@ -30,7 +31,7 @@ Public Class profile
             Dim cd As New SqlCommand(sql, con)
             Dim rd As SqlDataReader = cd.ExecuteReader
             While rd.Read()
-                TextBox1.Text = rd("id")
+                userid = rd("id")
                 TextBox2.Text = rd("username")
                 TextBox3.Text = rd("name")
                 TextBox4.Text = rd("password")
@@ -62,7 +63,7 @@ Public Class profile
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Can't Update','You Need To Revel Data First','warning')", True)
         Else
             Try
-                Dim cmd As New SqlCommand("update weblogin set name='" & TextBox3.Text & "',password='" & TextBox4.Text & "',email='" & TextBox5.Text & "',address='" & TextBox6.Text & "',pincode='" & TextBox7.Text & "',mno='" & TextBox8.Text & "',question='" & TextBox9.Text & "',answer='" & TextBox10.Text & "',time='" & TextBox11.Text & "' where id=" & TextBox1.Text & "", con)
+                Dim cmd As New SqlCommand("update weblogin set name='" & TextBox3.Text & "',password='" & TextBox4.Text & "',email='" & TextBox5.Text & "',address='" & TextBox6.Text & "',pincode='" & TextBox7.Text & "',mno='" & TextBox8.Text & "',question='" & TextBox9.Text & "',answer='" & TextBox10.Text & "',time='" & TextBox11.Text & "' where id=" & userid & "", con)
                 cmd.ExecuteNonQuery()
 
 
@@ -91,7 +92,7 @@ Public Class profile
         Dim cd As New SqlCommand(sql, con)
         Dim rd As SqlDataReader = cd.ExecuteReader
         While rd.Read()
-            TextBox1.Text = rd("id")
+            userid = rd("id")
             TextBox2.Text = rd("username")
             TextBox3.Text = rd("name")
             TextBox4.Text = rd("password")

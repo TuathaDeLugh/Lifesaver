@@ -10,12 +10,12 @@
 <div class="heading">
 <h2><i>Campaign</i></h2></div>
 <div class="container">
-<div class="sidenav">
+<div class="sidenav" style="width:min-content;">
 <ul>
 <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Bloodbank/campaign/campaignhome.aspx">Home</asp:HyperLink></li>
-<li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Bloodbank/campaign/Addcampaign.aspx">Add</asp:HyperLink></li>
-<li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Bloodbank/campaign/update.aspx">Update</asp:HyperLink></li>
-<li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Bloodbank/campaign/deletecampaign.aspx">Remove</asp:HyperLink></li></ul>
+<li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Bloodbank/campaign/Addcampaign.aspx">Add Campaign</asp:HyperLink></li>
+<li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Bloodbank/campaign/update.aspx">Update & remove</asp:HyperLink></li>
+</ul>
 </div>
 <div class="d">
 <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">

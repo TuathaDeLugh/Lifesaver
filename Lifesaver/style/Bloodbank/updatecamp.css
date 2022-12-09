@@ -1,25 +1,33 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Damion|Muli:400,600');
 /*light*/
 @media (prefers-color-scheme: light) {
-    .block1 {
+    .updatetab, .updatebox,.detail {
         box-shadow: .0rem .0rem .2rem rgba(0, 0, 0, 0.25);
     }
-
+    th {
+        color: white;
+        background: red;
+    }
     td {
         border-bottom: .1rem solid #ddd;
     }
 }
 /*dark*/
 @media (prefers-color-scheme: dark) {
-    .block1 {
+    html{
+        color:white;
+    }
+    .updatetab, .updatebox,.detail {
         box-shadow: .0rem .0rem .2rem rgba(255, 255, 255, 0.25);
     }
 
     table {
         color: white;
-        
     }
-
+    th {
+        color: white;
+        background: maroon;
+    }
     td {
         border-bottom: .1rem solid rgba(237, 237, 237, 0.25);
     }
@@ -35,19 +43,43 @@
     }
 }
 /*Design*/
+.d{ 
+    flex-grow:1;
+    display:flex;
+    flex-wrap:wrap-reverse;
+    justify-content:space-evenly;
+}
 .block1 {
     left: inherit;
     margin: 1.0rem;
-    padding: 1.0rem;
-    width: 70rem;
+    width:75rem;
     border-radius: 1.0rem;
 }
+.updatebox, .updatetab {
 
-
-
+    padding: 2rem;
+    border-radius: 1.0rem;
+    font-size: 2.0rem;
+}
+    .updatebox{
+        margin-bottom:1rem;
+    }
+    .detail {
+        flex-grow: 1;
+        margin: 1rem;
+        padding: 2rem;
+        border-radius: 1.0rem;
+        font-size: 2.0rem;
+    }
+table {
+    width: 100%;
+}
+th{
+    text-align:center;
+}
 td {
     font-size: 2.0rem;
-    width: auto;
+    
     padding: 1.5rem;
     text-align: left;
 }
@@ -61,15 +93,11 @@ input[type="text"], input[type="number"] {
     letter-spacing: .1rem;
     margin-top: 2rem;
 }
-input[type="date"], input[type="time"] {
-    border: .1rem solid Red;
-    border-radius: .5rem;
-    padding: .5rem;
-    font: 1.5rem/2.4rem 'Muli', sans-serif;
-    width: 17.8rem;
-    letter-spacing: .1rem;
-    margin-top: 2rem;
-}
+
+    input[type="text"]:disabled, input[type="number"]:disabled, textarea:disabled, input[type="submit"]:disabled {
+        opacity: 0.7;
+        cursor: no-drop;
+    }
 
 
 
@@ -82,23 +110,26 @@ textarea {
     width: 41rem;
     box-sizing: border-box;
     letter-spacing: .1rem;
-    resize:none;
+    resize: none;
+    margin-top: 2rem;
 }
 
 input[type="submit"] {
-    border: none;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
     outline: none;
-    padding: 1.1rem 2.5rem;
     background: #ff4545;
     cursor: pointer;
     border-radius: .4rem;
     font-weight: 600;
-    width: 100%;
+    padding: 1.1rem 4.5rem;
 }
 
     input[type="submit"]:active {
         opacity: 0.8;
     }
+
     input[type="submit"]:hover {
         background: #D10000;
     }

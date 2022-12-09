@@ -113,7 +113,6 @@
     <Content Include="Bloodbank\Blooddata.aspx" />
     <Content Include="Bloodbank\campaign\Addcampaign.aspx" />
     <Content Include="Bloodbank\campaign\campaignhome.aspx" />
-    <Content Include="Bloodbank\campaign\deletecampaign.aspx" />
     <Content Include="Bloodbank\campaign\update.aspx" />
     <Content Include="Bloodbank\home.aspx" />
     <Content Include="Bloodbank\profile.aspx" />
@@ -131,6 +130,7 @@
     <Content Include="style\Bloodbank\addcampaign.css" />
     <Content Include="style\Bloodbank\bbblooddata.css" />
     <Content Include="style\Bloodbank\bbcampaign.css" />
+    <Content Include="style\Bloodbank\updatecamp.css" />
     <Content Include="style\common\homepage.css" />
     <Content Include="style\index.css" />
     <Content Include="style\Master\master.css" />
@@ -252,13 +252,6 @@
     </Compile>
     <Compile Include="Bloodbank\campaign\campaignhome.aspx.vb">
       <DependentUpon>campaignhome.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Bloodbank\campaign\deletecampaign.aspx.designer.vb">
-      <DependentUpon>deletecampaign.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Bloodbank\campaign\deletecampaign.aspx.vb">
-      <DependentUpon>deletecampaign.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Bloodbank\campaign\update.aspx.designer.vb">

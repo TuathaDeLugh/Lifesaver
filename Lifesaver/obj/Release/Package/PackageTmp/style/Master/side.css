@@ -34,7 +34,7 @@
     align-content: center;
     margin: 1.0rem;
     padding: 1.0rem;
-    width: 97.8%;
+    width: auto;
     display: grid;
     border-radius: 1.0rem;
 }
@@ -67,6 +67,7 @@
 { 
     margin:1.0rem;
     padding:.5rem;
+    flex-grow:1;
 }
 .sidenav ul li:hover,.sidenav a:hover
 {
