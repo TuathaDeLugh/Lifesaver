@@ -7,10 +7,9 @@
     <div class="block1">
         <div class="updatebox">
             Enter Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-            <asp:Button ID="Button1" runat="server" Text="Fill" />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Campaign Name Is Required." ControlToValidate="TextBox1" ForeColor="Red"></asp:RequiredFieldValidator>
+            <asp:Button ID="Button1" runat="server" Text="Fill" CausesValidation="False"/><br/><br/>
         </div>
+
         <div class="updatetab">
             <div class="heading"><h2><i>update Campaign</i></h2></div>
       <table>     
@@ -42,7 +41,7 @@
 <td>Mobile Numnber</td>
 <td>
     <asp:TextBox ID="TextBox5" runat="server"  CssClass="design" Enabled="False"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="Campaign Mobile Number Is Required. You can put - here" ControlToValidate="TextBox5" ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="Campaign Mobile Number Is Required." ControlToValidate="TextBox5" ForeColor="Red"></asp:RequiredFieldValidator>
 
     </td>
 </tr>

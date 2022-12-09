@@ -7,7 +7,7 @@
     <div class="block1">
         <div class="updatebox">
             Enter Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-            <asp:Button ID="Button1" runat="server" Text="Fill" CausesValidation="False"/><br/><br/>
+            <asp:Button ID="Button1" runat="server" Text="Fill" CausesValidation="False"/><br/>
         </div>
 
         <div class="updatetab">

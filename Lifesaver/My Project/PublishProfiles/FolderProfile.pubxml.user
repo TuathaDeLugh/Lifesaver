@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\ursai\Desktop\abc</_PublishTargetUrl>
-    <History>True|2022-12-09T15:44:54.0223242Z;True|2022-12-07T16:13:28.0350725+05:30;True|2022-12-06T20:27:22.5853314+05:30;True|2022-12-06T20:19:22.1745137+05:30;True|2022-12-06T20:16:37.1581832+05:30;True|2022-12-06T20:09:12.8905128+05:30;True|2022-12-06T13:19:08.8934674+05:30;True|2022-12-05T17:42:50.3901407+05:30;True|2022-12-05T17:23:32.7019433+05:30;True|2022-12-05T17:12:57.3652385+05:30;True|2022-12-05T13:12:28.0943661+05:30;True|2022-12-05T12:49:24.2657734+05:30;True|2022-12-05T12:37:14.1878064+05:30;True|2022-12-04T18:54:35.5327418+05:30;</History>
+    <History>True|2022-12-09T16:41:58.9765824Z;True|2022-12-09T21:14:54.0223242+05:30;True|2022-12-07T16:13:28.0350725+05:30;True|2022-12-06T20:27:22.5853314+05:30;True|2022-12-06T20:19:22.1745137+05:30;True|2022-12-06T20:16:37.1581832+05:30;True|2022-12-06T20:09:12.8905128+05:30;True|2022-12-06T13:19:08.8934674+05:30;True|2022-12-05T17:42:50.3901407+05:30;True|2022-12-05T17:23:32.7019433+05:30;True|2022-12-05T17:12:57.3652385+05:30;True|2022-12-05T13:12:28.0943661+05:30;True|2022-12-05T12:49:24.2657734+05:30;True|2022-12-05T12:37:14.1878064+05:30;True|2022-12-04T18:54:35.5327418+05:30;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -46,13 +46,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>12/02/2022 13:30:15</publishTime>
     </File>
     <File Include="bin/Lifesaver.dll">
-      <publishTime>12/09/2022 21:14:43</publishTime>
+      <publishTime>12/09/2022 22:11:57</publishTime>
     </File>
     <File Include="bin/Lifesaver.pdb">
-      <publishTime>12/09/2022 21:14:43</publishTime>
+      <publishTime>12/09/2022 22:11:57</publishTime>
     </File>
     <File Include="bin/Lifesaver.xml">
-      <publishTime>12/09/2022 21:14:43</publishTime>
+      <publishTime>12/09/2022 22:11:57</publishTime>
     </File>
     <File Include="Bloodbank/Blooddata.aspx">
       <publishTime>12/02/2022 16:19:49</publishTime>
@@ -67,7 +67,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>12/01/2022 11:25:37</publishTime>
     </File>
     <File Include="Bloodbank/campaign/update.aspx">
-      <publishTime>12/09/2022 21:13:39</publishTime>
+      <publishTime>12/09/2022 22:06:01</publishTime>
     </File>
     <File Include="Bloodbank/home.aspx">
       <publishTime>12/04/2022 17:56:07</publishTime>
@@ -130,7 +130,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>12/05/2022 10:50:10</publishTime>
     </File>
     <File Include="style/Bloodbank/updatecamp.css">
-      <publishTime>12/09/2022 21:03:27</publishTime>
+      <publishTime>12/09/2022 22:04:01</publishTime>
     </File>
     <File Include="style/common/homepage.css">
       <publishTime>12/09/2022 14:42:57</publishTime>

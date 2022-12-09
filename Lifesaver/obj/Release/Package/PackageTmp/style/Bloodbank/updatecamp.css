@@ -101,17 +101,18 @@ input[type="text"], input[type="number"] {
 
 
 
-    textarea {
-        border: .1rem solid Red;
-        border-radius: .5rem;
-        padding: .5rem;
-        font: 1.5rem/2.4rem 'Muli', sans-serif;
-        height: 15.0rem;
-        width: 41rem;
-        box-sizing: border-box;
-        letter-spacing: .1rem;
-        resize: none;
-    }
+textarea {
+    border: .1rem solid Red;
+    border-radius: .5rem;
+    padding: .5rem;
+    font: 1.5rem/2.4rem 'Muli', sans-serif;
+    height: 15.0rem;
+    width: 41rem;
+    box-sizing: border-box;
+    letter-spacing: .1rem;
+    resize: none;
+    margin-top: 2rem;
+}
 
 input[type="submit"] {
     border-style: none;

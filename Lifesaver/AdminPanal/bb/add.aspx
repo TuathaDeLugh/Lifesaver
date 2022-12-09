@@ -9,24 +9,32 @@
 <td>Username</td>
 <td>
     <asp:TextBox ID="TextBox2" runat="server"   CssClass="design"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*userame is require" ControlToValidate="TextBox2"></asp:RequiredFieldValidator>
+
    </td>
 </tr>
 <tr>
 <td>Name</td>
 <td>
     <asp:TextBox ID="TextBox3" runat="server"   CssClass="design"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Name is require" ControlToValidate="TextBox3"></asp:RequiredFieldValidator>
+
     </td>
 </tr>
 <tr>
 <td>Password</td>
 <td>
     <asp:TextBox ID="TextBox4" runat="server"   CssClass="design"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="*Password is require" ControlToValidate="TextBox4"></asp:RequiredFieldValidator>
+
     </td>
 </tr>
 <tr>
 <td>email</td>
 <td>
     <asp:TextBox ID="TextBox5" runat="server"  CssClass="design"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="*Email is require" ControlToValidate="TextBox5"></asp:RequiredFieldValidator>
+
     </td>
 </tr>
 <tr>
@@ -34,19 +42,24 @@
 <td>
     <asp:TextBox ID="TextBox6" runat="server"   CssClass="design" 
         TextMode="MultiLine"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="*Address is require" ControlToValidate="TextBox6"></asp:RequiredFieldValidator>
+
     </td>
 </tr>
 <tr>
 <td>pin code</td>
 <td>
     <asp:TextBox ID="TextBox7" runat="server"   CssClass="design"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="*Pincode is require" ControlToValidate="TextBox7"></asp:RequiredFieldValidator>
+
     </td>
 </tr>
 <tr>
 <td>contact no</td>
 <td>
     <asp:TextBox ID="TextBox8" runat="server"  CssClass="design"></asp:TextBox>
-     
+         <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="*Contact number is require" ControlToValidate="TextBox8"></asp:RequiredFieldValidator>
+
                  
               </td>
 </tr>
@@ -54,6 +67,8 @@
 <td>Active time</td>
 <td>
     <asp:TextBox ID="TextBox11" runat="server"   CssClass="design"> </asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ErrorMessage="*Active time is require" ControlToValidate="TextBox11"></asp:RequiredFieldValidator>
+
     </td>
 </tr>
 <tr><td><asp:Button ID="Button1" runat="server" Text="ADD" Height="40px" 
