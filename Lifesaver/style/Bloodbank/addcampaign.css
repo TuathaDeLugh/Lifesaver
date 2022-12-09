@@ -17,6 +17,7 @@
 
     table {
         color: white;
+        
     }
 
     td {
@@ -36,20 +37,17 @@
 /*Design*/
 .block1 {
     left: inherit;
-    flex-wrap: wrap;
     margin: 1.0rem;
     padding: 1.0rem;
-    width: 90.0rem;
+    width: 70rem;
     border-radius: 1.0rem;
 }
 
-table {
-    text-align: center;
-}
+
 
 td {
     font-size: 2.0rem;
-    width: 50.0rem;
+    width: auto;
     padding: 1.5rem;
     text-align: left;
 }
@@ -79,7 +77,7 @@ textarea {
     padding: .5rem;
     font: 1.5rem/2.4rem 'Muli', sans-serif;
     height: 15.0rem;
-    width: 41.0rem;
+    width: 41rem;
     box-sizing: border-box;
     letter-spacing: .1rem;
     resize:none;

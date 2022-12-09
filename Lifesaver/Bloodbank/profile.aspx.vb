@@ -2,21 +2,27 @@
 
 Public Class profile1
     Inherits System.Web.UI.Page
-    Dim bdid As String
     Dim str As String = ConfigurationManager.ConnectionStrings("umangpc").ConnectionString
     Dim con As New SqlConnection(str)
+
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Label1.Text = Session("a")
-        con.Open()
-        Dim bd As String = "select id from blooddata where username='" & Session("a") & "'"
-        Dim cd1 As New SqlCommand(bd, con)
-        bdid = cd1.ExecuteScalar
-        con.Close()
+
     End Sub
+
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If Button1.Text = "want to update" Then
             Button1.Text = "cancel"
             Button2.Visible = True
+            TextBox3.Enabled = True
+            TextBox4.Enabled = True
+            TextBox5.Enabled = True
+            TextBox6.Enabled = True
+            TextBox7.Enabled = True
+            TextBox8.Enabled = True
+            TextBox9.Enabled = True
+            TextBox10.Enabled = True
+            TextBox11.Enabled = True
         Else
             Button1.Text = "want to update"
             Button2.Visible = False
@@ -37,23 +43,7 @@ Public Class profile1
                 TextBox10.Text = rd("answer")
                 TextBox11.Text = rd("time")
             End While
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Update Cancel','','error')", True)
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Update Cancel','','error')", True)
             con.Close()
-        End If
-        If TextBox3.Enabled = False Then
-
-            TextBox3.Enabled = True
-            TextBox4.Enabled = True
-            TextBox5.Enabled = True
-            TextBox6.Enabled = True
-            TextBox7.Enabled = True
-            TextBox8.Enabled = True
-            TextBox9.Enabled = True
-            TextBox10.Enabled = True
-            TextBox11.Enabled = True
-        Else
-            TextBox2.Enabled = False
             TextBox3.Enabled = False
             TextBox4.Enabled = False
             TextBox5.Enabled = False
@@ -64,16 +54,23 @@ Public Class profile1
             TextBox10.Enabled = False
             TextBox11.Enabled = False
         End If
+
     End Sub
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         con.Open()
-        Try
-            Dim cmd As New SqlCommand("update weblogin set username='" & TextBox2.Text & "',name='" & TextBox3.Text & "',password='" & TextBox4.Text & "',email='" & TextBox5.Text & "',address='" & TextBox6.Text & "',pincode='" & TextBox7.Text & "',mno='" & TextBox8.Text & "',question='" & TextBox9.Text & "',answer='" & TextBox10.Text & "',time='" & TextBox11.Text & "' where id=" & TextBox1.Text & "", con)
-            cmd.ExecuteNonQuery()
-            Dim cmd1 As New SqlCommand("update blooddata set username='" & TextBox2.Text & "' where id=" & bdid & "", con)
-            cmd1.ExecuteNonQuery()
-            TextBox2.Enabled = False
+        If TextBox2.Text = "********" Then
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Can't Update','You Need To Revel Data First','warning')", True)
+        Else
+            Try
+                Dim cmd As New SqlCommand("update weblogin set name='" & TextBox3.Text & "',password='" & TextBox4.Text & "',email='" & TextBox5.Text & "',address='" & TextBox6.Text & "',pincode='" & TextBox7.Text & "',mno='" & TextBox8.Text & "',question='" & TextBox9.Text & "',answer='" & TextBox10.Text & "',time='" & TextBox11.Text & "' where id=" & TextBox1.Text & "", con)
+                cmd.ExecuteNonQuery()
+
+
+                ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' " & TextBox2.Text & "  Profile Updated','','success')", True)
+            Catch ex As Exception
+                ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' con error ','','warning')", True)
+            End Try
             TextBox3.Enabled = False
             TextBox4.Enabled = False
             TextBox5.Enabled = False
@@ -83,11 +80,10 @@ Public Class profile1
             TextBox9.Enabled = False
             TextBox10.Enabled = False
             TextBox11.Enabled = False
-            con.Close()
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('All Data Updated','','success')", True)
-        Catch ex As Exception
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Can't Update','You Need To Revel Data First','warning')", True)
-        End Try
+            Button2.Visible = False
+            Button1.Text = "want to update"
+        End If
+        con.Close()
     End Sub
 
     Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click

@@ -88,3 +88,6 @@ input[type="submit"] {
     width: 20.0rem;
     margin-top: 2.0rem;
 }
+input[type="submit"]:hover {
+    background: #D10000;
+}

@@ -24,7 +24,7 @@
             <li class="data">
                 <asp:HyperLink ID="HyperLink4" runat="server" 
                     NavigateUrl="~/AdminPanal/tipoftheday.aspx">Tip of The Day</asp:HyperLink></li>
-            <li class="data"><asp:HyperLink ID="HyperLink5" runat="server">F & Q</asp:HyperLink></li>
+            <li class="data"><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/AdminPanal/FaQ.aspx">F & Q</asp:HyperLink></li>
            <li class="data"><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/AdminPanal/profile.aspx"><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></asp:HyperLink></li>
            <li class="data" style="float:right">
                

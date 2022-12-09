@@ -32,15 +32,6 @@ Partial Public Class profile
     Protected WithEvents Button3 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''TextBox1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
     '''TextBox2 control.
     '''</summary>
     '''<remarks>
@@ -147,4 +138,13 @@ Partial Public Class profile
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''TextBox1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
 End Class

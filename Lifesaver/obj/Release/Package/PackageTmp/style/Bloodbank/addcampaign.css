@@ -99,3 +99,6 @@ input[type="submit"] {
     input[type="submit"]:active {
         opacity: 0.8;
     }
+    input[type="submit"]:hover {
+        background: #D10000;
+    }

@@ -5,6 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <div class="block1">
     <div class="heading"><h2><i>Add Campaign</i></h2></div>
+        <center>
     <table>
 <tr>
 <td>Name</td>
@@ -54,5 +55,5 @@
     <td>
         <asp:Label ID="Label1" runat="server" Text="Label" Visible="False" ForeColor="Red"></asp:Label></td>
 </tr>
-    </table></div>
+    </table></center></div>
 </asp:Content>

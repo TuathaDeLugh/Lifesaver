@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <link href="../../style/Admin/addremove.css" rel="stylesheet" type="text/css" />
     
-<center><div class="block" >
+<center><div class="block1" >
     <div class="heading"><h2><i>Add Blood Bank</i></h2></div>
      <table>
 <tr>
@@ -61,7 +61,6 @@
     
 </tr>
          
-<tr>
-<td colspan=2><asp:Label ID="Label1" runat="server" Text="Label" Visible="False"></asp:Label></td></tr>
+
     </table></div></center>
 </asp:Content>
