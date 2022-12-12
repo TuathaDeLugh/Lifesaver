@@ -16,25 +16,25 @@
           Total Users
       </h3>
     </div>
-    <div class="card card-2">
+    <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label2" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
           Users can donate blood
       </h3>
     </div>
-    <div class="card card-3">
+    <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label3" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
           Users requested to donate blood
       </h3>
     </div>
-    <div class="card card-2">
+    <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label4" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
           Male Users
       </h3>
     </div>
-    <div class="card card-3">
+    <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label5" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
           Female users
@@ -52,7 +52,7 @@
           Total Campaign
       </h3>
     </div>
-     <div class="card card-3">
+     <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label7" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
           Active campaign
@@ -64,7 +64,7 @@
           want to approve campaign
       </h3>
     </div> 
-    <div class="card card-2">
+    <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label19" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
           Avaliable campaign in total Pincode
@@ -82,25 +82,25 @@
           Total Blood bank
       </h3>
     </div>
-             <div class="card card-2">
+             <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label18" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
           Avaliable Blood Banks In total Pincode
       </h3>
     </div>
-     <div class="card card-3">
+     <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label10" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
           O+ Avaliable Blood Banks
       </h3>
     </div>
-         <div class="card card-2">
+         <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label11" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
           O- Avaliable Blood Banks
       </h3>
     </div>
-         <div class="card card-3">
+         <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label12" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
           A+ Avaliable Blood Banks
@@ -112,7 +112,7 @@
           A- Avaliable Blood Banks
       </h3>
     </div>
-         <div class="card card-3">
+         <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label14" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
           B+ Avaliable Blood Banks
@@ -124,7 +124,7 @@
           B- Avaliable Blood Banks
       </h3>
     </div>
-         <div class="card card-2">
+         <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label16" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
           AB+ Avaliable Blood Banks
