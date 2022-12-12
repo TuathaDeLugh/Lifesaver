@@ -155,9 +155,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.add._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.add._TextBox3">
 <summary>
 TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.add._RequiredFieldValidator2">
+<summary>
+RequiredFieldValidator2 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -173,9 +191,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.add._RequiredFieldValidator3">
+<summary>
+RequiredFieldValidator3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.add._TextBox5">
 <summary>
 TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.add._RequiredFieldValidator4">
+<summary>
+RequiredFieldValidator4 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -191,9 +227,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.add._RequiredFieldValidator5">
+<summary>
+RequiredFieldValidator5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.add._TextBox7">
 <summary>
 TextBox7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.add._RequiredFieldValidator6">
+<summary>
+RequiredFieldValidator6 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -209,9 +263,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.add._RequiredFieldValidator7">
+<summary>
+RequiredFieldValidator7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.add._TextBox11">
 <summary>
 TextBox11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.add._RequiredFieldValidator8">
+<summary>
+RequiredFieldValidator8 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -272,9 +344,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.remove._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.remove._TextBox5">
 <summary>
 TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.remove._RequiredFieldValidator2">
+<summary>
+RequiredFieldValidator2 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -686,9 +776,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.profile._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.profile._TextBox3">
 <summary>
 TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.profile._RequiredFieldValidator2">
+<summary>
+RequiredFieldValidator2 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -704,9 +812,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.profile._RequiredFieldValidator3">
+<summary>
+RequiredFieldValidator3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.profile._TextBox5">
 <summary>
 TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.profile._RequiredFieldValidator4">
+<summary>
+RequiredFieldValidator4 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -722,9 +848,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.profile._RequiredFieldValidator5">
+<summary>
+RequiredFieldValidator5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.profile._TextBox7">
 <summary>
 TextBox7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.profile._RequiredFieldValidator6">
+<summary>
+RequiredFieldValidator6 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -740,9 +884,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.profile._RequiredFieldValidator7">
+<summary>
+RequiredFieldValidator7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.profile._TextBox9">
 <summary>
 TextBox9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.profile._RequiredFieldValidator8">
+<summary>
+RequiredFieldValidator8 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -758,9 +920,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.profile._RequiredFieldValidator9">
+<summary>
+RequiredFieldValidator9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.profile._TextBox11">
 <summary>
 TextBox11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.profile._RequiredFieldValidator10">
+<summary>
+RequiredFieldValidator10 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -1022,6 +1202,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Lifesaver.todupdate._TextBox1">
 <summary>
 TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.todupdate._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -1766,6 +1955,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.profile1._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.profile1._TextBox3">
 <summary>
 TextBox3 control.
@@ -1775,9 +1973,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Lifesaver.profile1._RequiredFieldValidator1">
+<member name="F:Lifesaver.profile1._RequiredFieldValidator2">
 <summary>
-RequiredFieldValidator1 control.
+RequiredFieldValidator2 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -1793,9 +1991,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.profile1._RequiredFieldValidator3">
+<summary>
+RequiredFieldValidator3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.profile1._TextBox5">
 <summary>
 TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.profile1._RequiredFieldValidator4">
+<summary>
+RequiredFieldValidator4 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -1811,9 +2027,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.profile1._RequiredFieldValidator5">
+<summary>
+RequiredFieldValidator5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.profile1._TextBox7">
 <summary>
 TextBox7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.profile1._RequiredFieldValidator6">
+<summary>
+RequiredFieldValidator6 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -1829,9 +2063,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.profile1._RequiredFieldValidator7">
+<summary>
+RequiredFieldValidator7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.profile1._TextBox9">
 <summary>
 TextBox9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.profile1._RequiredFieldValidator8">
+<summary>
+RequiredFieldValidator8 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -1847,9 +2099,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.profile1._RequiredFieldValidator9">
+<summary>
+RequiredFieldValidator9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.profile1._TextBox11">
 <summary>
 TextBox11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.profile1._RequiredFieldValidator10">
+<summary>
+RequiredFieldValidator10 control.
 </summary>
 <remarks>
 Auto-generated field.
