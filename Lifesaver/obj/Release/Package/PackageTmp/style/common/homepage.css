@@ -33,7 +33,7 @@
 
 
     .card {
-        background: radial-gradient(#000080,#002366 );
+        background: radial-gradient(#7851a9,#6a5acd );
         box-shadow: 0rem .6rem 1.0rem rgba(237, 237, 237, 0.25);
     }
 
@@ -100,10 +100,4 @@
 }
 .card-1{
     flex-grow:1;
-}
-.card-2{
-    flex-grow:5;
-}
-card-3{
-    flex-grow:9;
 }

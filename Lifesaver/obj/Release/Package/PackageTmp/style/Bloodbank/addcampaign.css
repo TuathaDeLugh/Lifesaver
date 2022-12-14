@@ -43,7 +43,9 @@
     border-radius: 1.0rem;
 }
 
-
+table span {
+    font-size: 1.5rem;
+}
 
 td {
     font-size: 2.0rem;
@@ -59,7 +61,7 @@ input[type="text"], input[type="number"] {
     font: 1.5rem/2.4rem 'Muli', sans-serif;
     width: 40.0rem;
     letter-spacing: .1rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 input[type="date"], input[type="time"] {
     border: .1rem solid Red;
@@ -68,7 +70,7 @@ input[type="date"], input[type="time"] {
     font: 1.5rem/2.4rem 'Muli', sans-serif;
     width: 17.8rem;
     letter-spacing: .1rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 
@@ -82,7 +84,8 @@ textarea {
     width: 41rem;
     box-sizing: border-box;
     letter-spacing: .1rem;
-    resize:none;
+    resize: none;
+    margin-top: 1.5rem;
 }
 
 input[type="submit"] {

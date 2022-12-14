@@ -1,8 +1,10 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/main.Master" CodeBehind="FaQ.aspx.vb" Inherits="Lifesaver.FaQ" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+       
     <link href="../style/Admin/faq.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+ 
     <div class ="block">
 <div class="heading">
 <h2><i>Feedback & Question</i></h2></div>
@@ -130,7 +132,7 @@
             </tr>
         </table>
         <div class="button">
-        <asp:Button ID="Button1" runat="server" Text="Clear Feed back" />
+        <asp:Button ID="Button1" runat="server" Text="Clear Feed back"  />
         <asp:Button ID="Button2" runat="server" Text="Add temp Data" />
         </div>
         </div>

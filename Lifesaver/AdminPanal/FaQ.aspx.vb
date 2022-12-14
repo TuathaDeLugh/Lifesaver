@@ -6,7 +6,17 @@ Public Class FaQ
     Dim str As String = ConfigurationManager.ConnectionStrings("umangpc").ConnectionString
     Dim con As New SqlConnection(str)
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
+        If Not IsPostBack Then
+            con.Open()
+            Dim sql As String
+            sql = "select * from feedback"
+            Dim ad As New SqlDataAdapter(Sql, con)
+            Dim ds As New DataSet
+            ad.Fill(ds)
+            ad.Fill(ds)
+            ListView1.DataSource = ds
+            ListView1.DataBind()
+        End If
     End Sub
 
     Protected Sub ListView1_SelectedIndexChanged(sender As Object, e As EventArgs)

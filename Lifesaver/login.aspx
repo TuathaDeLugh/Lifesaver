@@ -46,7 +46,7 @@
 			</div>
 			
 			<asp:Button ID="Button1" runat="server" Text="Login"/>
-			<asp:Label ID="Label1" runat="server" Text="Label" ForeColor="#FF5050" Visible="False"></asp:Label>
+			
 		</form>
 		
 	</div>

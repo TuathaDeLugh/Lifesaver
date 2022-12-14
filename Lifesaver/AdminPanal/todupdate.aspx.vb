@@ -7,9 +7,20 @@ Public Class todupdate
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Label1.Text = Request.QueryString("id")
+        If Not IsPostBack Then
+            Dim todid As Integer
+            todid = Request.QueryString("id")
+            con.Open()
+            Dim sql As String = "select * from  tipofday where id=" & todid & ""
+            Dim cd As New SqlCommand(sql, con)
+            Dim rd As SqlDataReader = cd.ExecuteReader
+            While rd.Read()
+                TextBox1.Text = rd("tip")
+            End While
+        End If
     End Sub
 
-    Protected Sub Button2_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button2.Click
+    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
         Dim todid As Integer
         todid = Request.QueryString("id")
         con.Open()
@@ -19,15 +30,5 @@ Public Class todupdate
         Response.Redirect("~\AdminPanal\tipoftheday.aspx")
     End Sub
 
-    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
-        Dim todid As Integer
-        todid = Request.QueryString("id")
-        con.Open()
-        Dim sql As String = "select * from  tipofday where id=" & todid & ""
-        Dim cd As New SqlCommand(sql, con)
-        Dim rd As SqlDataReader = cd.ExecuteReader
-        While rd.Read()
-            TextBox1.Text = rd("tip")
-        End While
-    End Sub
+
 End Class

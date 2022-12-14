@@ -9,3 +9,14 @@ D:\DATAOFASP\Lifesaver\Lifesaver\obj\Release\Lifesaver.vbproj.CoreCompileInputs.
 D:\DATAOFASP\Lifesaver\Lifesaver\obj\Release\Lifesaver.dll
 D:\DATAOFASP\Lifesaver\Lifesaver\obj\Release\Lifesaver.xml
 D:\DATAOFASP\Lifesaver\Lifesaver\obj\Release\Lifesaver.pdb
+D:\ASPNET\Github\Lifesaver\bin\Lifesaver.dll.config
+D:\ASPNET\Github\Lifesaver\bin\Lifesaver.dll
+D:\ASPNET\Github\Lifesaver\bin\Lifesaver.pdb
+D:\ASPNET\Github\Lifesaver\bin\Lifesaver.xml
+D:\ASPNET\Github\Lifesaver\obj\Release\Lifesaver.vbproj.AssemblyReference.cache
+D:\ASPNET\Github\Lifesaver\obj\Release\Lifesaver.Resources.resources
+D:\ASPNET\Github\Lifesaver\obj\Release\Lifesaver.vbproj.GenerateResource.cache
+D:\ASPNET\Github\Lifesaver\obj\Release\Lifesaver.vbproj.CoreCompileInputs.cache
+D:\ASPNET\Github\Lifesaver\obj\Release\Lifesaver.dll
+D:\ASPNET\Github\Lifesaver\obj\Release\Lifesaver.xml
+D:\ASPNET\Github\Lifesaver\obj\Release\Lifesaver.pdb

@@ -7,25 +7,23 @@ Public Class Blooddata
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Label1.Text = Session("a")
-    End Sub
-
-    Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-
-        con = New SqlConnection(str)
-        con.Open()
-        Dim sql As String = "select * from blooddata where username='" & Session("a") & "'"
-        Dim cd As New SqlCommand(sql, con)
-        Dim rd As SqlDataReader = cd.ExecuteReader
-        While rd.Read()
-            TextBox1.Text = rd("opve")
-            TextBox2.Text = rd("onve")
-            TextBox3.Text = rd("apve")
-            TextBox4.Text = rd("anve")
-            TextBox5.Text = rd("bpve")
-            TextBox6.Text = rd("bnve")
-            TextBox7.Text = rd("abpve")
-            TextBox8.Text = rd("abnve")
-        End While
+        If Not IsPostBack Then
+            con = New SqlConnection(str)
+            con.Open()
+            Dim sql As String = "select * from blooddata where username='" & Session("a") & "'"
+            Dim cd As New SqlCommand(sql, con)
+            Dim rd As SqlDataReader = cd.ExecuteReader
+            While rd.Read()
+                TextBox1.Text = rd("opve")
+                TextBox2.Text = rd("onve")
+                TextBox3.Text = rd("apve")
+                TextBox4.Text = rd("anve")
+                TextBox5.Text = rd("bpve")
+                TextBox6.Text = rd("bnve")
+                TextBox7.Text = rd("abpve")
+                TextBox8.Text = rd("abnve")
+            End While
+        End If
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
