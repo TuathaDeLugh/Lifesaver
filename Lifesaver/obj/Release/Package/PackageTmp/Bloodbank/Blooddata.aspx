@@ -7,9 +7,7 @@
 <div class="block">
 <div class="heading"><center><h2><i><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label> Blood Data</i></h2></center></div>
     <table>
-    <tr>
-    <td colspan="2"><asp:Button ID="Button3" runat="server" Text="Watch Exisested Data" /></td>
-</tr>
+
 
 <tr>
 <th colspan="2">O</th>
