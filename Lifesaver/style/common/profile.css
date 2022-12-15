@@ -10,6 +10,9 @@
 
         border-bottom: .1rem solid #ddd;
     }
+    table a{
+        color:black;
+    }
 }
 /*dark*/
 @media (prefers-color-scheme: dark) {
@@ -26,7 +29,9 @@
         background-color: #181818;
         color: white;
     }
-
+    table a {
+        color: white;
+    }
     textarea {
         background-color: #181818;
         color: white;
@@ -63,7 +68,7 @@ input[type="text"], input[type="number"] {
     font: 1.5rem/2.4rem 'Muli', sans-serif;
     width: 30.0rem;
     letter-spacing: .1rem;
-    margin-top: 1.5rem;
+    
 }
     input[type="text"]:disabled, input[type="number"]:disabled{
         cursor: no-drop;
@@ -78,7 +83,7 @@ textarea {
     box-sizing: border-box;
     letter-spacing: .1rem;
     resize: none;
-    margin-top: 1.5rem;
+  
 }
     textarea:disabled {
         cursor: no-drop;

@@ -93,7 +93,7 @@ input[type="text"], input[type="number"] {
     font: 1.5rem/2.4rem 'Muli', sans-serif;
     width: 40.0rem;
     letter-spacing: .1rem;
-    margin-top: 1.5rem;
+      
 }
 
     input[type="text"]:disabled, input[type="number"]:disabled, textarea:disabled, input[type="submit"]:disabled {
@@ -113,7 +113,7 @@ textarea {
     box-sizing: border-box;
     letter-spacing: .1rem;
     resize: none;
-    margin-top: 1.5rem;
+      
 }
 
 input[type="submit"] {

@@ -17,11 +17,10 @@ Public Class update
     End Sub
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         con.Open()
-        Try
-            Dim sql As String = "select * from campaign where name='" & TextBox1.Text & "'"
+        Dim sql As String = "select * from campaign where name='" & TextBox1.Text & "'"
             Dim cd As New SqlCommand(sql, con)
             Dim rd As SqlDataReader = cd.ExecuteReader
-            While rd.Read()
+            If rd.Read() Then
                 TextBox9.Text = rd("id")
                 TextBox2.Text = rd("name")
                 TextBox3.Text = rd("address")
@@ -30,13 +29,13 @@ Public Class update
                 TextBox6.Text = rd("tagline")
                 TextBox7.Text = rd("date")
                 TextBox8.Text = rd("time")
+            Else
+                ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' No Data found You Brain Dead ','','error')", True)
 
-            End While
+            End If
 
-        Catch ex As Exception
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' No Data found You Brain Dead ','','error')", True)
-        End Try
-        con.Close()
+
+            con.Close()
         TextBox2.Enabled = True
         TextBox3.Enabled = True
         TextBox4.Enabled = True

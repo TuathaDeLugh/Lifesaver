@@ -17,7 +17,7 @@
 <td>Name</td>
 <td>
     <asp:TextBox ID="TextBox2" runat="server" CssClass="design" Enabled="False"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Campaign Name Is Required." ControlToValidate="TextBox2" ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator2" runat="server" ErrorMessage="Campaign Name Is Required." ControlToValidate="TextBox2" ForeColor="Red"></asp:RequiredFieldValidator>
 
     </td>
 </tr>
@@ -25,7 +25,7 @@
 <td>Address</td>
 <td>
     <asp:TextBox ID="TextBox3" runat="server" CssClass="design" TextMode="MultiLine" Enabled="False"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Campaign Address  Is Required." ControlToValidate="TextBox3" ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator3" runat="server" ErrorMessage="Campaign Address  Is Required." ControlToValidate="TextBox3" ForeColor="Red"></asp:RequiredFieldValidator>
 
    </td>
 </tr>
@@ -33,7 +33,7 @@
 <td>Pincode</td>
 <td>
     <asp:TextBox ID="TextBox4" runat="server"  CssClass="design" TextMode="Number" Enabled="False"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="Campaign Pincode Is Required." ControlToValidate="TextBox4" ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator4" runat="server" ErrorMessage="Campaign Pincode Is Required." ControlToValidate="TextBox4" ForeColor="Red"></asp:RequiredFieldValidator>
 
     </td>
 </tr>
@@ -41,7 +41,7 @@
 <td>Mobile Numnber</td>
 <td>
     <asp:TextBox ID="TextBox5" runat="server"  CssClass="design" Enabled="False"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="Campaign Mobile Number Is Required." ControlToValidate="TextBox5" ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator5" runat="server" ErrorMessage="Campaign Mobile Number Is Required." ControlToValidate="TextBox5" ForeColor="Red"></asp:RequiredFieldValidator>
 
     </td>
 </tr>
@@ -49,7 +49,7 @@
 <td>Tag Line</td>
 <td>
     <asp:TextBox ID="TextBox6" runat="server" CssClass="design" Enabled="False"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="Campaign Tag Line Is Required." ControlToValidate="TextBox6" ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator6" runat="server" ErrorMessage="Campaign Tag Line Is Required." ControlToValidate="TextBox6" ForeColor="Red"></asp:RequiredFieldValidator>
 
     </td>
 </tr>
@@ -57,7 +57,7 @@
 <td>Date</td>
 <td>
     <asp:TextBox ID="TextBox7" runat="server"  CssClass="design" Enabled="False" ></asp:TextBox>  
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="Campaign Date Is Required." ControlToValidate="TextBox7" ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator7" runat="server" ErrorMessage="Campaign Date Is Required." ControlToValidate="TextBox7" ForeColor="Red"></asp:RequiredFieldValidator>
 
     </td>
 </tr>
@@ -65,7 +65,7 @@
 <td>Time</td>
 <td>
     <asp:TextBox ID="TextBox8" runat="server"  CssClass="design" Enabled="False" ></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ErrorMessage="Campaign Time Is Required." ControlToValidate="TextBox8" ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator8" runat="server" ErrorMessage="Campaign Time Is Required." ControlToValidate="TextBox8" ForeColor="Red"></asp:RequiredFieldValidator>
 
     </td>
 </tr>

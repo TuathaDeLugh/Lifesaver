@@ -23,13 +23,13 @@ Partial Public Class profile
     Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Button3 control.
+    '''HyperLink1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Button3 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents HyperLink1 As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
     '''TextBox2 control.
@@ -66,24 +66,6 @@ Partial Public Class profile
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents RequiredFieldValidator2 As Global.System.Web.UI.WebControls.RequiredFieldValidator
-
-    '''<summary>
-    '''TextBox4 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TextBox4 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''RequiredFieldValidator3 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents RequiredFieldValidator3 As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
     '''TextBox5 control.

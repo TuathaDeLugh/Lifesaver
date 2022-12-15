@@ -105,6 +105,7 @@
     <Content Include="AdminPanal\bb\Blooddata.aspx" />
     <Content Include="AdminPanal\bb\home.aspx" />
     <Content Include="AdminPanal\bb\remove.aspx" />
+    <Content Include="AdminPanal\change.aspx" />
     <Content Include="AdminPanal\FaQ.aspx" />
     <Content Include="AdminPanal\home.aspx" />
     <Content Include="AdminPanal\profile.aspx" />
@@ -114,6 +115,7 @@
     <Content Include="Bloodbank\campaign\Addcampaign.aspx" />
     <Content Include="Bloodbank\campaign\campaignhome.aspx" />
     <Content Include="Bloodbank\campaign\update.aspx" />
+    <Content Include="Bloodbank\change.aspx" />
     <Content Include="Bloodbank\home.aspx" />
     <Content Include="Bloodbank\profile.aspx" />
     <Content Include="files\logo.png" />
@@ -182,6 +184,13 @@
     </Compile>
     <Compile Include="AdminPanal\bb\remove.aspx.vb">
       <DependentUpon>remove.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanal\change.aspx.designer.vb">
+      <DependentUpon>change.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanal\change.aspx.vb">
+      <DependentUpon>change.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="AdminPanal\FaQ.aspx.designer.vb">
@@ -259,6 +268,13 @@
     </Compile>
     <Compile Include="Bloodbank\campaign\update.aspx.vb">
       <DependentUpon>update.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Bloodbank\change.aspx.designer.vb">
+      <DependentUpon>change.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bloodbank\change.aspx.vb">
+      <DependentUpon>change.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Bloodbank\home.aspx.designer.vb">
