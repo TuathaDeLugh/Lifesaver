@@ -29,11 +29,11 @@
                <asp:LinkButton ID="LinkButton1" runat="server">Log Out</asp:LinkButton></li>
             </ul>
         </nav>
-    <div class="content">
+    <main class="content">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
-        </div>
+        </main>
        <footer class="footer"><center>All copyrights are belongs to Lifesaver.co.in</center></footer>
     </form>
 </body>
