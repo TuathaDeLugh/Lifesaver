@@ -106,4 +106,8 @@ Public Class profile
         End If
         con.Close()
     End Sub
+
+    Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
+        Response.Redirect("~/AdminPanal/change.aspx")
+    End Sub
 End Class

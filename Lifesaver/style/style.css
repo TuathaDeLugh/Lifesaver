@@ -32,9 +32,10 @@
 			color: black;
 		}
 
-	input[type="submit"] {	
-		background: #ff4545;
-	}
+		input[type="submit"] {
+			background: #ff4545;
+			color:black;
+		}
 
 	.design .squre {
 		box-shadow: 0 2.5rem 4.5rem rgba(0, 0, 0, 0.1);
@@ -93,9 +94,10 @@
 		color:White;
 	}
 
-	input[type="submit"] {
-		background: #ff4545;
-	}
+    input[type="submit"] {
+        background: #ff4545;
+        color: white;
+    }
 
 	.design .squre {
 		box-shadow: 0 2.5rem 4.5rem rgba(0, 0, 0, 0.1);
@@ -225,7 +227,7 @@ h2
 
     
 input[type="submit"]
-{
+{	
 	border: none;
 	outline: none;
 	padding: 1.1rem 2.5rem;

@@ -13,6 +13,10 @@
     table a{
         color:black;
     }
+    input[type="submit"] {
+        background: #ff4545;
+        color:black;
+    }
 }
 /*dark*/
 @media (prefers-color-scheme: dark) {
@@ -34,6 +38,10 @@
     }
     textarea {
         background-color: #181818;
+        color: white;
+    }
+    input[type="submit"] {
+        background: #ff4545;
         color: white;
     }
 }

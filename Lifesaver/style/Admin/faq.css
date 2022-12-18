@@ -2,6 +2,10 @@
     .block {
         box-shadow: 0rem 0rem .2rem rgba(0, 0, 0, 0.25);
     }
+    input[type="submit"] {
+        background: #ff4545;
+        color:black;
+    }
 }
     /*Dark*/
 @media (prefers-color-scheme: dark) {
@@ -14,6 +18,10 @@
     #ContentPlaceHolder1_DropDownList1 {
         background:#181818;
         color:white;
+    }
+    input[type="submit"] {
+        background: #ff4545;
+        color: white;
     }
     }
 .block {

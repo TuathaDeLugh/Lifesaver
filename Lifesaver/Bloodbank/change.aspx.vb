@@ -27,10 +27,10 @@ Public Class change1
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         con.Open()
         Try
-            Dim cmd As New SqlCommand("update weblogin set password='" & TextBox3.Text & "' where username =" & Session("a") & "", con)
+            Dim cmd As New SqlCommand("update weblogin set password='" & TextBox3.Text & "' where username ='" & Session("a") & "'", con)
             cmd.ExecuteNonQuery()
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' " & Session("a") & "  Password Updated','','success')", True)
-            Response.Redirect("home.aspx")
+            Response.Redirect("profile.aspx")
         Catch ex As Exception
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' con error ','','warning')", True)
         End Try
