@@ -2,10 +2,7 @@
     .block {
         box-shadow: 0rem 0rem .2rem rgba(0, 0, 0, 0.25);
     }
-    input[type="submit"] {
-        background: #ff4545;
-        color:black;
-    }
+
 }
     /*Dark*/
 @media (prefers-color-scheme: dark) {
@@ -19,10 +16,7 @@
         background:#181818;
         color:white;
     }
-    input[type="submit"] {
-        background: #ff4545;
-        color: white;
-    }
+
     }
 .block {
     align-content: center;
@@ -71,6 +65,7 @@ input[type="submit"] {
     border-radius: .4rem;
     font-weight: 600;
     width: 15rem;
+    color:white;
 }
   .button  input[type="submit"]:hover {
         background: #D10000;

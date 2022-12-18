@@ -13,10 +13,6 @@
     table a{
         color:black;
     }
-    input[type="submit"] {
-        background: #ff4545;
-        color:black;
-    }
 }
 /*dark*/
 @media (prefers-color-scheme: dark) {
@@ -29,7 +25,7 @@
     td {
         border-bottom: .1rem solid rgba(237, 237, 237, 0.25);
     }
-    input[type="text"], input[type="number"] {
+    input[type="text"], input[type="number"], input[type="password"] {
         background-color: #181818;
         color: white;
     }
@@ -40,10 +36,7 @@
         background-color: #181818;
         color: white;
     }
-    input[type="submit"] {
-        background: #ff4545;
-        color: white;
-    }
+
 }
 /*Design*/
 .block
@@ -69,16 +62,15 @@ table span {
     font-size: 1.5rem;
     color:red;
 }
-input[type="text"], input[type="number"] {
+input[type="text"], input[type="number"], input[type="password"] {
     border: .1rem solid Red;
     border-radius: .5rem;
     padding: .5rem;
     font: 1.5rem/2.4rem 'Muli', sans-serif;
     width: 30.0rem;
     letter-spacing: .1rem;
-    
 }
-    input[type="text"]:disabled, input[type="number"]:disabled{
+    input[type="text"]:disabled, input[type="number"]:disabled, input[type="password"]:disabled {
         cursor: no-drop;
     }
 textarea {
@@ -106,6 +98,7 @@ textarea {
         border-radius: .4rem;
         font-weight: 600;
         width: 100%;
+        color:white;
     }
 input[type="submit"]:active 
 {

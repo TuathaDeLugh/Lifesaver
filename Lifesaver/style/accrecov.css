@@ -30,10 +30,7 @@
         color: black;
     }
 
-    input[type="submit"] {
-        background: #ff4545;
-        color:black;
-    }
+
         input[type="submit"]:disabled {
             
             opacity: 0.2;
@@ -94,10 +91,6 @@
         color: White;
     }
 
-    input[type="submit"] {
-        background: #ff4545;
-        color: white;
-    }
 
         input[type="submit"]:disabled {
             opacity: 0.2;
@@ -231,6 +224,8 @@ input[type="submit"] {
     font-weight: 600;
     width: 100%;
     margin-top: 3.0rem;
+    background: #ff4545;
+    color: white;
 }
 
     input[type="submit"]:active {

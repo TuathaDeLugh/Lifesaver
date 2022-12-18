@@ -10,14 +10,14 @@
 <tr>
 <td>Old Password</td>
 <td>
-    <asp:TextBox ID="TextBox1" runat="server"  CssClass="design" AutoPostBack="True"></asp:TextBox>
+    <asp:TextBox ID="TextBox1" runat="server"  CssClass="design" AutoPostBack="True" TextMode="Password"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Enter old password first" ControlToValidate="TextBox1" Display="Dynamic" ForeColor="#CC0000"></asp:RequiredFieldValidator>
    </td>
 </tr>
 <tr>
 <td>New Password</td>
 <td>
-    <asp:TextBox ID="TextBox2" runat="server"  CssClass="design" Enabled="False"></asp:TextBox>
+    <asp:TextBox ID="TextBox2" runat="server"  CssClass="design" Enabled="False" TextMode="Password"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Password can't be blank" ControlToValidate="TextBox2" Display="Dynamic" ForeColor="#CC0000"></asp:RequiredFieldValidator>
    </td>
     
@@ -25,7 +25,7 @@
 <tr>
 <td>Confirm Password</td>
 <td>
-    <asp:TextBox ID="TextBox3" runat="server"   CssClass="design" Enabled="False"></asp:TextBox>
+    <asp:TextBox ID="TextBox3" runat="server"   CssClass="design" Enabled="False" TextMode="Password"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="*confirm Password can't be blank" ControlToValidate="TextBox3" Display="Dynamic" ForeColor="#CC0000"></asp:RequiredFieldValidator>
 
     <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="*Password is not matching" ControlToCompare="TextBox2" ControlToValidate="TextBox3" Display="Dynamic" ForeColor="#CC0000"></asp:CompareValidator>

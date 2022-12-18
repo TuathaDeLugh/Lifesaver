@@ -8,10 +8,7 @@
     td {
         border-bottom: .1rem solid #ddd;
     }
-    input[type="submit"] {
-        background: #ff4545;
-        color:black;
-    }
+
 }
 /*dark*/
 @media (prefers-color-scheme: dark) {
@@ -26,10 +23,7 @@
     td {
         border-bottom: .1rem solid rgba(237, 237, 237, 0.25);
     }
-    input[type="submit"] {
-        background: #ff4545;
-        color: white;
-    }
+
     input[type="number"] {
         background: #181818;
         color: white;
@@ -84,6 +78,7 @@ input[type="submit"] {
     border-radius: .4rem;
     font-weight: 600;
     width: 100%;
+    color:white;
 }
 
     input[type="submit"]:active {
