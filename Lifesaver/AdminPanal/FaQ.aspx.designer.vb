@@ -23,15 +23,6 @@ Partial Public Class FaQ
     Protected WithEvents DropDownList1 As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Button3 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Button3 As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
     '''ListView1 control.
     '''</summary>
     '''<remarks>

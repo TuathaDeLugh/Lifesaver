@@ -11,6 +11,7 @@
     td {
         border-bottom: .1rem solid #ddd;
     }
+
 }
 /*dark*/
 @media (prefers-color-scheme: dark) {
@@ -36,7 +37,7 @@
         background-color: #181818;
         color: white;
     }
-
+}
     textarea {
         background-color: #181818;
         color: white;
@@ -126,6 +127,7 @@ input[type="submit"] {
     border-radius: .4rem;
     font-weight: 600;
     padding: 1.1rem 4.5rem;
+    color:white;
 }
 
     input[type="submit"]:active {

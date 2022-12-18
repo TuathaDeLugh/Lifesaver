@@ -6,7 +6,7 @@
 <div class="block">
     <div class="heading"><h2><i><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label> Profile</i></h2></div>
     <table>
-    <tr><td><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Bloodbank/change.aspx">Change Password</asp:HyperLink></td></tr>
+    <tr><td><asp:LinkButton ID="LinkButton1" runat="server">Change Password</asp:LinkButton></td></tr>
 <tr>
 <td>Username</td>
 <td>

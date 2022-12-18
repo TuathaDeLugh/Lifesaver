@@ -19,10 +19,6 @@ Public Class FaQ
         End If
     End Sub
 
-    Protected Sub ListView1_SelectedIndexChanged(sender As Object, e As EventArgs)
-
-    End Sub
-
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
         con.Open()
@@ -61,7 +57,7 @@ Public Class FaQ
         con.Close()
     End Sub
 
-    Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Protected Sub DropDownList1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles DropDownList1.SelectedIndexChanged
         con.Open()
         Dim sql As String
         If DropDownList1.SelectedValue = "*" Then
@@ -69,11 +65,18 @@ Public Class FaQ
         Else
             sql = "select * from feedback where type='" & DropDownList1.SelectedValue & "'"
         End If
-        Dim ad As New SqlDataAdapter(Sql, con)
+        Dim ad As New SqlDataAdapter(sql, con)
         Dim ds As New DataSet
         ad.Fill(ds)
         ad.Fill(ds)
         ListView1.DataSource = ds
         ListView1.DataBind()
+        If DropDownList1.SelectedValue = "*" Then
+            Button1.Text = "Clear All"
+        ElseIf DropDownList1.SelectedValue = "bbadd" Then
+            Button1.Text = "Clear BloodBankAdd"
+        Else
+            Button1.Text = "Clear " + DropDownList1.SelectedValue
+        End If
     End Sub
 End Class

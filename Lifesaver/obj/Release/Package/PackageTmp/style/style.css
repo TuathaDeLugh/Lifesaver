@@ -32,9 +32,7 @@
 			color: black;
 		}
 
-	input[type="submit"] {	
-		background: #ff4545;
-	}
+
 
 	.design .squre {
 		box-shadow: 0 2.5rem 4.5rem rgba(0, 0, 0, 0.1);
@@ -93,9 +91,7 @@
 		color:White;
 	}
 
-	input[type="submit"] {
-		background: #ff4545;
-	}
+
 
 	.design .squre {
 		box-shadow: 0 2.5rem 4.5rem rgba(0, 0, 0, 0.1);
@@ -146,7 +142,7 @@ body {
 .box::before 
 {
 	content: '';
-	z-index: 1;
+	z-index: 5;
 	position: absolute;
 	top: -50%;
 	left: -50%;
@@ -159,7 +155,7 @@ body {
 .box::after 
 {
 	content: '';
-	z-index: 1;
+	z-index: 5;
 	position: absolute;
 	top: -50%;
 	left: -50%;
@@ -188,7 +184,7 @@ form
 	font-size:1.5rem;
 	padding: 3.0rem 4.0rem;
 	border-radius: .8rem;
-	z-index: 2;
+	z-index: 6;
 	display: flex;
 	flex-direction: column;
 }
@@ -225,16 +221,17 @@ h2
 
     
 input[type="submit"]
-{
+{	
 	border: none;
 	outline: none;
 	padding: 1.1rem 2.5rem;
-
 	cursor: pointer;
 	border-radius: .4rem;
 	font-weight: 600;
 	width: 100%;
 	margin-top: 2.5rem;
+	background: #ff4545;
+	color: white;
 }
 input[type="submit"]:active 
 {
@@ -314,7 +311,7 @@ input[type="submit"]:active
  .footer
 { 
   padding: .5rem;
-
+  z-index:10;
   overflow: hidden;
   position: fixed;
   bottom: 0;
@@ -328,7 +325,7 @@ input[type="submit"]:active
 	position: fixed;
 	top: 0; 
 	width: 100%;
-
+	z-index:10;
   }
   .header ul {   
 	list-style-type: none;  

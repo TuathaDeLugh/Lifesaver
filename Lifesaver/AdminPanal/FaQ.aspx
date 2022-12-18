@@ -8,12 +8,12 @@
     <div class ="block">
 <div class="heading">
 <h2><i>Feedback & Question</i></h2></div>
-        <div class="filter">Filter By <asp:DropDownList ID="DropDownList1" runat="server">
+        <div class="filter">Filter By <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True">
             <asp:ListItem Value="*">all</asp:ListItem>
             <asp:ListItem Value="feedback">Feed back</asp:ListItem>
             <asp:ListItem Value="question">Question</asp:ListItem>
             <asp:ListItem Value="bbadd">Blood Bank Add</asp:ListItem>
-            </asp:DropDownList> <asp:Button ID="Button3" runat="server" Text="Display" /></div>
+            </asp:DropDownList> </div>
         <table>
             
             <tr>
@@ -132,7 +132,7 @@
             </tr>
         </table>
         <div class="button">
-        <asp:Button ID="Button1" runat="server" Text="Clear Feed back"  />
+        <asp:Button ID="Button1" runat="server" Text="Clear All"  />
         <asp:Button ID="Button2" runat="server" Text="Add temp Data" />
         </div>
         </div>
