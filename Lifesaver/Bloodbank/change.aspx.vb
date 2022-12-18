@@ -25,7 +25,7 @@ Public Class change1
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
+        con.Open()
         Try
             Dim cmd As New SqlCommand("update weblogin set password='" & TextBox3.Text & "' where username =" & Session("a") & "", con)
             cmd.ExecuteNonQuery()
@@ -34,7 +34,7 @@ Public Class change1
         Catch ex As Exception
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' con error ','','warning')", True)
         End Try
-
+        con.Close()
 
     End Sub
 End Class

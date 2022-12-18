@@ -11,7 +11,7 @@
 <td>
     <asp:TextBox ID="TextBox1" runat="server" CssClass="design" 
         TextMode="MultiLine" Height="400px" Width="600px"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Tip Data is require" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Tip Data is require" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
 
     </td></tr><tr>
     <td><asp:Button ID="Button1" runat="server" Text="Update" /></td>
