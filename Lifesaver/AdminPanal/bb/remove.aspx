@@ -21,8 +21,10 @@
 
     </td>
 </tr>
-<tr><td><asp:Button ID="Button1" runat="server" Text="Delete" Height="40px" 
+<tr><td></td>
+    <td>
+        <asp:Button ID="Button1" runat="server" Text="Remove Blood Bank" Height="40px" 
         Width="200px" /></td>
-</tr>         
+</tr>        
     </table></div></center>
 </asp:Content>

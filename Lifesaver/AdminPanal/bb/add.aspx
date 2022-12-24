@@ -71,9 +71,10 @@
 
     </td>
 </tr>
-<tr><td><asp:Button ID="Button1" runat="server" Text="ADD" Height="40px" 
+<tr><td></td>
+    <td>
+        <asp:Button ID="Button1" runat="server" Text="Add Blood Bank" Height="40px" 
         Width="200px" /></td>
-    
 </tr>
          
 

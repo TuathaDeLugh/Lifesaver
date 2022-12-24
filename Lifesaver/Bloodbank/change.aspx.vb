@@ -10,11 +10,13 @@ Public Class change1
 
     Protected Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
         con.Open()
-        Dim ad As New SqlDataAdapter("select * from weblogin where password='" & TextBox1.Text & "' And username='" & Session("a") & "'", con)
+        Dim ad As New SqlDataAdapter("select * from weblogin where password='" & TextBox1.Text & "' And username ='" & Session("a") & "'", con)
         Dim ds As New DataSet
         ad.Fill(ds)
         If ds.Tables(0).Rows.Count > 0 Then
-
+            TextBox1.TextMode = TextBoxMode.SingleLine
+            TextBox1.Text = "••••••••••••••••"
+            TextBox1.Enabled = False
             TextBox2.Enabled = True
             TextBox3.Enabled = True
 

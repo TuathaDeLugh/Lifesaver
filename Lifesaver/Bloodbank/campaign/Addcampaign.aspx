@@ -3,9 +3,10 @@
     <link href="../../style/Bloodbank/addcampaign.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+    <center>
     <div class="block1">
     <div class="heading"><h2><i>Add Campaign</i></h2></div>
-        <center>
+        
     <table>
 <tr>
 <td>Name</td>
@@ -63,10 +64,10 @@
 </td>
 </tr>
 
-<tr><td><asp:Button ID="Button1" runat="server" Text="Create Campaign" Height="40px" 
-        Width="200px" /></td>
+<tr><td></td>
     <td>
-        <asp:Label ID="Label1" runat="server" Text="Label" Visible="False" ForeColor="Red"></asp:Label></td>
+        <asp:Button ID="Button1" runat="server" Text="Create Campaign" Height="40px" 
+        Width="200px" /></td>
 </tr>
-    </table></center></div>
+    </table></div></center>
 </asp:Content>

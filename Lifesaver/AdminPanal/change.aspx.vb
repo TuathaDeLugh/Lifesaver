@@ -18,7 +18,9 @@ Public Class change
         Dim ds As New DataSet
         ad.Fill(ds)
         If ds.Tables(0).Rows.Count > 0 Then
-
+            TextBox1.TextMode = TextBoxMode.SingleLine
+            TextBox1.Text = "••••••••••••••••"
+            TextBox1.Enabled = False
             TextBox2.Enabled = True
             TextBox3.Enabled = True
 

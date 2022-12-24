@@ -133,6 +133,7 @@
     <Content Include="style\Bloodbank\bbblooddata.css" />
     <Content Include="style\Bloodbank\bbcampaign.css" />
     <Content Include="style\Bloodbank\updatecamp.css" />
+    <Content Include="style\common\centerbox.css" />
     <Content Include="style\common\homepage.css" />
     <Content Include="style\index.css" />
     <Content Include="style\Master\master.css" />
