@@ -141,8 +141,6 @@
     <Content Include="style\Master\side.css" />
     <Content Include="style\style.css" />
     <Content Include="style\Admin\TOD.css" />
-    <Content Include="try.aspx" />
-    <Content Include="try.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -335,20 +333,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="try.aspx.designer.vb">
-      <DependentUpon>try.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="try.aspx.vb">
-      <DependentUpon>try.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="try.master.designer.vb">
-      <DependentUpon>try.master</DependentUpon>
-    </Compile>
-    <Compile Include="try.master.vb">
-      <DependentUpon>try.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -372,7 +356,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <Content Include="try.master" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

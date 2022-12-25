@@ -75,7 +75,7 @@
     list-style: none;
     margin: 1rem 0.7rem;
     text-align: left;
-    font-size: 2.0rem;
+    font-size: 1.7rem;
 }
 .content{
     margin-left:20rem;
@@ -89,4 +89,5 @@
 .link:hover,.link a:hover
 {
     transform: scale(1.05);
+    font-weight:500;
 }
