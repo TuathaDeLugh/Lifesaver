@@ -3,6 +3,7 @@
     <link href="../style/common/profile.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="content">
     <center><div class="block">
  <div class="heading"><h2><i>Tip Of The Day No. :<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label> </i></h2></div>
  <table>
@@ -18,4 +19,5 @@
 </tr>
 </table>
 </div></center>
+        </div>
 </asp:Content>

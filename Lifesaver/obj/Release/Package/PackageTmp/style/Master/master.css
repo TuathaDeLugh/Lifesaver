@@ -1,15 +1,15 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-    html {
-        font-size: 62.5%;
-    }
+html {
+    font-size: 62.5%;
+}
 
 @media (prefers-color-scheme: light) {
- body{
+    body {
+        background-color: white;
+    }
 
-     background-color:white;
- }
- .heading h2 i {
+    .heading h2 i {
         background: white;
     }
 
@@ -20,32 +20,34 @@
         ::-webkit-scrollbar-thumb:hover {
             background: #999da0;
         }
-
 }
+
 @media (prefers-color-scheme: dark) {
 
     body {
         background-color: #181818;
     }
+
     .heading h2 i {
         background: #181818;
     }
     /*:root {
         color-scheme: dark;
     }*/
-    
+
 
     ::-webkit-scrollbar-thumb {
-        background:#777b7e ;
+        background: #777b7e;
     }
 
         ::-webkit-scrollbar-thumb:hover {
             background: #48494b;
         }
-    }
+}
+
 * {
-    margin:0;
-    padding:0;      
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -54,65 +56,101 @@ body {
 }
 
 .footer {
+    position: relative;
     background: black;
     color: White;
     padding-top: .3rem;
     padding-bottom: .3rem;
     left: 0;
     width: 100%;
+    height:2rem;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    z-index: 999999;
 }
 
-.header
-{  font-family: 'Poppins', sans-serif; 
-    top:0;
-    left:0;
-     position:fixed;
-    width : 100%;
-    text-align : center;
-    transition: all 300ms ease-in-out;
-    z-index:999999;
-}
-.header ul
-{
-    overflow: hidden;
-    background:#000;
-    width : 100%;
+.header {
+    font-family: 'Poppins', sans-serif;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    z-index: 999999;
 }
 
-    .header ul>.data>a {
-        text-decoration: none;
-        display: inline-block;
-        list-style: none;
-        margin: 1.0rem .7rem;
-        color: #fff;
+    .header ul {
+        overflow: hidden;
+        background: #000;
+        width: 100%;
     }
+
+.data > a {
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    margin: 1.0rem .7rem;
+    color: #fff;
+}
+
+.data:hover {
+    transform: scale(1.1);
+    font-weight: 700;
+}
+
+.data {
+    position: relative;
+}
+
+    .data::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 2px;
+        background-color: #fff;
+        transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+@media (hover: hover) and (pointer: fine) {
+    .data:hover::before {
+        left: 0;
+        right: auto;
+        width: 100%;
+    }
+}
+
 li {
     display: inline-block;
     margin: 1.0rem .7rem;
 }
+
 .logo {
+    padding-left:1rem;
     text-decoration: none;
     list-style: none;
     color: #fff;
-   
 }
-.content {
-    min-height: 89.89vh; /*
-    min-height: 91vh;*/
-    padding-top: 6.8rem;
+.content{
+    margin-top:7.5rem;
+}
+main {
+    
+    min-height: 89.5vh;
+/*    padding-top: 6.8rem;*/
+    
 }
 
-.scroll-down .header{
-	 
-		transform: translate3d(0, -100%, 0);
-	}
+.scroll-down .header {
+    transform: translate3d(0, -100%, 0);
+}
 
-.scroll-up .header{
-	 
-		filter: drop-shadow(0 -1.0rem 2.0rem rgb(170, 170, 170));
-	}
+.scroll-up .header {
+    filter: drop-shadow(0 -1.0rem 2.0rem rgba(170, 170, 170,0.4));
+}
+
 .heading h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -121,39 +159,38 @@ li {
     text-align: center;
     position: relative;
 }
-.heading h2:before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    left: 0;
-    top: 2.2rem;
-    background:red;
-    height: .1rem;
-}
-.heading h2 i {
-    font-style: normal;
-    position: relative;
-    padding: 1.0rem;
-}
-.header a:hover
-{
-    transform: scale(1.05);
-}
+
+    .heading h2:before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        left: 0;
+        top: 2.2rem;
+        background: red;
+        height: .1rem;
+    }
+
+    .heading h2 i {
+        font-style: normal;
+        position: relative;
+        padding: 1.0rem;
+    }
+
 
 /*Scroll*/
 
 ::-webkit-scrollbar {
     width: 1.0rem;
 }
+
 ::-webkit-scrollbar-track {
     opacity: 0;
 }
+
 ::-webkit-scrollbar-thumb {
     border-radius: 1.0rem;
 }
 
- ::-webkit-scrollbar-thumb:hover {
+    ::-webkit-scrollbar-thumb:hover {
         border-radius: 1.0rem;
     }
-
-

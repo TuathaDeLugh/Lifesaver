@@ -4,7 +4,8 @@
     <link href="../style/common/profile.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="../../js/sweet.js"></script>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"><center>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="content"><center>
 <div class="block">
     <div class="heading"><h2><i><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label> Profile</i></h2></div>
     <table>
@@ -88,5 +89,5 @@
 <td><asp:Button ID="Button2" runat="server" Text="Save" Height="40px" 
         Visible="False" Width="200px" /></td></tr>
     </table></div></center>
-    
+    </div>
 </asp:Content>

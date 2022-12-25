@@ -1,11 +1,11 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Bloodbank/master/bbcapaign.master" CodeBehind="Addcampaign.aspx.vb" Inherits="Lifesaver.Addcampaign" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/user.master" CodeBehind="createcamp.aspx.vb" Inherits="Lifesaver.createcamp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head1" runat="server">
     <link href="../../style/Bloodbank/addcampaign.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-    <center>
+<center>
     <div class="block1">
-    <div class="heading"><h2><i>Add Campaign</i></h2></div>
+    <div class="heading"><h2><i>Create Campaign</i></h2></div>
         
     <table>
 <tr>
@@ -59,7 +59,7 @@
 <td>Time</td>
 <td>
     <asp:TextBox ID="TextBox8" runat="server"  CssClass="design" TextMode="Time"></asp:TextBox>  To <asp:TextBox ID="TextBox9" runat="server"  CssClass="design" TextMode="Time" ></asp:TextBox>
-    <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator8" runat="server" ErrorMessage="Campaign Time Is Required." ControlToValidate="TextBox8" ForeColor="Red"></asp:RequiredFieldValidator>
+    <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator8" runat="server" ErrorMessage="Campaign time Is Required." ControlToValidate="TextBox8" ForeColor="Red"></asp:RequiredFieldValidator>
     
 </td>
 </tr>

@@ -1,10 +1,11 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/main.Master" CodeBehind="change.aspx.vb" Inherits="Lifesaver.change" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../style/common/profile.css" rel="stylesheet" />
+    <link href="../style/common/centerbox.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <center>
-    <div class="block">
+    <div class="content">
+    <div class="box">
     <div class="heading"><h2><i>Change Password</i></h2></div>
     <table>
 <tr>
@@ -33,8 +34,11 @@
 </tr>
 
 
-<tr><td><asp:Button ID="Button1" runat="server" Text="Update password" Height="40px" 
+<tr><td></td>
+    <td>
+        <asp:Button ID="Button1" runat="server" Text="Update Password" Height="40px" 
         Width="200px" /></td>
-    </tr>
-    </table></div></center>
+</tr>
+    </table></div>
+        </div>
 </asp:Content>

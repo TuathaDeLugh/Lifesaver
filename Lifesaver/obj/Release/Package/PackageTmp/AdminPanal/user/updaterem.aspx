@@ -1,10 +1,9 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Bloodbank/master/bbcapaign.master" CodeBehind="update.aspx.vb" Inherits="Lifesaver.update" %>
-
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/user.master" CodeBehind="updaterem.aspx.vb" Inherits="Lifesaver.updaterem" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head1" runat="server">
     <link href="../../style/Bloodbank/updatecamp.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-    <div class="block1">
+<div class="block1">
         <div class="updatebox">
             Enter Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             <asp:Button ID="Button1" runat="server" Text="Fill" Height="40px" Width="110px" CausesValidation="False"/><br/>
@@ -89,7 +88,7 @@
         <Columns>
             <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="name" />
             <asp:BoundField DataField="Pincode" HeaderText="Pincode" SortExpression="pincode" />
-            <asp:BoundField DataField="MNo" HeaderText="Mobile no" SortExpression="mno" />
+            <asp:BoundField DataField="mno" HeaderText="Mobile Number" SortExpression="mno" />
             <asp:BoundField DataField="Date" HeaderText="Date" SortExpression="date" />
             <asp:BoundField DataField="Approve" HeaderText="Approve" SortExpression="approve" />
         </Columns>

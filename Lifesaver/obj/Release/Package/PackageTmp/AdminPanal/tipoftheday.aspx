@@ -3,6 +3,7 @@
     <link href="../style/Admin/TOD.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="content">
 <div class="block"><div class="heading">
 <center><h2><i>Tip Of The Day</i></h2></center></div>
 <div class="cards">
@@ -104,4 +105,5 @@
     </div>
     </div>
     </div>
+        </div>
 </asp:Content>

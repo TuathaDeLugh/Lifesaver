@@ -6,8 +6,8 @@
         box-shadow: .0rem .0rem .2rem rgba(0, 0, 0, 0.25);
     }
 
-    .sidenav{
-        border-block-color:black;
+    .sidenav,hr {
+        border-color:rgba(0,0,0,0.25);
     }
         .sidenav ul li, .sidenav a {
             
@@ -21,8 +21,8 @@
         box-shadow: .0rem .0rem .2rem rgba(255, 255, 255, 0.25);
     }
 
-    .sidenav {
-        border-color: rgba(237, 237, 237, 0.25);
+    .sidenav,hr {
+        border-color: rgba(255,255,255,0.25);
     }
 
         .sidenav ul li, .sidenav a {
@@ -44,24 +44,49 @@
               flex-direction : row;
                
             }
-.sidenav
-{
-     width :inherit;
-     border-style:solid;
-     border-bottom-width:.0rem;
-     border-top-width:.0rem;
-     border-left-width:.0rem;
-     border-right-width:.1rem;
- }
-.sidenav ul li,.sidenav ul li a
-{
-    padding:.5rem;
-    display:block;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.sidenav {
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    height: 100%;
+    width: 18rem;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    border-style:solid;
+    border-width:1px;
+    border-left:0;
+    border-top:0;
+}
+
+.logos {
+
+    padding-left: 1rem;
+    list-style-type: none;
+    text-decoration: none;
+}
+.link span {
+    padding-left: 3rem;
+    font-weight:600;
     text-decoration: none;
     list-style: none;
-    margin:1.0rem .7rem;
-    text-align:left;
-    font-size:2.0rem;
+    margin: 1rem 0.7rem;
+    text-align: center;
+    font-size: 1.7rem;
+}
+.link a{
+    padding-left: 1.9rem;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem 0.7rem;
+    text-align: left;
+    font-size: 1.7rem;
+}
+.content{
+    margin-left:20rem;
 }
 .d
 { 
@@ -69,7 +94,8 @@
     padding:.5rem;
     flex-grow:1;
 }
-.sidenav ul li:hover,.sidenav a:hover
+.link a:hover
 {
     transform: scale(1.05);
+    font-weight:500;
 }

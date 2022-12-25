@@ -5,7 +5,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+<div class="content">
 <div class ="block">
 <div class="heading">
 <h2><i>User Data</i></h2></div>
@@ -136,6 +136,7 @@
           AB- Avaliable Blood Banks
       </h3>
     
+    </div>
     </div>
     </div>
     </div>
