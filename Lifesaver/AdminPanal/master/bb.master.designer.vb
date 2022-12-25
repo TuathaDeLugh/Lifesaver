@@ -50,6 +50,15 @@ Partial Public Class bb
     Protected WithEvents HyperLink4 As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
+    '''main control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents main As Global.System.Web.UI.WebControls.ContentPlaceHolder
+
+    '''<summary>
     '''ContentPlaceHolder2 control.
     '''</summary>
     '''<remarks>

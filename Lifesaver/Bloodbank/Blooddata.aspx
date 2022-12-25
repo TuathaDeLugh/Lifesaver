@@ -3,12 +3,11 @@
     <link href="../style/Bloodbank/bbblooddata.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="content">
     <center>
 <div class="block">
 <div class="heading"><center><h2><i><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label> Blood Data</i></h2></center></div>
     <table>
-
-
 <tr>
 <th colspan="2">O</th>
 </tr>
@@ -45,7 +44,7 @@
 				<asp:TextBox ID="TextBox5" runat="server" TextMode="Number"></asp:TextBox></div>
     </td>
     <td>
-    <div class="inputBox">
+        <div class="inputBox">
             <span>B-</span>
 				<asp:TextBox ID="TextBox6" runat="server" TextMode="Number"></asp:TextBox></td>
                 </div>
@@ -70,4 +69,5 @@
  </table>
  </div>
         </center>
+    </div>
 </asp:Content>

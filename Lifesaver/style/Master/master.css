@@ -56,14 +56,17 @@ body {
 }
 
 .footer {
+    position: relative;
     background: black;
     color: White;
     padding-top: .3rem;
     padding-bottom: .3rem;
     left: 0;
     width: 100%;
+    height:2rem;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    z-index: 999999;
 }
 
 .header {
@@ -125,15 +128,19 @@ li {
 }
 
 .logo {
+    padding-left:1rem;
     text-decoration: none;
     list-style: none;
     color: #fff;
 }
-
-.content {
-    min-height: 89.89vh; /*
-    min-height: 91vh;*/
-    padding-top: 6.8rem;
+.content{
+    margin-top:7.5rem;
+}
+main {
+    
+    min-height: 89.5vh;
+/*    padding-top: 6.8rem;*/
+    
 }
 
 .scroll-down .header {

@@ -4,7 +4,7 @@
     <link href="../style/Admin/faq.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
- 
+ <div class="content">
     <div class ="block">
 <div class="heading">
 <h2><i>Feedback & Question</i></h2></div>
@@ -136,4 +136,5 @@
         <asp:Button ID="Button2" runat="server" Text="Add temp Data" />
         </div>
         </div>
+     </div>
 </asp:Content>

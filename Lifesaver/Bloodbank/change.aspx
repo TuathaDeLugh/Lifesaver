@@ -4,6 +4,7 @@
     <link href="../style/common/centerbox.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="content">
     <div class="box">
     <div class="heading"><h2><i>Change Password</i></h2></div>
     <table>
@@ -39,4 +40,5 @@
         Width="200px" /></td>
 </tr>
     </table></div>
+        </div>
 </asp:Content>
