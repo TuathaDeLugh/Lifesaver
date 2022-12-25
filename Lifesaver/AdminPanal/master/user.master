@@ -1,0 +1,35 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/AdminPanal/master/main.Master" AutoEventWireup="false" CodeBehind="user.master.vb" Inherits="Lifesaver.user" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+<link href="../../style/Master/side.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head1" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="sidenav">
+<ul>
+<li  style="float:left;font-size : 30px;"><a class="logos" href="~/index.html">Life Saver</a></li>
+<li class="link"><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/AdminPanal/user/bloodapprove.aspx">Blood Donation</asp:HyperLink></li>
+<li class="link"><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/AdminPanal/user/organ.aspx">Organ request</asp:HyperLink></li>
+<li class="link"><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/AdminPanal/user/removeuser.aspx">Remove users</asp:HyperLink></li>
+    <hr />
+    <li class="link"><span>Campaign</span></li>
+    <hr />
+<li class="link"><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/AdminPanal/user/campaign.aspx">Approve Cam.</asp:HyperLink></li>
+<li class="link"><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/AdminPanal/user/createcamp.aspx">Create Camp.</asp:HyperLink></li>
+<li class="link"><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/AdminPanal/user/updaterem.aspx">Camp. Action</asp:HyperLink></li></ul>
+</div>
+    
+    <div class="content">
+    <div class="block" style="height:inherit">
+
+
+<div class="container">
+
+<div class="d">
+<asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+</div>
+</div>
+</div>
+        </div>
+</asp:Content>

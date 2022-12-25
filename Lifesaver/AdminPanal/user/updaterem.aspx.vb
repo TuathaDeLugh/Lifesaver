@@ -1,7 +1,6 @@
 ﻿Imports System.Data.SqlClient
-Imports System.Drawing
 
-Public Class update
+Public Class updaterem
     Inherits System.Web.UI.Page
     Dim str As String = ConfigurationManager.ConnectionStrings("umangpc").ConnectionString
     Dim con As New SqlConnection(str)
@@ -18,24 +17,24 @@ Public Class update
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         con.Open()
         Dim sql As String = "select * from campaign where name='" & TextBox1.Text & "'"
-            Dim cd As New SqlCommand(sql, con)
-            Dim rd As SqlDataReader = cd.ExecuteReader
-            If rd.Read() Then
-                TextBox9.Text = rd("id")
-                TextBox2.Text = rd("name")
-                TextBox3.Text = rd("address")
-                TextBox4.Text = rd("pincode")
-                TextBox5.Text = rd("mno")
-                TextBox6.Text = rd("tagline")
-                TextBox7.Text = rd("date")
-                TextBox8.Text = rd("time")
-            Else
-                ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' No Data found You Brain Dead ','','error')", True)
+        Dim cd As New SqlCommand(sql, con)
+        Dim rd As SqlDataReader = cd.ExecuteReader
+        If rd.Read() Then
+            TextBox9.Text = rd("id")
+            TextBox2.Text = rd("name")
+            TextBox3.Text = rd("address")
+            TextBox4.Text = rd("pincode")
+            TextBox5.Text = rd("mno")
+            TextBox6.Text = rd("tagline")
+            TextBox7.Text = rd("date")
+            TextBox8.Text = rd("time")
+        Else
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' No Data found You Brain Dead ','','error')", True)
 
-            End If
+        End If
 
 
-            con.Close()
+        con.Close()
         TextBox2.Enabled = True
         TextBox3.Enabled = True
         TextBox4.Enabled = True

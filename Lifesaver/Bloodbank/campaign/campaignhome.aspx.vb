@@ -1,5 +1,5 @@
 ﻿Imports System.Data.SqlClient
-Imports System.Drawing
+
 
 Public Class campaignhome
     Inherits System.Web.UI.Page

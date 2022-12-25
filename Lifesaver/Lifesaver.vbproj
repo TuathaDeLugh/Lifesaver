@@ -111,6 +111,13 @@
     <Content Include="AdminPanal\profile.aspx" />
     <Content Include="AdminPanal\tipoftheday.aspx" />
     <Content Include="AdminPanal\todupdate.aspx" />
+    <Content Include="AdminPanal\user\bloodapprove.aspx" />
+    <Content Include="AdminPanal\user\campaign.aspx" />
+    <Content Include="AdminPanal\user\createcamp.aspx" />
+    <Content Include="AdminPanal\user\home.aspx" />
+    <Content Include="AdminPanal\user\organ.aspx" />
+    <Content Include="AdminPanal\user\removeuser.aspx" />
+    <Content Include="AdminPanal\user\updaterem.aspx" />
     <Content Include="Bloodbank\Blooddata.aspx" />
     <Content Include="Bloodbank\campaign\Addcampaign.aspx" />
     <Content Include="Bloodbank\campaign\campaignhome.aspx" />
@@ -222,6 +229,13 @@
       <DependentUpon>main.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="AdminPanal\master\user.master.designer.vb">
+      <DependentUpon>user.master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanal\master\user.master.vb">
+      <DependentUpon>user.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="AdminPanal\profile.aspx.designer.vb">
       <DependentUpon>profile.aspx</DependentUpon>
     </Compile>
@@ -242,6 +256,55 @@
     <Compile Include="AdminPanal\todupdate.aspx.vb">
       <DependentUpon>todupdate.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanal\user\bloodapprove.aspx.designer.vb">
+      <DependentUpon>bloodapprove.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanal\user\bloodapprove.aspx.vb">
+      <DependentUpon>bloodapprove.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanal\user\campaign.aspx.designer.vb">
+      <DependentUpon>campaign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanal\user\campaign.aspx.vb">
+      <DependentUpon>campaign.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanal\user\createcamp.aspx.designer.vb">
+      <DependentUpon>createcamp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanal\user\createcamp.aspx.vb">
+      <DependentUpon>createcamp.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanal\user\home.aspx.designer.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanal\user\home.aspx.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanal\user\organ.aspx.designer.vb">
+      <DependentUpon>organ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanal\user\organ.aspx.vb">
+      <DependentUpon>organ.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanal\user\removeuser.aspx.designer.vb">
+      <DependentUpon>removeuser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanal\user\removeuser.aspx.vb">
+      <DependentUpon>removeuser.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanal\user\updaterem.aspx.designer.vb">
+      <DependentUpon>updaterem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanal\user\updaterem.aspx.vb">
+      <DependentUpon>updaterem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Bloodbank\Blooddata.aspx.designer.vb">
       <DependentUpon>Blooddata.aspx</DependentUpon>
@@ -347,6 +410,7 @@
     <Content Include="Bloodbank\master\bbmain.Master" />
     <Content Include="AdminPanal\master\bb.master" />
     <Content Include="Bloodbank\master\bbcapaign.master" />
+    <Content Include="AdminPanal\master\user.master" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
