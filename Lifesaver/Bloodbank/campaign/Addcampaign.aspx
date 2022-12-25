@@ -52,14 +52,14 @@
 <td>Date</td>
 <td>
     <asp:TextBox ID="TextBox6" runat="server"  CssClass="design" TextMode="Date" ></asp:TextBox>  To <asp:TextBox ID="TextBox7" runat="server"  CssClass="design" TextMode="Date" ></asp:TextBox>
-           <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator6" runat="server" ErrorMessage="Campaign Date Is Required." ControlToValidate="TextBox5" ForeColor="Red"></asp:RequiredFieldValidator>
+           <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator6" runat="server" ErrorMessage="Campaign Date Is Required." ControlToValidate="TextBox6" ForeColor="Red"></asp:RequiredFieldValidator>
 </td>
 </tr>
 <tr>
 <td>Time</td>
 <td>
     <asp:TextBox ID="TextBox8" runat="server"  CssClass="design" TextMode="Time"></asp:TextBox>  To <asp:TextBox ID="TextBox9" runat="server"  CssClass="design" TextMode="Time" ></asp:TextBox>
-    <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator8" runat="server" ErrorMessage="Campaign Name Is Required." ControlToValidate="TextBox8" ForeColor="Red"></asp:RequiredFieldValidator>
+    <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator8" runat="server" ErrorMessage="Campaign Time Is Required." ControlToValidate="TextBox8" ForeColor="Red"></asp:RequiredFieldValidator>
     
 </td>
 </tr>
