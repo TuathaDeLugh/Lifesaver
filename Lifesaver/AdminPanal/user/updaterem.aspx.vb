@@ -49,26 +49,45 @@ Public Class updaterem
     End Sub
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        con.Open()
+
         Try
-            Dim cd As New SqlCommand("update campaign set name='" & TextBox2.Text & "',address='" & TextBox3.Text & "',pincode='" & TextBox4.Text & "',mno='" & TextBox5.Text & "',tagline='" & TextBox6.Text & "',date='" & TextBox7.Text & "',time='" & TextBox8.Text & "'where id=" & TextBox9.Text & "", con)
+            con.Open()
+            Dim cd As New SqlCommand("update campaign set name='" & TextBox2.Text & "',address='" & TextBox3.Text & "',pincode='" & TextBox4.Text & "',mno='" & TextBox5.Text & "',tagline='" & TextBox6.Text & "',date='" & TextBox7.Text & "',time='" & TextBox8.Text & "',approve='no' where id=" & TextBox9.Text & "", con)
             cd.ExecuteNonQuery()
+            con.Close()
+            con.Open()
+            Dim sql As String = "select name,pincode,mno,date,approve from campaign where username='" & Session("a") & "'"
+            Dim ad As New SqlDataAdapter(sql, con)
+            Dim ds As New DataSet
+            ad.Fill(ds)
+            GridView1.DataSource = ds
+            GridView1.DataBind()
+            con.Close()
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Campaign Updated','If campaign was approved or rejected It goes into pandng list','success')", True)
         Catch
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' No Data found You Brain Dead ','','error')", True)
         End Try
-        con.Close()
     End Sub
     Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         con.Open()
         Try
             Dim cd As New SqlCommand("delete from campaign where id=" & TextBox9.Text & "", con)
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Campaign Deleted','','success')", True)
             cd.ExecuteNonQuery()
+            con.Close()
+            con.Open()
+            Dim sql As String = "select name,pincode,mno,date,approve from campaign where username='" & Session("a") & "'"
+            Dim ad As New SqlDataAdapter(sql, con)
+            Dim ds As New DataSet
+            ad.Fill(ds)
+            GridView1.DataSource = ds
+            GridView1.DataBind()
+            con.Close()
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Campaign Deleted','','success')", True)
+
         Catch
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' No campaign Data found','','error')", True)
         End Try
-        con.Close()
+
     End Sub
 
 
