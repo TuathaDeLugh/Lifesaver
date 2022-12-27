@@ -2,10 +2,9 @@
     Inherits System.Web.UI.MasterPage
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        'Session("a") = "admin"
-        'If String.IsNullOrEmpty(Session("a")) Then
-        '    Response.Redirect("~/login.aspx")
-        'End If
+        If String.IsNullOrEmpty(Session("a")) Then
+            Response.Redirect("~/login.aspx")
+        End If
         Label1.Text = Session("a") + " Profile"
 
     End Sub

@@ -57,8 +57,7 @@ th {
         display: inline-block;
         list-style: none;
     }
-
-input[type="button"] {
+.reject{
     color: white;
     border: none;
     outline: none;
@@ -69,11 +68,25 @@ input[type="button"] {
     font-weight: 600;
     width: 10.0rem;
 }
+.approve {
+    color: white;
+    border: none;
+    outline: none;
+    padding: 1.1rem 2.5rem;
+    background: #87CEFA;
+    cursor: pointer;
+    border-radius: .4rem;
+    font-weight: 600;
+    width: 10.0rem;
+}
 
-    input[type="button"]:active {
-        opacity: 0.8;
-    }
+.approve:active, .reject:active {
+    opacity: 0.8;
+}
 
-    input[type="button"]:hover {
-        background: #D10000;
+.approve:hover {
+        background: #4682B4;
     }
+.reject:hover {
+    background: #D10000;
+}

@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <asp:ScriptManager ID="ScriptManager1" runat="server" />
         <asp:Timer ID="AutoRefreshTimer" runat="server" 
-                Interval="5000" 
+                Interval="20000" 
                  ontick="AutoRefreshTimer_Tick"/>
 <div class="detail">
 <table >

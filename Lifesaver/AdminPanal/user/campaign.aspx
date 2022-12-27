@@ -4,18 +4,22 @@
     <link href="../../style/Admin/approvecampaign.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-    <asp:GridView ID="GridView1" runat="server"  AllowPaging="True" AutoGenerateColumns="False" OnRowCommand="GridView1_RowCommand">
+    <asp:GridView ID="GridView1" runat="server"  AllowPaging="True" AutoGenerateColumns="False" OnRowCommand="GridView1_RowCommand" max-Width="">
         <Columns>
-            <asp:BoundField DataField="username" HeaderText="username" SortExpression="username" />
-            <asp:BoundField DataField="name" HeaderText="name" SortExpression="name" />
-            <asp:BoundField DataField="address" HeaderText="address" SortExpression="address" />
-            <asp:BoundField DataField="pincode" HeaderText="pincode" SortExpression="pincode" />
-            <asp:BoundField DataField="mno" HeaderText="mno" SortExpression="mno" />
-            <asp:BoundField DataField="tagline" HeaderText="tagline" SortExpression="tagline" />
-            <asp:BoundField DataField="date" HeaderText="date" SortExpression="date" />
-            <asp:BoundField DataField="time" HeaderText="time" SortExpression="time" />
-            <asp:ButtonField CommandName="approve" InsertVisible="False" Text="approve" ButtonType="Button" />
-            <asp:ButtonField CommandName="reject" Text="Reject" ButtonType="Button" />
+            <asp:BoundField DataField="username" HeaderText="Username" SortExpression="username" />
+            <asp:BoundField DataField="name" HeaderText="Name" SortExpression="name" />
+            <asp:BoundField DataField="address" HeaderText="Address" SortExpression="address" />
+            <asp:BoundField DataField="pincode" HeaderText="Pincode" SortExpression="pincode" />
+            <asp:BoundField DataField="mno" HeaderText="Contact Number" SortExpression="mno" />
+            <asp:BoundField DataField="tagline" HeaderText="Tagline" SortExpression="tagline" />
+            <asp:BoundField DataField="date" HeaderText="Date" SortExpression="date" />
+            <asp:BoundField DataField="time" HeaderText="Time" SortExpression="time" />
+            <asp:ButtonField CommandName="approve" InsertVisible="False" Text="Approve" ButtonType="Button" HeaderText="Approve" >
+            <ControlStyle CssClass="approve" />
+            </asp:ButtonField>
+            <asp:ButtonField CommandName="reject" Text="Reject" ButtonType="Button" HeaderText="Reject">
+                <ControlStyle CssClass="reject" />
+            </asp:ButtonField>
         </Columns>
 
     </asp:GridView>

@@ -16,7 +16,7 @@ Public Class createcamp
         Dim cmd1 As New SqlCommand("insert into campaign (username,name,address,pincode,mno,tagline,date,time,approve) values ('" & Session("a") & "','" & TextBox1.Text & "','" & TextBox2.Text & "','" & TextBox3.Text & "','" & TextBox4.Text & "','" & TextBox5.Text & "','" & datedata & "','" & timedata & "','yes')", con)
         cmd1.ExecuteNonQuery()
         con.Close()
-        ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Campaign Added Now Wait For Approvement','','success')", True)
+        ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Campaign Added','','success')", True)
         con.Close()
     End Sub
 End Class

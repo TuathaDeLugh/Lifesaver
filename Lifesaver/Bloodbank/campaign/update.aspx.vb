@@ -28,24 +28,25 @@ Public Class update
                 TextBox5.Text = rd("mno")
                 TextBox6.Text = rd("tagline")
                 TextBox7.Text = rd("date")
-                TextBox8.Text = rd("time")
-            Else
-                ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' No Data found You Brain Dead ','','error')", True)
+            TextBox8.Text = rd("time")
+            TextBox2.Enabled = True
+            TextBox3.Enabled = True
+            TextBox4.Enabled = True
+            TextBox4.Enabled = True
+            TextBox5.Enabled = True
+            TextBox6.Enabled = True
+            TextBox7.Enabled = True
+            TextBox8.Enabled = True
+            Button2.Enabled = True
+            Button3.Enabled = True
+        Else
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' No Data found ','','error')", True)
 
-            End If
+        End If
 
 
             con.Close()
-        TextBox2.Enabled = True
-        TextBox3.Enabled = True
-        TextBox4.Enabled = True
-        TextBox4.Enabled = True
-        TextBox5.Enabled = True
-        TextBox6.Enabled = True
-        TextBox7.Enabled = True
-        TextBox8.Enabled = True
-        Button2.Enabled = True
-        Button3.Enabled = True
+
     End Sub
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -63,8 +64,17 @@ Public Class update
         con.Open()
         Try
             Dim cd As New SqlCommand("delete from campaign where id=" & TextBox9.Text & "", con)
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Campaign Deleted','','success')", True)
             cd.ExecuteNonQuery()
+            con.Open()
+            Dim sql As String = "select name,pincode,mno,date,approve from campaign where username='" & Session("a") & "'"
+            Dim ad As New SqlDataAdapter(sql, con)
+            Dim ds As New DataSet
+            ad.Fill(ds)
+            GridView1.DataSource = ds
+            GridView1.DataBind()
+            con.Close()
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Campaign Deleted','','success')", True)
+
         Catch
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' No campaign Data found','','error')", True)
         End Try

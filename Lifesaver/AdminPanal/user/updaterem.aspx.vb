@@ -28,23 +28,24 @@ Public Class updaterem
             TextBox6.Text = rd("tagline")
             TextBox7.Text = rd("date")
             TextBox8.Text = rd("time")
+            TextBox2.Enabled = True
+            TextBox3.Enabled = True
+            TextBox4.Enabled = True
+            TextBox4.Enabled = True
+            TextBox5.Enabled = True
+            TextBox6.Enabled = True
+            TextBox7.Enabled = True
+            TextBox8.Enabled = True
+            Button2.Enabled = True
+            Button3.Enabled = True
         Else
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' No Data found You Brain Dead ','','error')", True)
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' No Data found','','error')", True)
 
         End If
 
 
         con.Close()
-        TextBox2.Enabled = True
-        TextBox3.Enabled = True
-        TextBox4.Enabled = True
-        TextBox4.Enabled = True
-        TextBox5.Enabled = True
-        TextBox6.Enabled = True
-        TextBox7.Enabled = True
-        TextBox8.Enabled = True
-        Button2.Enabled = True
-        Button3.Enabled = True
+
     End Sub
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

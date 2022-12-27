@@ -37,7 +37,7 @@ Public Class campaign
             GridView1.DataSource = ds
             GridView1.DataBind()
             con.Close()
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Approved',' " & name & " ','success')", True)
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Approved','Campaign name: " & name & " ','success')", True)
 
         ElseIf e.CommandName = "reject" Then
             con.Open()
@@ -51,7 +51,7 @@ Public Class campaign
             GridView1.DataSource = ds
             GridView1.DataBind()
             con.Close()
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Rejected',' " & name & " ','success')", True)
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Rejected','Campaign name:  " & name & " ','info')", True)
 
         End If
         con.Close()
