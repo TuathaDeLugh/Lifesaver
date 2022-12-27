@@ -31,3 +31,14 @@ C:\Users\Umang Sailor\Source\Repos\Lifesaver\Lifesaver\obj\Debug\Lifesaver.vbpro
 C:\Users\Umang Sailor\Source\Repos\Lifesaver\Lifesaver\obj\Debug\Lifesaver.dll
 C:\Users\Umang Sailor\Source\Repos\Lifesaver\Lifesaver\obj\Debug\Lifesaver.xml
 C:\Users\Umang Sailor\Source\Repos\Lifesaver\Lifesaver\obj\Debug\Lifesaver.pdb
+D:\DATAOFASP\git\Lifesaver\bin\Lifesaver.dll.config
+D:\DATAOFASP\git\Lifesaver\bin\Lifesaver.dll
+D:\DATAOFASP\git\Lifesaver\bin\Lifesaver.pdb
+D:\DATAOFASP\git\Lifesaver\bin\Lifesaver.xml
+D:\DATAOFASP\git\Lifesaver\obj\Debug\Lifesaver.vbproj.AssemblyReference.cache
+D:\DATAOFASP\git\Lifesaver\obj\Debug\Lifesaver.Resources.resources
+D:\DATAOFASP\git\Lifesaver\obj\Debug\Lifesaver.vbproj.GenerateResource.cache
+D:\DATAOFASP\git\Lifesaver\obj\Debug\Lifesaver.vbproj.CoreCompileInputs.cache
+D:\DATAOFASP\git\Lifesaver\obj\Debug\Lifesaver.dll
+D:\DATAOFASP\git\Lifesaver\obj\Debug\Lifesaver.xml
+D:\DATAOFASP\git\Lifesaver\obj\Debug\Lifesaver.pdb

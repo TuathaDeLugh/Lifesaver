@@ -51,7 +51,7 @@ Public Class update
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         con.Open()
         Try
-            Dim cd As New SqlCommand("update campaign set name='" & TextBox2.Text & "',address='" & TextBox3.Text & "',pincode='" & TextBox4.Text & "',mno='" & TextBox5.Text & "',tagline='" & TextBox6.Text & "',date='" & TextBox7.Text & "',time='" & TextBox8.Text & "'where id=" & TextBox9.Text & "", con)
+            Dim cd As New SqlCommand("update campaign set name='" & TextBox2.Text & "',address='" & TextBox3.Text & "',pincode='" & TextBox4.Text & "',mno='" & TextBox5.Text & "',tagline='" & TextBox6.Text & "',date='" & TextBox7.Text & "',time='" & TextBox8.Text & "',approve='no' where id=" & TextBox9.Text & "", con)
             cd.ExecuteNonQuery()
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Campaign Updated','If campaign was approved or rejected It goes into pandng list','success')", True)
         Catch
