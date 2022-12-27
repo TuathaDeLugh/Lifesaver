@@ -6,6 +6,7 @@ Public Class campaignhome
     Dim str As String = ConfigurationManager.ConnectionStrings("umangpc").ConnectionString
     Dim con As New SqlConnection(str)
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
         con.Open()
         Dim sql As String = "select name,address,pincode,mno,tagline,date	,time from campaign where username='" & Session("a") & "'And approve='yes'"
         Dim ad As New SqlDataAdapter(sql, con)
@@ -17,18 +18,24 @@ Public Class campaignhome
 
         Dim sql1 As String = "select name,address,pincode,mno,tagline,date,time from campaign where username='" & Session("a") & "'And approve='no' "
         Dim ad1 As New SqlDataAdapter(sql1, con)
-            Dim ds1 As New DataSet
-            ad1.Fill(ds1)
-            GridView2.DataSource = ds1
-            GridView2.DataBind()
+        Dim ds1 As New DataSet
+        ad1.Fill(ds1)
+        GridView2.DataSource = ds1
+        GridView2.DataBind()
 
         Dim sql2 As String = "select name,address,pincode,mno,tagline,date,time from campaign where username='" & Session("a") & "'And approve='rejected'"
         Dim ad2 As New SqlDataAdapter(sql2, con)
-            Dim ds2 As New DataSet
+        Dim ds2 As New DataSet
         ad2.Fill(ds2)
         GridView3.DataSource = ds2
-            GridView3.DataBind()
+        GridView3.DataBind()
 
         con.Close()
+    End Sub
+    Protected Sub AutoRefreshTimer_Tick(ByVal sender As Object, ByVal e As EventArgs)
+        GridView1.DataBind()
+        GridView2.DataBind()
+        GridView3.DataBind()
+        Label1.Text = "Last Updated at " + DateTime.Now
     End Sub
 End Class

@@ -6,6 +6,7 @@ Public Class profile
     Dim userid As Integer
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
         Label1.Text = Session("a")
         If Not IsPostBack Then
             con.Open()

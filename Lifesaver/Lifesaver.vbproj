@@ -61,6 +61,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -135,6 +136,7 @@
     <Content Include="style\accrecov.css" />
     <Content Include="style\Admin\addremove.css" />
     <Content Include="style\Admin\adminbbhome.css" />
+    <Content Include="style\Admin\approvecampaign.css" />
     <Content Include="style\Admin\faq.css" />
     <Content Include="style\Bloodbank\addcampaign.css" />
     <Content Include="style\Bloodbank\bbblooddata.css" />
