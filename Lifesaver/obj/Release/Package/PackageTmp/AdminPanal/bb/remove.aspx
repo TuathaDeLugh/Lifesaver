@@ -17,7 +17,7 @@
 <td>email</td>
 <td>
     <asp:TextBox ID="TextBox5" runat="server"  CssClass="design"></asp:TextBox>
-        <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Name is require" ControlToValidate="TextBox5"></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator2" runat="server" ErrorMessage="*email is require" ControlToValidate="TextBox5"></asp:RequiredFieldValidator>
 
     </td>
 </tr>

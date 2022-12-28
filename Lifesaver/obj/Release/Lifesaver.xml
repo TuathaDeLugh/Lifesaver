@@ -1343,6 +1343,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.campaign._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.createcamp._TextBox1">
 <summary>
 TextBox1 control.
@@ -1919,6 +1928,24 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.campaignhome._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.campaignhome._AutoRefreshTimer">
+<summary>
+AutoRefreshTimer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.campaignhome._GridView1">
 <summary>
 GridView1 control.
@@ -1940,6 +1967,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Lifesaver.campaignhome._GridView3">
 <summary>
 GridView3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.campaignhome._Label1">
+<summary>
+Label1 control.
 </summary>
 <remarks>
 Auto-generated field.

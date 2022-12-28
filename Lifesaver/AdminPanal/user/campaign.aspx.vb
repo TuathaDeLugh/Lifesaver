@@ -37,7 +37,7 @@ Public Class campaign
             GridView1.DataSource = ds
             GridView1.DataBind()
             con.Close()
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Approved','Campaign name: " & name & " ','success')", True)
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "NolertNotify.setConfig({type: ('info'),position: ('bottom-right'),closeIn: 5000,iconType: ('success')});NolertNotify.trigger({message: '" & name & " Approved'});", True)
 
         ElseIf e.CommandName = "reject" Then
             con.Open()
@@ -51,7 +51,7 @@ Public Class campaign
             GridView1.DataSource = ds
             GridView1.DataBind()
             con.Close()
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Rejected','Campaign name:  " & name & " ','info')", True)
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "NolertNotify.setConfig({type: ('danger'),position: ('bottom-right'),closeIn: 5000,iconType: ('success')});NolertNotify.trigger({message: '" & name & " Rejected'});", True)
 
         End If
         con.Close()

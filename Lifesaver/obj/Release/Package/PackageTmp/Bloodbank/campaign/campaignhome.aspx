@@ -1,8 +1,13 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Bloodbank/master/bbcapaign.master" CodeBehind="campaignhome.aspx.vb" Inherits="Lifesaver.campaignhome" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head1" runat="server">
     <link href="../../style/Bloodbank/bbcampaign.css" rel="stylesheet" />
-</asp:Content>
+</asp:Content> 
+                  
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" />
+        <asp:Timer ID="AutoRefreshTimer" runat="server" 
+                Interval="20000" 
+                 ontick="AutoRefreshTimer_Tick"/>
 <div class="detail">
 <table >
     <tr>
@@ -50,6 +55,10 @@
     <br />
 </td>
 </tr>
+        <tr>
+            <td>
+                <asp:Label ID="Label1" runat="server" Text=""></asp:Label></td>
+        </tr>
 </table>
     
     </div>

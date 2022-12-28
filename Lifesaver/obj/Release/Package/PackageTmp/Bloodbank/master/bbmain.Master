@@ -15,7 +15,7 @@
     <form id="form1" runat="server">
         <nav class = "header">
             <ul id="menu">
-            <li  style="float:left;font-size : 30px;"><a class="logo" href="../index.html">Life Saver</a></li>
+            <li  style="float:left;font-size : 30px;"><a class="logo" href="https://umangsailor.bsite.net">Life Saver</a></li>
             <li class="data"><asp:HyperLink ID="HyperLink1" runat="server" 
                     NavigateUrl="~/Bloodbank/home.aspx">Home</asp:HyperLink></li>
          <li class="data"><asp:HyperLink ID="HyperLink2" runat="server" 
