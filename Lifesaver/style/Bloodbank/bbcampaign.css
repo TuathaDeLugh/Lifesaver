@@ -3,9 +3,7 @@
         box-shadow: .0rem .0rem .2rem rgba(0, 0, 0, 0.25);
     }
 
-    td {
-        border-bottom: .1rem solid #ddd;
-    }
+
     th {
         background-color: red;
     }
@@ -20,10 +18,7 @@
         color: white;
     }
 
-    td {
-        border-bottom: .1rem solid rgba(237, 237, 237, 0.25);
-        
-    }
+
     th {
         background-color: #800000;
     }
@@ -40,8 +35,7 @@
 }
 /*Design*/
 table {
-    margin-left: auto;
-    margin-right: auto;
+    width:100%;
     text-align: left;
 }
 
@@ -57,11 +51,12 @@ th {
 }
 
 td {
-    font-size: 2.0rem;
+    width:max-content;
+    font-size: 1.8rem;
     padding: 1.5rem;
     text-align: left;
 }
-u{
+td>u{
     font-family:Arial;
     font-size:3.0rem;
     text-decoration:none;

@@ -1,6 +1,11 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/user.master" CodeBehind="updaterem.aspx.vb" Inherits="Lifesaver.updaterem" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head1" runat="server">
     <link href="../../style/Bloodbank/updatecamp.css" rel="stylesheet" />
+        <style>.ca {
+    font-size:1.7rem;
+    font-weight:600;
+    
+}</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 <div class="block1">

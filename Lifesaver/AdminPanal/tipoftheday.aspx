@@ -1,6 +1,11 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/main.Master" CodeBehind="tipoftheday.aspx.vb" Inherits="Lifesaver.tipoftheday" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../style/Admin/TOD.css" rel="stylesheet" type="text/css" />
+        <style>.tod {
+    font-size:1.7rem;
+    font-weight:600;
+    
+}</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="content">

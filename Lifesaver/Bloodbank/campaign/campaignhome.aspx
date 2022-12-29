@@ -4,12 +4,14 @@
 </asp:Content> 
                   
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+    <div class="heading">
+<h2><i>Blood Bank</i></h2></div>
     <asp:ScriptManager ID="ScriptManager1" runat="server" />
         <asp:Timer ID="AutoRefreshTimer" runat="server" 
                 Interval="20000" 
                  ontick="AutoRefreshTimer_Tick"/>
-<div class="detail">
-<table >
+<div>
+<table>
     <tr>
         <td><u>Approved</u></td>
     </tr>
