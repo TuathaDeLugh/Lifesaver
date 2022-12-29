@@ -140,6 +140,7 @@
     <Content Include="style\Admin\adminbbhome.css" />
     <Content Include="style\Admin\approvecampaign.css" />
     <Content Include="style\Admin\faq.css" />
+    <Content Include="style\Admin\userhome.css" />
     <Content Include="style\Bloodbank\addcampaign.css" />
     <Content Include="style\Bloodbank\bbblooddata.css" />
     <Content Include="style\Bloodbank\bbcampaign.css" />

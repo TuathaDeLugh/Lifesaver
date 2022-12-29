@@ -1,7 +1,11 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/bb.master" CodeBehind="add.aspx.vb" Inherits="Lifesaver.add" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <link href="../../style/Admin/addremove.css" rel="stylesheet" type="text/css" />
+        <style>.add {
+    font-size:1.7rem;
+    font-weight:600;
     
+}</style>
 <center><div class="block1" >
     <div class="heading"><h2><i>Add Blood Bank</i></h2></div>
      <table>

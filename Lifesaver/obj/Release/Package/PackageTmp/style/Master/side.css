@@ -6,7 +6,7 @@
         box-shadow: .0rem .0rem .2rem rgba(0, 0, 0, 0.25);
     }
 
-    .sidenav,hr {
+    .sidenav {
         border-color:rgba(0,0,0,0.25);
     }
         .sidenav ul li, .sidenav a {
@@ -21,7 +21,7 @@
         box-shadow: .0rem .0rem .2rem rgba(255, 255, 255, 0.25);
     }
 
-    .sidenav,hr {
+    .sidenav{
         border-color: rgba(255,255,255,0.25);
     }
 
@@ -33,19 +33,15 @@
 .block {
     align-content: center;
     margin: 1.0rem;
+    margin-left:20rem;
     padding: 1.0rem;
     width: auto;
     display: grid;
     border-radius: 1.0rem;
 }
-.container
- {
-               display : flex;
-              flex-direction : row;
-               
-            }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 .sidenav {
     font-family: 'Poppins', sans-serif;
     position: fixed;
@@ -68,28 +64,27 @@
     text-decoration: none;
 }
 .link span {
-    padding-left: 3rem;
-    font-weight:600;
+    padding-left: 1.5rem;
+   
     text-decoration: none;
     list-style: none;
-    margin: 1rem 0.7rem;
+    margin-top:1rem;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 2.2rem;
 }
-.link a{
+.link a {
     padding-left: 1.9rem;
     display: block;
     text-decoration: none;
     list-style: none;
     margin: 1rem 0.7rem;
     text-align: left;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
-.content{
-    margin-left:20rem;
-}
+
 .d
-{ 
+{   overflow:auto;
     margin:1.0rem;
     padding:.5rem;
     flex-grow:1;

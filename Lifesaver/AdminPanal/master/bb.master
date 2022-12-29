@@ -21,7 +21,7 @@
     <div class="block" style="height:inherit">
 
 
-<div class="container">
+
 
 <div class="d">
 <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
@@ -29,6 +29,6 @@
         </asp:ContentPlaceHolder>
 </div>
 </div>
-</div>
+
         </div>
 </asp:Content>

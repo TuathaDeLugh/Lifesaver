@@ -20,6 +20,8 @@ Public Class login
             PASS.TextMode = TextBoxMode.SingleLine
             Response.Cookies("loginid").Value = ID.Text
             Response.Cookies("loginpass").Value = PASS.Text
+            Response.Cookies("loginid").Expires = DateTime.Now.AddDays(365)
+            Response.Cookies("loginpass").Expires = DateTime.Now.AddDays(365)
         End If
         con.Open()
         Dim ad As New SqlDataAdapter("select * from weblogin where username='" & username & "'AND password='" & userpass & "'", con)

@@ -24,7 +24,7 @@ html {
 
 @media (prefers-color-scheme: dark) {
 
-    body {
+    body, ::-webkit-scrollbar-corner {
         background-color: #181818;
     }
 
@@ -183,7 +183,8 @@ u{
 /*Scroll*/
 
 ::-webkit-scrollbar {
-    width: 1.0rem;
+    width: 0.8rem;
+    height:0.5rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -194,6 +195,3 @@ u{
     border-radius: 1.0rem;
 }
 
-    ::-webkit-scrollbar-thumb:hover {
-        border-radius: 1.0rem;
-    }

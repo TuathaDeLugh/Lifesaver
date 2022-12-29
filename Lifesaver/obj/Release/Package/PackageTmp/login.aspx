@@ -7,6 +7,8 @@
     <link href="style/style.css" rel="stylesheet" type="text/css" />
 	<link rel="icon" href="files/logo.png" type="image/x-icon"/>
     <script type="text/javascript" src="js/sweet.js"></script>
+    <script type="text/javascript" src="js/toast.js"></script>
+    <link href="js/toast.css" rel="stylesheet" />
 </head>
 <body>
 	  <div class="header">
@@ -25,7 +27,7 @@
 		<form id="form1" runat="server">
 			<h2>Sign in</h2>
             <div class="autofill" style="margin-bottom:1rem;">
-				    <asp:LinkButton ID="autofill" runat="server" CausesValidation="False">auto fill</asp:LinkButton>
+				    <asp:LinkButton ID="autofill" runat="server" CausesValidation="False">auto fill & login</asp:LinkButton>
 			</div>
 			<div class="inputBox">
             <span>User ID</span>

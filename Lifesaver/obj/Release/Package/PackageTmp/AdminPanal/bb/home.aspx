@@ -1,13 +1,18 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/bb.master" CodeBehind="home.aspx.vb" Inherits="Lifesaver.home1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+        <style>.home {
+    font-size:1.7rem;
+    font-weight:600;
     
+}</style>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
         ConnectionString="<%$ ConnectionStrings:umangpc %>" 
         
         SelectCommand="SELECT [name], [email], [address], [time], [mno], [pincode] FROM [weblogin] where id>1 ORDER BY [name]">
     </asp:SqlDataSource>
     <link href="../../style/Admin/adminbbhome.css" rel="stylesheet" type="text/css" />
-
+<div class="heading">
+<h2><i>Blood Bank</i></h2></div>
     <asp:ListView ID="ListView1" runat="server" DataSourceID="SqlDataSource1">
         <AlternatingItemTemplate>
             <tr style="">
