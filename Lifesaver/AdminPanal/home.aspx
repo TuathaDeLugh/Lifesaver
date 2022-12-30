@@ -85,7 +85,7 @@
              <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label18" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
-          Avaliable Blood Banks In total Pincode
+          Blood Banks In total Pincode
       </h3>
     </div>
      <div class="card card-1">

@@ -23,8 +23,13 @@
         background: #800000;
     }
 }
-.d{ 
-    
+.block {
+    min-height: 80vh;
+    max-height: 100vh;
+}
+    .d{ 
+    min-height:80vh;
+    max-height:100vh;
     display:flex;
     flex-wrap:wrap;
 }
@@ -46,6 +51,7 @@
       
   }
 table {
+    margin:auto;
     text-align: center;
 }
 
