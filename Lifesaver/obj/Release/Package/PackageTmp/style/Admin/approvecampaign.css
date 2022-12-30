@@ -61,7 +61,8 @@ th {
     color: white;
     border: none;
     outline: none;
-    padding: 1.1rem 2.5rem;
+    text-align:center;
+    padding: 1.1rem;
     background: #ff4545;
     cursor: pointer;
     border-radius: .4rem;
@@ -72,7 +73,8 @@ th {
     color: white;
     border: none;
     outline: none;
-    padding: 1.1rem 2.5rem;
+    text-align: center;
+    padding: 1.1rem;
     background: #87CEFA;
     cursor: pointer;
     border-radius: .4rem;
@@ -89,4 +91,8 @@ th {
     }
 .reject:hover {
     background: #D10000;
+}
+.certi{
+    height:4rem;
+    width:4rem;
 }

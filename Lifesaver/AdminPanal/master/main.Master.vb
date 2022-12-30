@@ -6,7 +6,6 @@
         '    Response.Redirect("~/login.aspx")
         'End If
         Label1.Text = Session("a") + " Profile"
-
     End Sub
 
     Protected Sub LinkButton1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles LinkButton1.Click

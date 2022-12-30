@@ -13,10 +13,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    <div class="sidenav">
 <ul>
-<li  style="float:left;font-size : 30px;"><a class="logos" href="../index.html">Life Saver</a></li>
-<li class="link"><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Bloodbank/campaign/campaignhome.aspx">Home</asp:HyperLink></li>
-<li class="link"><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Bloodbank/campaign/Addcampaign.aspx">Add Campaign</asp:HyperLink></li>
-<li class="link"><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Bloodbank/campaign/update.aspx">Update & remove</asp:HyperLink></li>
+<li  style="float:left;font-size : 30px;"><a class="logos" href="https://umangsailor.bsite.net">Life Saver</a></li>
+<li class="link"><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Bloodbank/campaign/campaignhome.aspx"><u class="chome">Home</u></asp:HyperLink></li>
+<li class="link"><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Bloodbank/campaign/Addcampaign.aspx"><u class="addc">Add Campaign</u></asp:HyperLink></li>
+<li class="link"><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Bloodbank/campaign/update.aspx"><u class="ur">Update & remove</u></asp:HyperLink></li>
 </ul>
 </div>
     <asp:ContentPlaceHolder ID="main" runat="server"></asp:ContentPlaceHolder>

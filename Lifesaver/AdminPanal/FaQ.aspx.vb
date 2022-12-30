@@ -16,40 +16,74 @@ Public Class FaQ
             ad.Fill(ds)
             ListView1.DataSource = ds
             ListView1.DataBind()
+            con.Close()
         End If
     End Sub
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
-        con.Open()
+
         Try
+            con.Open()
             Dim cmd1 As New SqlCommand("insert into feedback values('Umang','ursailor@gmail.com','feedback','Rateing','This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.')", con)
             cmd1.ExecuteNonQuery()
             Dim cmd2 As New SqlCommand("insert into feedback values('Umang','ursailor@gmail.com','question','Rateing','This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.')", con)
             cmd2.ExecuteNonQuery()
             Dim cmd3 As New SqlCommand("insert into feedback values('Umang','ursailor@gmail.com','bbadd','Rateing','This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.This is main data.')", con)
             cmd3.ExecuteNonQuery()
+            con.Close()
+            con.Open()
+            Dim sql As String
+            If DropDownList1.SelectedValue = "*" Then
+                sql = "select * from feedback"
+            Else
+                sql = "select * from feedback where type='" & DropDownList1.SelectedValue & "'"
+            End If
+            Dim ad As New SqlDataAdapter(sql, con)
+            Dim ds As New DataSet
+            ad.Fill(ds)
+            ad.Fill(ds)
+            ListView1.DataSource = ds
+            ListView1.DataBind()
 
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Dummy Data Added','','info')", True)
+            con.Close()
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "NolertNotify.setConfig({type: ('dark'),position: ('bottom-right'),closeIn: 5000,iconType: ('info')});NolertNotify.trigger({message: 'Dummy Data Added'});", True)
 
         Catch ex As Exception
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' Failed to add ','','error')", True)
         End Try
-        con.Close()
+
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         con.Open()
-        Dim sql As String
+        Dim sq As String
         If DropDownList1.SelectedValue = "*" Then
-            sql = "truncate table feedback"
+            sq = "truncate table feedback"
         Else
-            sql = "delete from feedback where type='" & DropDownList1.SelectedValue & "'"
+            sq = "delete from feedback where type='" & DropDownList1.SelectedValue & "'"
         End If
         Try
-            Dim cmd1 As New SqlCommand(sql, con)
+            Dim cmd1 As New SqlCommand(sq, con)
             cmd1.ExecuteNonQuery()
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Feedback Page Cleared','display will  clear when you reload page','success')", True)
+
+            con.Close()
+            con.Open()
+            Dim sql As String
+            If DropDownList1.SelectedValue = "*" Then
+                sql = "select * from feedback"
+            Else
+                sql = "select * from feedback where type='" & DropDownList1.SelectedValue & "'"
+            End If
+            Dim ad As New SqlDataAdapter(sql, con)
+            Dim ds As New DataSet
+            ad.Fill(ds)
+            ad.Fill(ds)
+            ListView1.DataSource = ds
+            ListView1.DataBind()
+
+
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "NolertNotify.setConfig({type: ('success'),position: ('bottom-right'),closeIn: 5000,iconType: ('success')});NolertNotify.trigger({message: 'Selected feedback cleared'});", True)
 
         Catch ex As Exception
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' Failed to clear ','','error')", True)
@@ -78,5 +112,6 @@ Public Class FaQ
         Else
             Button1.Text = "Clear " + DropDownList1.SelectedValue
         End If
+        con.Close()
     End Sub
 End Class

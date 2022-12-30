@@ -5,22 +5,29 @@
     font-weight:600;
     
 }</style>
+    <link href="../../style/Admin/approvecampaign.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-     <asp:GridView ID="GridView1" runat="server"  AllowPaging="True" AutoGenerateColumns="False" OnRowCommand="GridView1_RowCommand" max-Width="" AllowSorting="True" DataSourceID="SqlDataSource1">
+<asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" OnRowCommand="GridView1_RowCommand" max-Width="auto">
         <Columns>
-            <asp:BoundField DataField="username" HeaderText="username" SortExpression="username" />
-            <asp:BoundField DataField="donername" HeaderText="donername" SortExpression="donername" />
-            <asp:BoundField DataField="gender" HeaderText="gender" SortExpression="gender" />
-            <asp:BoundField DataField="bdate" HeaderText="bdate" SortExpression="bdate" />
-            <asp:BoundField DataField="email" HeaderText="email" SortExpression="email" />
-            <asp:BoundField DataField="password" HeaderText="password" SortExpression="password" />
-            <asp:BoundField DataField="address" HeaderText="address" SortExpression="address" />
-            <asp:BoundField DataField="mno" HeaderText="mno" SortExpression="mno" />
-            <asp:BoundField DataField="certificate" HeaderText="certificate" SortExpression="certificate" />
-            <asp:HyperLinkField DataTextField="certificate" SortExpression="certificate" />
+            <asp:BoundField DataField="donername" HeaderText="Name" SortExpression="donername" />
+            <asp:BoundField DataField="gender" HeaderText="Gender" SortExpression="gender" />
+            <asp:BoundField DataField="bdate" HeaderText="DoB" SortExpression="bdate" />
+            <asp:BoundField DataField="address" HeaderText="Address" SortExpression="address" />
+            <asp:BoundField DataField="mno" HeaderText="Mobile No." SortExpression="mno" />
+            <asp:BoundField DataField="email" HeaderText="Email" SortExpression="email" />
+                                    <asp:ButtonField CommandName="certi" Text="certi." ButtonType="Image" HeaderText="certi." ImageUrl="~/files/certificate.png" >
+                <ControlStyle CssClass="certi" />
+            </asp:ButtonField>
+            <asp:ButtonField CommandName="approve" InsertVisible="False" Text="Approve" ButtonType="Button" HeaderText="Approve" >
+            <ControlStyle CssClass="approve" />
+            </asp:ButtonField>
+            <asp:ButtonField CommandName="reject" Text="Reject" ButtonType="Button" HeaderText="Reject">
+                <ControlStyle CssClass="reject" />
+            </asp:ButtonField>  
+
         </Columns>
 
-    </asp:GridView>
-     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:umangpc %>" SelectCommand="SELECT [username], [donername], [gender], [bdate], [email], [password], [address], [mno], [certificate] FROM [users]"></asp:SqlDataSource>
+    </asp:GridView>
+    </br><asp:Button ID="Button1" runat="server" Text="no donate" CssClass="reject" />
 </asp:Content>

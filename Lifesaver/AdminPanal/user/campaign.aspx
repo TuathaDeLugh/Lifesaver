@@ -26,7 +26,7 @@
                 <ControlStyle CssClass="reject" />
             </asp:ButtonField>
         </Columns>
-
+        <EmptyDataTemplate> <h4><center>No Data</center></h4></EmptyDataTemplate>
     </asp:GridView></br>
     <asp:Button ID="Button1" runat="server" Text="no approve" CssClass="reject" />
     </asp:Content>

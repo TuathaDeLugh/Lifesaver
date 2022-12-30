@@ -27,7 +27,7 @@
             </asp:ButtonField>  
 
         </Columns>
-
+    <EmptyDataTemplate> <h4><center>No Data</center></h4></EmptyDataTemplate>
     </asp:GridView>
     </br><asp:Button ID="Button1" runat="server" Text="no donate" CssClass="reject" />
 </asp:Content>

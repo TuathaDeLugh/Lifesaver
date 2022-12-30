@@ -62,9 +62,7 @@
                             <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" />
                             <br /><br /></span>
                         </EditItemTemplate>
-                        <EmptyDataTemplate>
-                            <span>No New Feed back.</span>
-                        </EmptyDataTemplate>
+                        <EmptyDataTemplate> <h4><center>No Data</center></h4></EmptyDataTemplate>
                         <InsertItemTemplate>
                             <span style="">name:
                             <asp:TextBox ID="nameTextBox" runat="server" Text='<%# Bind("name") %>' />
