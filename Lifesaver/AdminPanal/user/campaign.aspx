@@ -9,7 +9,7 @@
 }</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-    <asp:GridView ID="GridView1" runat="server"  AllowPaging="True" AutoGenerateColumns="False" OnRowCommand="GridView1_RowCommand" max-Width="">
+    <asp:GridView ID="GridView1" runat="server"   AutoGenerateColumns="False" OnRowCommand="GridView1_RowCommand" max-Width="">
         <Columns>
             <asp:BoundField DataField="username" HeaderText="Username" SortExpression="username" />
             <asp:BoundField DataField="name" HeaderText="Name" SortExpression="name" />
@@ -27,5 +27,6 @@
             </asp:ButtonField>
         </Columns>
 
-    </asp:GridView>
+    </asp:GridView></br>
+    <asp:Button ID="Button1" runat="server" Text="no approve" CssClass="reject" />
     </asp:Content>

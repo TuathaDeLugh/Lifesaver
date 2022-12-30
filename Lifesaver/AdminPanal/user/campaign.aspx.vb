@@ -56,4 +56,19 @@ Public Class campaign
         End If
         con.Close()
     End Sub
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        con.Open()
+        Dim cmd As New SqlCommand("update campaign set approve='no'", con)
+        cmd.ExecuteNonQuery()
+        ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "NolertNotify.setConfig({type: ('dark'),position: ('bottom-right'),closeIn: 5000,iconType: ('info')});NolertNotify.trigger({message: 'Not a single campaign approved `(*>﹏<*)′ '});", True)
+
+        Dim sql As String = "select username,name,address,pincode,mno,tagline,date,time from campaign where approve='no' "
+        Dim ad As New SqlDataAdapter(sql, con)
+        Dim ds As New DataSet
+        ad.Fill(ds)
+        GridView1.DataSource = ds
+        GridView1.DataBind()
+        con.Close()
+    End Sub
 End Class

@@ -23,11 +23,11 @@ Partial Public Class bloodapprove
     Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
-    '''SqlDataSource1 control.
+    '''Button1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
+    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 End Class

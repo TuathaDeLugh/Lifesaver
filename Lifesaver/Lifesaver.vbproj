@@ -126,6 +126,7 @@
     <Content Include="Bloodbank\change.aspx" />
     <Content Include="Bloodbank\home.aspx" />
     <Content Include="Bloodbank\profile.aspx" />
+    <Content Include="files\certificate.png" />
     <Content Include="files\logo.png" />
     <Content Include="index.html" />
     <Content Include="files\pngtree-business-man-sleeping-at-work-desk-during-working-hours-png-image_6176467.png" />

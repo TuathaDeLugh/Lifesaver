@@ -66,7 +66,7 @@ Public Class update
             con.Close()
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Campaign Updated','If campaign was approved or rejected It goes into pandng list','success')", True)
         Catch
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' No Data found You Brain Dead ','','error')", True)
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' No Data found ','','error')", True)
         End Try
     End Sub
     Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
