@@ -15,6 +15,7 @@
                     <asp:BoundField DataField="mno" HeaderText="Mobile No." SortExpression="mno" />
                     <asp:BoundField DataField="gender" HeaderText="Gender" SortExpression="gender" />
                 </Columns>
+                           <EmptyDataTemplate> <h4><center>No Data</center></h4></EmptyDataTemplate>
             </asp:GridView>
         </div>
         <div class ="ord"><div class="heading"><h2><i>Organ donation approved</i></h2></div>
@@ -27,6 +28,7 @@
                     <asp:BoundField DataField="mno" HeaderText="Mobile No." SortExpression="mno" />
                     <asp:BoundField DataField="organname" HeaderText="Organname" SortExpression="organname" />
                 </Columns>
+                <EmptyDataTemplate> <h4><center>No Data</center></h4></EmptyDataTemplate>
             </asp:GridView>
         </div>
   
@@ -41,6 +43,7 @@
                 <asp:BoundField DataField="date" HeaderText="date" SortExpression="date" />
                 <asp:BoundField DataField="time" HeaderText="time" SortExpression="time" />
             </Columns>
+            <EmptyDataTemplate> <h4><center>No Data</center></h4></EmptyDataTemplate>
         </asp:GridView>
             
     </div>

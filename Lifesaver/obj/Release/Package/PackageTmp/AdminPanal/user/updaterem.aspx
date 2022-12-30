@@ -97,6 +97,7 @@
             <asp:BoundField DataField="Date" HeaderText="Date" SortExpression="date" />
             <asp:BoundField DataField="Approve" HeaderText="Approve" SortExpression="approve" />
         </Columns>
+        <EmptyDataTemplate> <h4><center>No Data</center></h4></EmptyDataTemplate>
     </asp:GridView>
 
     <br />

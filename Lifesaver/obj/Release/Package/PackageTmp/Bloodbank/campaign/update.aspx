@@ -2,6 +2,11 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head1" runat="server">
     <link href="../../style/Bloodbank/updatecamp.css" rel="stylesheet" />
+            <style>.ur {
+    font-size:1.7rem;
+    font-weight:600;
+    
+}</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <div class="block1">

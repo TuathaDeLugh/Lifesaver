@@ -1,6 +1,11 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Bloodbank/master/bbcapaign.master" CodeBehind="Addcampaign.aspx.vb" Inherits="Lifesaver.Addcampaign" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head1" runat="server">
     <link href="../../style/Bloodbank/addcampaign.css" rel="stylesheet" />
+            <style>.addc {
+    font-size:1.7rem;
+    font-weight:600;
+    
+}</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <center>

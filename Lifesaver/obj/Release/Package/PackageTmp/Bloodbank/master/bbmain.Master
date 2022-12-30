@@ -7,6 +7,8 @@
     <link rel="icon" href="../../files/logo.png" type="image/x-icon"/>
     <script type="text/javascript" src="../../js/sweet.js"></script>
     <title>Life Saver Blood Bank</title>
+        <link href="../../js/toast.css" rel="stylesheet" />
+    <script type="text/javascript" src="../../js/toast.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>

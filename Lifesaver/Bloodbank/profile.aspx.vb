@@ -65,7 +65,7 @@ Public Class profile1
                 TextBox11.Text = rd("time")
             End While
             con.Close()
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('" & TextBox2.Text & " profile data is not changed','','warning')", True)
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "NolertNotify.setConfig({type: ('warning'),position: ('bottom-right'),closeIn: 5000,iconType: ('warning')});NolertNotify.trigger({message: 'Profile update cancelled'});", True)
             TextBox3.Enabled = False
 
             TextBox5.Enabled = False
