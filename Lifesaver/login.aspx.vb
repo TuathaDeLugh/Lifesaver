@@ -1,4 +1,5 @@
 ﻿Imports System.Data.SqlClient
+Imports System.Security.Cryptography
 
 Public Class login
     Inherits System.Web.UI.Page
@@ -15,11 +16,11 @@ Public Class login
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         username = ID.Text
-        userpass = PASS.Text
+        userpass = ConvertPwdtoMD5(PASS.Text)
         If Rememberme.Checked Then
             PASS.TextMode = TextBoxMode.SingleLine
             Response.Cookies("loginid").Value = ID.Text
-            Response.Cookies("loginpass").Value = PASS.Text
+            Response.Cookies("loginpass").Value = ConvertPwdtoMD5(PASS.Text)
             Response.Cookies("loginid").Expires = DateTime.Now.AddDays(365)
             Response.Cookies("loginpass").Expires = DateTime.Now.AddDays(365)
         End If
@@ -60,6 +61,9 @@ Public Class login
                     Response.Redirect("~\Bloodbank\home.aspx")
 
                 End If
+            Else
+                ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "NolertNotify.setConfig({type: ('danger'),position: ('bottom-right'),closeIn: 5000,iconType: ('warning')});NolertNotify.trigger({message: 'Autofill Data Not Match, Maybe Password Changed'});", True)
+
             End If
             con.Close()
         Catch CookieException As Exception
@@ -68,4 +72,14 @@ Public Class login
         End Try
 
     End Sub
+    Public Shared Function ConvertPwdtoMD5(strword As String) As String
+        Dim md5 As MD5 = md5.Create()
+        Dim Bytes As Byte() = Encoding.ASCII.GetBytes(strword)
+        Dim hash As Byte() = md5.ComputeHash(Bytes)
+        Dim sBuilder As New StringBuilder()
+        For i As Integer = 0 To hash.Length - 1
+            sBuilder.Append(hash(i).ToString("x2"))
+        Next
+        Return sBuilder.ToString()
+    End Function
 End Class

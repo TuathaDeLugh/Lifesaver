@@ -1,8 +1,10 @@
 ﻿Imports System.Data.SqlClient
+Imports System.Security.Cryptography
+
 Public Class accountrecovar
     Inherits System.Web.UI.Page
     Dim str As String = ConfigurationManager.ConnectionStrings("umangpc").ConnectionString
-    Dim con As New SqlConnection(Str)
+    Dim con As New SqlConnection(str)
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
@@ -44,11 +46,21 @@ Public Class accountrecovar
     End Sub
     Protected Sub Button2_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button2.Click
         con.Open()
-        Dim cmd As New SqlCommand("update weblogin set password='" & TextBox3.Text & "' where email='" & TextBox1.Text & "'", con)
+        Dim cmd As New SqlCommand("update weblogin set password='" & ConvertPwdtoMD5(TextBox3.Text) & "' where email='" & TextBox1.Text & "'", con)
         cmd.ExecuteNonQuery()
         con.Close()
         Label4.Visible = True
         Label4.Text = "Updated sucessfully"
         Response.Redirect("~\login.aspx")
     End Sub
+    Public Shared Function ConvertPwdtoMD5(strword As String) As String
+        Dim md5 As MD5 = MD5.Create()
+        Dim Bytes As Byte() = Encoding.ASCII.GetBytes(strword)
+        Dim hash As Byte() = md5.ComputeHash(Bytes)
+        Dim sBuilder As New StringBuilder()
+        For i As Integer = 0 To hash.Length - 1
+            sBuilder.Append(hash(i).ToString("x2"))
+        Next
+        Return sBuilder.ToString()
+    End Function
 End Class
