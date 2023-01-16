@@ -13,7 +13,6 @@ Public Class FaQ
             Dim ad As New SqlDataAdapter(Sql, con)
             Dim ds As New DataSet
             ad.Fill(ds)
-            ad.Fill(ds)
             ListView1.DataSource = ds
             ListView1.DataBind()
             con.Close()
@@ -41,7 +40,6 @@ Public Class FaQ
             End If
             Dim ad As New SqlDataAdapter(sql, con)
             Dim ds As New DataSet
-            ad.Fill(ds)
             ad.Fill(ds)
             ListView1.DataSource = ds
             ListView1.DataBind()
@@ -78,7 +76,6 @@ Public Class FaQ
             Dim ad As New SqlDataAdapter(sql, con)
             Dim ds As New DataSet
             ad.Fill(ds)
-            ad.Fill(ds)
             ListView1.DataSource = ds
             ListView1.DataBind()
 
@@ -101,7 +98,6 @@ Public Class FaQ
         End If
         Dim ad As New SqlDataAdapter(sql, con)
         Dim ds As New DataSet
-        ad.Fill(ds)
         ad.Fill(ds)
         ListView1.DataSource = ds
         ListView1.DataBind()

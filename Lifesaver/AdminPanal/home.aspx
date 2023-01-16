@@ -10,7 +10,7 @@
 <div class="heading">
 <h2><i>User Data</i></h2></div>
 <div class="cards">
-    <div class="card card-1">
+    <div class="card card-user">
     <h1 class="card__title"><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
           Total Users

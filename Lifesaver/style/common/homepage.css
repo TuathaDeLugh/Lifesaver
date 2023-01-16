@@ -79,6 +79,7 @@
     grid-template-rows: 1.0rem 0.7rem 1fr 5.0rem;
     border-radius: 1.0rem;
     transition: all 0.2s;
+    flex-grow: 1;
 }
 
     .card:hover {
@@ -97,9 +98,6 @@
     grid-row: 4/5;
     font-weight: 300;
     transition: all 0.5s;
-}
-.card-1{
-    flex-grow:1;
 }
 .ahome {
     font-size:1.7rem;
