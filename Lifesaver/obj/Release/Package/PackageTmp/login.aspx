@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>Life Saver Login</title>  
-	<script src="js/blockshit.js"></script>
+	
     <link href="style/style.css" rel="stylesheet" type="text/css" />
 	<link rel="icon" href="files/logo.png" type="image/x-icon"/>
     <script type="text/javascript" src="js/sweet.js"></script>

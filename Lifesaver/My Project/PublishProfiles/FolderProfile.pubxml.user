@@ -5,12 +5,12 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\Umang Sailor\OneDrive\Desktop\LifeSaver</_PublishTargetUrl>
-    <History>True|2023-01-10T13:28:07.6450604Z;True|2023-01-09T22:15:31.3391173+05:30;True|2023-01-06T21:24:44.4963873+05:30;True|2022-12-31T11:43:19.1661030+05:30;True|2022-12-30T20:37:36.1633416+05:30;True|2022-12-30T20:16:21.6660954+05:30;True|2022-12-30T19:35:31.3637944+05:30;True|2022-12-29T22:28:19.1480495+05:30;True|2022-12-29T13:07:15.4472539+05:30;True|2022-12-28T12:45:09.7931613+05:30;True|2022-12-27T18:18:01.9126786+05:30;True|2022-12-25T21:04:29.9910372+05:30;True|2022-12-18T17:45:16.2376159+05:30;True|2022-12-18T15:38:06.9119687+05:30;True|2022-12-15T22:21:07.5691011+05:30;True|2022-12-14T22:26:01.8189745+05:30;True|2022-12-14T22:25:35.5802603+05:30;True|2022-12-13T07:50:41.6829301+05:30;True|2022-12-09T22:11:58.9765824+05:30;True|2022-12-09T21:14:54.0223242+05:30;True|2022-12-07T16:13:28.0350725+05:30;True|2022-12-06T20:27:22.5853314+05:30;True|2022-12-06T20:19:22.1745137+05:30;True|2022-12-06T20:16:37.1581832+05:30;True|2022-12-06T20:09:12.8905128+05:30;True|2022-12-06T13:19:08.8934674+05:30;True|2022-12-05T17:42:50.3901407+05:30;True|2022-12-05T17:23:32.7019433+05:30;True|2022-12-05T17:12:57.3652385+05:30;True|2022-12-05T13:12:28.0943661+05:30;True|2022-12-05T12:49:24.2657734+05:30;True|2022-12-05T12:37:14.1878064+05:30;True|2022-12-04T18:54:35.5327418+05:30;</History>
+    <History>True|2023-01-18T16:43:09.8989553Z;True|2023-01-18T21:54:42.2762417+05:30;True|2023-01-10T18:58:07.6450604+05:30;True|2023-01-09T22:15:31.3391173+05:30;True|2023-01-06T21:24:44.4963873+05:30;True|2022-12-31T11:43:19.1661030+05:30;True|2022-12-30T20:37:36.1633416+05:30;True|2022-12-30T20:16:21.6660954+05:30;True|2022-12-30T19:35:31.3637944+05:30;True|2022-12-29T22:28:19.1480495+05:30;True|2022-12-29T13:07:15.4472539+05:30;True|2022-12-28T12:45:09.7931613+05:30;True|2022-12-27T18:18:01.9126786+05:30;True|2022-12-25T21:04:29.9910372+05:30;True|2022-12-18T17:45:16.2376159+05:30;True|2022-12-18T15:38:06.9119687+05:30;True|2022-12-15T22:21:07.5691011+05:30;True|2022-12-14T22:26:01.8189745+05:30;True|2022-12-14T22:25:35.5802603+05:30;True|2022-12-13T07:50:41.6829301+05:30;True|2022-12-09T22:11:58.9765824+05:30;True|2022-12-09T21:14:54.0223242+05:30;True|2022-12-07T16:13:28.0350725+05:30;True|2022-12-06T20:27:22.5853314+05:30;True|2022-12-06T20:19:22.1745137+05:30;True|2022-12-06T20:16:37.1581832+05:30;True|2022-12-06T20:09:12.8905128+05:30;True|2022-12-06T13:19:08.8934674+05:30;True|2022-12-05T17:42:50.3901407+05:30;True|2022-12-05T17:23:32.7019433+05:30;True|2022-12-05T17:12:57.3652385+05:30;True|2022-12-05T13:12:28.0943661+05:30;True|2022-12-05T12:49:24.2657734+05:30;True|2022-12-05T12:37:14.1878064+05:30;True|2022-12-04T18:54:35.5327418+05:30;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
     <File Include="accountrecovar.aspx">
-      <publishTime>01/10/2023 18:54:09</publishTime>
+      <publishTime>01/10/2023 19:11:26</publishTime>
     </File>
     <File Include="AdminPanal/bb/add.aspx">
       <publishTime>12/29/2022 11:46:23</publishTime>
@@ -28,16 +28,16 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>12/27/2022 16:56:25</publishTime>
     </File>
     <File Include="AdminPanal/FaQ.aspx">
-      <publishTime>12/30/2022 19:57:46</publishTime>
+      <publishTime>01/18/2023 21:52:45</publishTime>
     </File>
     <File Include="AdminPanal/home.aspx">
-      <publishTime>12/30/2022 19:31:47</publishTime>
+      <publishTime>01/16/2023 17:43:38</publishTime>
     </File>
     <File Include="AdminPanal/master/bb.master">
       <publishTime>12/30/2022 19:34:51</publishTime>
     </File>
     <File Include="AdminPanal/master/main.Master">
-      <publishTime>01/10/2023 18:53:11</publishTime>
+      <publishTime>01/10/2023 19:11:37</publishTime>
     </File>
     <File Include="AdminPanal/master/user.master">
       <publishTime>12/30/2022 19:34:42</publishTime>
@@ -73,13 +73,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>12/30/2022 19:57:10</publishTime>
     </File>
     <File Include="bin/Lifesaver.dll">
-      <publishTime>01/10/2023 18:58:07</publishTime>
+      <publishTime>01/18/2023 22:13:09</publishTime>
     </File>
     <File Include="bin/Lifesaver.pdb">
-      <publishTime>01/10/2023 18:58:07</publishTime>
+      <publishTime>01/18/2023 22:13:09</publishTime>
     </File>
     <File Include="bin/Lifesaver.xml">
-      <publishTime>01/10/2023 18:58:07</publishTime>
+      <publishTime>01/18/2023 22:13:09</publishTime>
     </File>
     <File Include="Bloodbank/Blooddata.aspx">
       <publishTime>12/29/2022 20:28:31</publishTime>
@@ -106,10 +106,22 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>12/30/2022 20:14:04</publishTime>
     </File>
     <File Include="Bloodbank/master/bbmain.Master">
-      <publishTime>01/10/2023 18:53:31</publishTime>
+      <publishTime>01/10/2023 19:11:54</publishTime>
     </File>
     <File Include="Bloodbank/profile.aspx">
       <publishTime>12/30/2022 20:37:01</publishTime>
+    </File>
+    <File Include="contactus.aspx">
+      <publishTime>01/18/2023 22:01:24</publishTime>
+    </File>
+    <File Include="css/add.css">
+      <publishTime>01/18/2023 21:59:42</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>01/18/2023 14:50:26</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>01/18/2023 15:29:56</publishTime>
     </File>
     <File Include="Default.html">
       <publishTime>12/05/2022 12:34:48</publishTime>
@@ -123,8 +135,38 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="files/pngtree-business-man-sleeping-at-work-desk-during-working-hours-png-image_6176467.png">
       <publishTime>12/27/2022 16:56:25</publishTime>
     </File>
+    <File Include="img/carousel-1.jpg">
+      <publishTime>01/18/2023 21:16:31</publishTime>
+    </File>
+    <File Include="img/carousel-2.jpg">
+      <publishTime>01/18/2023 21:16:39</publishTime>
+    </File>
+    <File Include="img/feature.jpg">
+      <publishTime>01/18/2023 21:20:56</publishTime>
+    </File>
+    <File Include="img/quote.jpg">
+      <publishTime>01/18/2023 14:46:21</publishTime>
+    </File>
+    <File Include="img/team-1.jpg">
+      <publishTime>01/18/2023 21:26:36</publishTime>
+    </File>
+    <File Include="img/team-2.jpg">
+      <publishTime>01/18/2023 21:27:14</publishTime>
+    </File>
+    <File Include="img/team-3.jpg">
+      <publishTime>01/18/2023 21:27:10</publishTime>
+    </File>
+    <File Include="img/testimonial-1.jpg">
+      <publishTime>01/18/2023 21:30:02</publishTime>
+    </File>
+    <File Include="img/testimonial-2.jpg">
+      <publishTime>01/18/2023 21:29:54</publishTime>
+    </File>
+    <File Include="img/testimonial.jpg">
+      <publishTime>01/18/2023 21:29:12</publishTime>
+    </File>
     <File Include="index.html">
-      <publishTime>01/10/2023 18:55:34</publishTime>
+      <publishTime>01/18/2023 21:58:28</publishTime>
     </File>
     <File Include="js/blockshit.js">
       <publishTime>01/10/2023 18:57:26</publishTime>
@@ -135,6 +177,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="js/index.js">
       <publishTime>12/27/2022 16:56:25</publishTime>
     </File>
+    <File Include="js/main.js">
+      <publishTime>01/18/2023 14:53:29</publishTime>
+    </File>
     <File Include="js/sweet.js">
       <publishTime>12/27/2022 16:56:25</publishTime>
     </File>
@@ -144,8 +189,53 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="js/toast.js">
       <publishTime>12/28/2022 12:17:41</publishTime>
     </File>
+    <File Include="lib/easing/easing.js">
+      <publishTime>01/18/2023 14:47:08</publishTime>
+    </File>
+    <File Include="lib/easing/easing.min.js">
+      <publishTime>01/18/2023 14:47:08</publishTime>
+    </File>
+    <File Include="lib/owlcarousel/assets/ajax-loader.gif">
+      <publishTime>01/18/2023 14:47:08</publishTime>
+    </File>
+    <File Include="lib/owlcarousel/assets/owl.carousel.css">
+      <publishTime>01/18/2023 14:47:08</publishTime>
+    </File>
+    <File Include="lib/owlcarousel/assets/owl.carousel.min.css">
+      <publishTime>01/18/2023 14:47:08</publishTime>
+    </File>
+    <File Include="lib/owlcarousel/assets/owl.theme.default.css">
+      <publishTime>01/18/2023 14:47:08</publishTime>
+    </File>
+    <File Include="lib/owlcarousel/assets/owl.theme.default.min.css">
+      <publishTime>01/18/2023 14:47:08</publishTime>
+    </File>
+    <File Include="lib/owlcarousel/assets/owl.theme.green.css">
+      <publishTime>01/18/2023 14:47:08</publishTime>
+    </File>
+    <File Include="lib/owlcarousel/assets/owl.theme.green.min.css">
+      <publishTime>01/18/2023 14:47:08</publishTime>
+    </File>
+    <File Include="lib/owlcarousel/assets/owl.video.play.png">
+      <publishTime>01/18/2023 14:47:08</publishTime>
+    </File>
+    <File Include="lib/owlcarousel/LICENSE">
+      <publishTime>01/18/2023 14:47:08</publishTime>
+    </File>
+    <File Include="lib/owlcarousel/owl.carousel.js">
+      <publishTime>01/18/2023 14:47:08</publishTime>
+    </File>
+    <File Include="lib/owlcarousel/owl.carousel.min.js">
+      <publishTime>01/18/2023 14:47:08</publishTime>
+    </File>
+    <File Include="lib/waypoints/links.php">
+      <publishTime>01/18/2023 14:47:08</publishTime>
+    </File>
+    <File Include="lib/waypoints/waypoints.min.js">
+      <publishTime>01/18/2023 14:47:08</publishTime>
+    </File>
     <File Include="login.aspx">
-      <publishTime>01/10/2023 18:54:20</publishTime>
+      <publishTime>01/10/2023 19:11:06</publishTime>
     </File>
     <File Include="style/accrecov.css">
       <publishTime>01/09/2023 22:12:05</publishTime>
@@ -184,7 +274,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>12/27/2022 16:56:25</publishTime>
     </File>
     <File Include="style/common/homepage.css">
-      <publishTime>12/29/2022 11:05:57</publishTime>
+      <publishTime>01/15/2023 20:32:47</publishTime>
     </File>
     <File Include="style/common/profile.css">
       <publishTime>12/29/2022 11:14:50</publishTime>

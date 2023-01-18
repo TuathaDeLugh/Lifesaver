@@ -19,66 +19,11 @@
             <asp:ListItem Value="question">Question</asp:ListItem>
             <asp:ListItem Value="bbadd">Blood Bank Add</asp:ListItem>
             </asp:DropDownList> </div>
-        <table>
-            
-            <tr>
-                <td>
+
                     <asp:ListView ID="ListView1" runat="server">
-                        <AlternatingItemTemplate>
-                            <span style="">name:
-                            <asp:Label ID="nameLabel" runat="server" Text='<%# Eval("name") %>' />
-                            <br />
-                            email:
-                            <asp:Label ID="emailLabel" runat="server" Text='<%# Eval("email") %>' />
-                            <br />
-                            type:
-                            <asp:Label ID="typeLabel" runat="server" Text='<%# Eval("type") %>' />
-                            <br />
-                            subject:
-                            <asp:Label ID="subjectLabel" runat="server" Text='<%# Eval("subject") %>' />
-                            <br />
-                            maindata:
-                            <asp:Label ID="maindataLabel" runat="server" Text='<%# Eval("maindata") %>' />
-                            <br />
-<br /></span>
-                        </AlternatingItemTemplate>
-                        <EditItemTemplate>
-                            <span style="">name:
-                            <asp:TextBox ID="nameTextBox" runat="server" Text='<%# Bind("name") %>' />
-                            <br />
-                            email:
-                            <asp:TextBox ID="emailTextBox" runat="server" Text='<%# Bind("email") %>' />
-                            <br />
-                            type:
-                            <asp:TextBox ID="typeTextBox" runat="server" Text='<%# Bind("type") %>' />
-                            <br />
-                            subject:
-                            <asp:TextBox ID="subjectTextBox" runat="server" Text='<%# Bind("subject") %>' />
-                            <br />
-                            maindata:
-                            <asp:TextBox ID="maindataTextBox" runat="server" Text='<%# Bind("maindata") %>' />
-                            <br />
-                            <asp:Button ID="UpdateButton" runat="server" CommandName="Update" Text="Update" />
-                            <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" />
-                            <br /><br /></span>
-                        </EditItemTemplate>
+
                         <EmptyDataTemplate> <h4><center>No Data</center></h4></EmptyDataTemplate>
-                        <InsertItemTemplate>
-                            <span style="">name:
-                            <asp:TextBox ID="nameTextBox" runat="server" Text='<%# Bind("name") %>' />
-                            <br />email:
-                            <asp:TextBox ID="emailTextBox" runat="server" Text='<%# Bind("email") %>' />
-                            <br />type:
-                            <asp:TextBox ID="typeTextBox" runat="server" Text='<%# Bind("type") %>' />
-                            <br />subject:
-                            <asp:TextBox ID="subjectTextBox" runat="server" Text='<%# Bind("subject") %>' />
-                            <br />maindata:
-                            <asp:TextBox ID="maindataTextBox" runat="server" Text='<%# Bind("maindata") %>' />
-                            <br />
-                            <asp:Button ID="InsertButton" runat="server" CommandName="Insert" Text="Insert" />
-                            <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Clear" />
-                            <br /><br /></span>
-                        </InsertItemTemplate>
+
                         <ItemTemplate>
                             <span style="">name:
                             <asp:Label ID="nameLabel" runat="server" Text='<%# Eval("name") %>' />
@@ -109,31 +54,8 @@
                                 </asp:DataPager>
                             </div>
                         </LayoutTemplate>
-                        <SelectedItemTemplate>
-                            <span style="">name:
-                            <asp:Label ID="nameLabel" runat="server" Text='<%# Eval("name") %>' />
-                            <br />
-                            email:
-                            <asp:Label ID="emailLabel" runat="server" Text='<%# Eval("email") %>' />
-                            <br />
-                            type:
-                            <asp:Label ID="typeLabel" runat="server" Text='<%# Eval("type") %>' />
-                            <br />
-                            subject:
-                            <asp:Label ID="subjectLabel" runat="server" Text='<%# Eval("subject") %>' />
-                            <br />
-                            maindata:
-                            <asp:Label ID="maindataLabel" runat="server" Text='<%# Eval("maindata") %>' />
-                            <br />
-<br /></span>
-                        </SelectedItemTemplate>
+
                     </asp:ListView>
-
-                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:umangpc %>" SelectCommand="SELECT [name], [email], [type], [subject], [maindata] FROM [feedback]"></asp:SqlDataSource>
-
-                </td>
-            </tr>
-        </table>
         <div class="button">
         <asp:Button ID="Button1" runat="server" Text="Clear All"  />
         <asp:Button ID="Button2" runat="server" Text="Add temp Data" />
