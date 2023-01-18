@@ -126,14 +126,46 @@
     <Content Include="Bloodbank\change.aspx" />
     <Content Include="Bloodbank\home.aspx" />
     <Content Include="Bloodbank\profile.aspx" />
+    <Content Include="contactus.aspx" />
+    <Content Include="css\add.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\style.css" />
     <Content Include="files\certificate.png" />
     <Content Include="files\logo.png" />
-    <Content Include="index.html" />
     <Content Include="files\pngtree-business-man-sleeping-at-work-desk-during-working-hours-png-image_6176467.png" />
+    <Content Include="img\blog-1.jpg" />
+    <Content Include="img\blog-2.jpg" />
+    <Content Include="img\blog-3.jpg" />
+    <Content Include="img\carousel-1.jpg" />
+    <Content Include="img\carousel-2.jpg" />
+    <Content Include="img\feature.jpg" />
+    <Content Include="img\quote.jpg" />
+    <Content Include="img\team-1.jpg" />
+    <Content Include="img\team-2.jpg" />
+    <Content Include="img\team-3.jpg" />
+    <Content Include="img\testimonial-1.jpg" />
+    <Content Include="img\testimonial-2.jpg" />
+    <Content Include="img\testimonial.jpg" />
+    <Content Include="img\user.jpg" />
+    <Content Include="Index.html" />
     <Content Include="js\index.js" />
+    <Content Include="js\main.js" />
     <Content Include="js\sweet.js" />
     <Content Include="js\toast.css" />
     <Content Include="js\toast.js" />
+    <Content Include="lib\easing\easing.js" />
+    <Content Include="lib\easing\easing.min.js" />
+    <Content Include="lib\owlcarousel\assets\ajax-loader.gif" />
+    <Content Include="lib\owlcarousel\assets\owl.carousel.css" />
+    <Content Include="lib\owlcarousel\assets\owl.carousel.min.css" />
+    <Content Include="lib\owlcarousel\assets\owl.theme.default.css" />
+    <Content Include="lib\owlcarousel\assets\owl.theme.default.min.css" />
+    <Content Include="lib\owlcarousel\assets\owl.theme.green.css" />
+    <Content Include="lib\owlcarousel\assets\owl.theme.green.min.css" />
+    <Content Include="lib\owlcarousel\assets\owl.video.play.png" />
+    <Content Include="lib\owlcarousel\owl.carousel.js" />
+    <Content Include="lib\owlcarousel\owl.carousel.min.js" />
+    <Content Include="lib\waypoints\waypoints.min.js" />
     <Content Include="login.aspx" />
     <Content Include="js\header.js" />
     <Content Include="style\accrecov.css" />
@@ -374,6 +406,13 @@
       <DependentUpon>profile.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="contactus.aspx.designer.vb">
+      <DependentUpon>contactus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contactus.aspx.vb">
+      <DependentUpon>contactus.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="login.aspx.designer.vb">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
@@ -416,6 +455,8 @@
     <Content Include="AdminPanal\master\bb.master" />
     <Content Include="Bloodbank\master\bbcapaign.master" />
     <Content Include="AdminPanal\master\user.master" />
+    <Content Include="lib\owlcarousel\LICENSE" />
+    <Content Include="lib\waypoints\links.php" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
