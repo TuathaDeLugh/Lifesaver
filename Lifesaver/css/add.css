@@ -31,7 +31,10 @@
         ::-webkit-scrollbar-thumb:hover {
             background: #48494b;
         }
-    html, img {
+    .bg-dark {
+        background-color: #214c79 !important;
+    }
+    html, img, iframe,.swal-overlay--show-modal{
         filter: invert(1) hue-rotate(180deg);
     }
 }
