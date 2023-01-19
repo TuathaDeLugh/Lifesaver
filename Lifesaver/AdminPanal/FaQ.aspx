@@ -3,8 +3,8 @@
        
     <link href="../style/Admin/faq.css" rel="stylesheet" />
         <style>.faq {
-    font-size:1.7rem;
-    font-weight:600;
+    font-weight:700;
+    color:#F3525A;
     
 }</style>
 </asp:Content>

@@ -7,6 +7,7 @@ Public Class profile1
     Dim userid As Integer
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
         Label1.Text = Session("a")
         If Not IsPostBack Then
             con.Open()
@@ -32,7 +33,7 @@ Public Class profile1
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If Button1.Text = "want to update" Then
+        If Button1.Text = "update" Then
             Button1.Text = "cancel"
             Button2.Visible = True
             TextBox3.Enabled = True
@@ -45,7 +46,7 @@ Public Class profile1
             TextBox10.Enabled = True
             TextBox11.Enabled = True
         Else
-            Button1.Text = "want to update"
+            Button1.Text = "update"
             Button2.Visible = False
             con.Open()
             Dim sql As String = "select * from weblogin where username='" & Session("a") & "'"
@@ -103,12 +104,12 @@ Public Class profile1
             TextBox10.Enabled = False
             TextBox11.Enabled = False
             Button2.Visible = False
-            Button1.Text = "want to update"
+            Button1.Text = "update"
         End If
         con.Close()
     End Sub
 
     Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
-        Response.Redirect("~/Bloodbank/change.aspx")
+        Response.Redirect("~/AdminPanal/change.aspx")
     End Sub
 End Class

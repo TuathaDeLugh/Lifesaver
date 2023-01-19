@@ -20,7 +20,9 @@
         color: #000;
         padding: 12px;
         margin-bottom:2rem;
-        border-radius: 24px
+        border-radius: 24px;
+        
+     
     }
 
         .nolert-close-button, .nolert-custom > div > div.nolert-content-custom, .nolert-custom > div > div.nolert-content-custom > div.nolert-svg-icon-container {

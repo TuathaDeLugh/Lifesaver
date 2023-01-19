@@ -740,6 +740,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.main._HyperLink7">
+<summary>
+HyperLink7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.main._HyperLink2">
 <summary>
 HyperLink2 control.
@@ -752,6 +761,51 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Lifesaver.main._HyperLink3">
 <summary>
 HyperLink3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.main._HyperLink6">
+<summary>
+HyperLink6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.main._HyperLink8">
+<summary>
+HyperLink8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.main._HyperLink9">
+<summary>
+HyperLink9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.main._HyperLink10">
+<summary>
+HyperLink10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.main._HyperLink11">
+<summary>
+HyperLink11 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -776,18 +830,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Lifesaver.main._HyperLink6">
+<member name="F:Lifesaver.main._Label1">
 <summary>
-HyperLink6 control.
+Label1 control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Lifesaver.main._Label1">
+<member name="F:Lifesaver.main._HyperLink12">
 <summary>
-Label1 control.
+HyperLink12 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.main._HyperLink13">
+<summary>
+HyperLink13 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -815,60 +878,6 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Lifesaver.user._head1">
 <summary>
 head1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:Lifesaver.user._HyperLink1">
-<summary>
-HyperLink1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:Lifesaver.user._HyperLink2">
-<summary>
-HyperLink2 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:Lifesaver.user._HyperLink3">
-<summary>
-HyperLink3 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:Lifesaver.user._HyperLink4">
-<summary>
-HyperLink4 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:Lifesaver.user._HyperLink5">
-<summary>
-HyperLink5 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:Lifesaver.user._HyperLink6">
-<summary>
-HyperLink6 control.
 </summary>
 <remarks>
 Auto-generated field.

@@ -3,12 +3,12 @@
 @media (prefers-color-scheme: light) {
     .block {
 
-        box-shadow: .0rem .0rem .2rem rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
     }
 
     td {
 
-        border-bottom: .1rem solid #ddd;
+        border-bottom: 1px solid #ddd;
     }
     table a{
         color:black;
@@ -17,13 +17,13 @@
 /*dark*/
 @media (prefers-color-scheme: dark) {
     .block {
-        box-shadow: .0rem .0rem .2rem rgba(255, 255, 255, 0.25);
+        box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
     }
     table {
         color: white;
     }
     td {
-        border-bottom: .1rem solid rgba(237, 237, 237, 0.25);
+        border-bottom: 1px solid rgba(237, 237, 237, 0.25);
     }
     input[type="text"], input[type="number"], input[type="password"] {
         background-color: #181818;
@@ -39,13 +39,14 @@
 
 }
 /*Design*/
+
 .block
-{   left:inherit;
+{ left:inherit;
   flex-wrap: wrap;
-  margin: 1.0rem;
-  padding: 1.0rem;
-  width: 65.0rem;
-  border-radius: 1.0rem;
+  margin: 10px;
+  padding: 10px;
+  width: 650px;
+  border-radius: 10px;
 
 }
 table
@@ -53,35 +54,35 @@ table
     text-align:center;
 }
 td 
-{   font-size:2.0rem;
-    width:20.0rem;
-     padding: 1.5rem;
+{   font-size:20px;
+    width:200px;
+     padding: 15px;
     text-align: left;
 }
 table span {
-    font-size: 1.5rem;
+    font-size: 15px;
     color:red;
 }
 input[type="text"], input[type="number"], input[type="password"] {
-    border: .1rem solid Red;
-    border-radius: .5rem;
-    padding: .5rem;
-    font: 1.5rem/2.4rem 'Muli', sans-serif;
-    width: 30.0rem;
-    letter-spacing: .1rem;
+    border: 1px solid Red;
+    border-radius: 5px;
+    padding: 5px;
+    font: 15px/24px 'Muli', sans-serif;
+    width: 300px;
+    letter-spacing: 1px;
 }
     input[type="text"]:disabled, input[type="number"]:disabled, input[type="password"]:disabled {
         cursor: no-drop;
     }
 textarea {
-    border: .1rem solid Red;
-    border-radius: .5rem;
-    padding: .5rem;
-    font: 1.5rem/2.4rem 'Muli', sans-serif;
-    height: 15.0rem;
-    width: 31.5rem;
+    border: .1px solid Red;
+    border-radius: 5px;
+    padding: 5px;
+    font: 15px/24px 'Muli', sans-serif;
+    height: 150px;
+    width: 315px;
     box-sizing: border-box;
-    letter-spacing: .1rem;
+    letter-spacing: .1px;
     resize: none;
   
 }
@@ -92,13 +93,13 @@ textarea {
     input[type="submit"] {
         border: none;
         outline: none;
-        padding: 1.1rem 2.5rem;
+        padding: 11px 25px;
         background: #ff4545;
         cursor: pointer;
-        border-radius: .4rem;
+        border-radius: 4px;
         font-weight: 600;
-        min-width:10rem;
-        max-width: 20rem;
+        min-width: 100px;
+        max-width: 200px;
         color:white;
     }
 input[type="submit"]:active 
@@ -108,29 +109,28 @@ input[type="submit"]:active
         input[type="submit"]:hover {
             background: #D10000;
         }
- .profile {
-    font-size: 1.7rem;
-    font-weight: 600;
+ .profile{
+    
+    font-weight: 700;
 }
 @media (max-width: 576px) {
-    html {
-        font-size: 62.5%;
-    }
+
     .block{
-        margin:0;
-        padding:1rem;
+        margin:10px 0 10px 0;
+        padding: 10px;
         width:fit-content;
+        
     }
     td{
-       width:15rem;
+       width:15px;
        overflow:hidden;
-       padding:1.5rem 0 1.5rem 0;
+       padding: 15px 0 15px 0;
     }
      input[type="text"], input[type="number"], input[type="password"] {
-        width: 17rem;
+        width: 170px;
     }
      textarea{
-         width:18rem;
+         width:180px;
      }
 
 }

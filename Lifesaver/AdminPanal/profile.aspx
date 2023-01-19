@@ -83,7 +83,7 @@
 
     </td>
 </tr>
-<tr><td><asp:Button ID="Button1" runat="server" Text="want to update" Height="40px" 
+<tr><td><asp:Button ID="Button1" runat="server" Text="update" Height="40px" 
          CausesValidation="False"/></td>
     
 <td><asp:Button ID="Button2" runat="server" Text="Save" Height="40px" 
