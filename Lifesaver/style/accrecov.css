@@ -338,3 +338,9 @@ input[type="submit"] {
             margin: 1.0rem .7rem;
             color: #fff;
         }
+@media (max-width: 576px) {
+    #form1{
+        width: auto;
+        height: auto;
+    }
+}

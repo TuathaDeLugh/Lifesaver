@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>Life Saver Login</title>  
-	
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="style/style.css" rel="stylesheet" type="text/css" />
 	<link rel="icon" href="files/logo.png" type="image/x-icon"/>
     <script type="text/javascript" src="js/sweet.js"></script>

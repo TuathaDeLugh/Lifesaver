@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-   
+   	<meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="../../style/Master/master.css" rel="stylesheet" type="text/css" />
     <title>Life Saver Admin Panel</title>
     <link rel="icon" href="../../files/logo.png" type="image/x-icon"/>

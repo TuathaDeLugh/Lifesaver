@@ -104,3 +104,9 @@
     font-weight:600;
     
 }
+@media (max-width: 576px) {
+     .card{
+        width: auto;
+        height: auto;
+    }
+}

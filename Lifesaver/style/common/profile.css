@@ -55,8 +55,8 @@ table
 td 
 {   font-size:2.0rem;
     width:20.0rem;
-  padding: 1.5rem;
-  text-align: left;
+     padding: 1.5rem;
+    text-align: left;
 }
 table span {
     font-size: 1.5rem;
@@ -97,7 +97,8 @@ textarea {
         cursor: pointer;
         border-radius: .4rem;
         font-weight: 600;
-        width: 100%;
+        min-width:10rem;
+        max-width: 20rem;
         color:white;
     }
 input[type="submit"]:active 
@@ -110,4 +111,26 @@ input[type="submit"]:active
  .profile {
     font-size: 1.7rem;
     font-weight: 600;
+}
+@media (max-width: 576px) {
+    html {
+        font-size: 62.5%;
+    }
+    .block{
+        margin:0;
+        padding:1rem;
+        width:fit-content;
+    }
+    td{
+       width:15rem;
+       overflow:hidden;
+       padding:1.5rem 0 1.5rem 0;
+    }
+     input[type="text"], input[type="number"], input[type="password"] {
+        width: 17rem;
+    }
+     textarea{
+         width:18rem;
+     }
+
 }

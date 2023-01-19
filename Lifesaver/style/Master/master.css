@@ -197,4 +197,19 @@ u{
 ::-webkit-scrollbar-thumb {
     border-radius: 1.0rem;
 }
+@media (max-width: 576px) {
+    html {
+        margin:0;
+        font-size: 62.5%;
+    }
+
+    .block {
+        margin: auto;
+        padding: 1rem;
+        width: 99%;
+    }
+    .heading h2{
+        font-size:3rem;
+    }
+}
 
