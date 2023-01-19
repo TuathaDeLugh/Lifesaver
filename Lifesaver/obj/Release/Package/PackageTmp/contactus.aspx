@@ -60,13 +60,13 @@
     </nav>
     <!-- Navbar End -->
         <!-- Page Header Start -->
-    <div class="container-fluid bg-dark p-5">
+    <div class="container-fluid bg-info p-5">
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="display-4 text-white">Contact Us</h1>
-                <a href="">Home</a>
+                <h1 class="display-4 text-black">Contact Us</h1>
+               <b> <a href="index.html">Home</a>
                 <i class="far fa-square text-primary px-2"></i>
-                <a href="">Contact</a>
+                <a href="contactus.aspx">Contact</a></b>
             </div>
         </div>
     </div>
@@ -139,10 +139,10 @@
     
     <!-- Footer Start -->
     
-    <div class="container-fluid bg-dark text-secondary p-5">
+    <div class="container-fluid bg-info text-secondary p-5">
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
-                <h3 class="text-white mb-4">Quick Links</h3>
+                <h3 class="text-black mb-4">Quick Links</h3>
                 <div class="d-flex flex-column justify-content-start">
                     <a class="text-secondary mb-2" href="index.html#home"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
                     <a class="text-secondary mb-2" href="index.html#about"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
@@ -152,7 +152,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <h3 class="text-white mb-4">Devaloper Name</h3>
+                <h3 class="text-black mb-4">Devaloper Name</h3>
                 <div class="d-flex flex-column justify-content-start">
                     <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Umang Sailor</a>
                     <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Parth Rana</a>
@@ -161,13 +161,13 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <h3 class="text-white mb-4">Get In Touch</h3>
+                <h3 class="text-black mb-4">Get In Touch</h3>
                 <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Varachha Main Rd, Kapodra Patiya, Surat</p>
                 <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@lifesaver.com</p>
                 <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 99985 58554</p>
             </div>
             <div class="col-lg-3 col-md-6">
-                <h3 class="text-white mb-4">Follow Us</h3>
+                <h3 class="text-black mb-4">Follow Us</h3>
                 <div class="d-flex">
                     <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://twitter.com/UmangSailor"><i class="fab fa-twitter fw-normal"></i></a>
                     <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://www.facebook.com/umang.sailor.6/"><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -177,7 +177,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-dark text-secondary text-center border-top py-4 px-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+    <div class="container-fluid bg-info text-secondary text-center border-top py-4 px-5" style="border-color: rgba(256, 256, 256, .1) !important;">
         <p class="m-0">&copy; <a class="text-secondary border-bottom" href="https://umangsailor.bsite.net">umangsailor.bsite.net</a>. All Rights Reserved.</p>
     </div>
     <!-- Footer End -->

@@ -32,65 +32,20 @@
 /*design*/
 .block {
     align-content: center;
-    margin: 1.0rem;
-    margin-left:20rem;
-    padding: 1.0rem;
+    margin: 10px;
+
+    padding: 10px;
     width: auto;
     display: grid;
-    border-radius: 1.0rem;
+    border-radius: 10px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-.sidenav {
-    font-family: 'Poppins', sans-serif;
-    position: fixed;
-    height: 100%;
-    width: 18rem;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    border-style:solid;
-    border-width:1px;
-    border-left:0;
-    border-top:0;
-}
-
-.logos {
-
-    padding-left: 1rem;
-    list-style-type: none;
-    text-decoration: none;
-}
-.link span {
-    padding-left: 1.5rem;
-   
-    text-decoration: none;
-    list-style: none;
-    margin-top:1rem;
-    text-align: center;
-    font-size: 2.2rem;
-}
-.link a {
-    padding-left: 1.9rem;
-    display: block;
-    text-decoration: none;
-    list-style: none;
-    margin: 1rem 0.7rem;
-    text-align: left;
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-}
 
 .d
 {   overflow:auto;
-    margin:1.0rem;
-    padding:.5rem;
+    margin:10px;
+    padding: 5px;
     flex-grow:1;
-}
-.link a:hover
-{
-    transform: scale(1.05);
-    font-weight:500;
 }

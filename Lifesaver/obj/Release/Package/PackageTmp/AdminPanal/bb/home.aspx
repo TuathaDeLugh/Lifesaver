@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/bb.master" CodeBehind="home.aspx.vb" Inherits="Lifesaver.home1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-        <style>.home {
-    font-size:1.7rem;
-    font-weight:600;
+        <style>.bb {
+    color:#f3525a;
+    font-weight:700;
     
 }</style>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" 

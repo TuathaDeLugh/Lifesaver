@@ -2,14 +2,14 @@
 /*light*/
 @media (prefers-color-scheme: light) {
     .updatetab, .updatebox,.detail {
-        box-shadow: .0rem .0rem .2rem rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
     }
     th {
         color: white;
         background: red;
     }
     td {
-        border-bottom: .1rem solid #ddd;
+        border-bottom: 1px solid #ddd;
     }
 
 }
@@ -19,7 +19,7 @@
         color:white;
     }
     .updatetab, .updatebox,.detail {
-        box-shadow: .0rem .0rem .2rem rgba(255, 255, 255, 0.25);
+        box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
     }
 
     table {
@@ -30,7 +30,7 @@
         background: maroon;
     }
     td {
-        border-bottom: .1rem solid rgba(237, 237, 237, 0.25);
+        border-bottom: 1px solid rgba(237, 237, 237, 0.25);
     }
 
     input[type="text"], input[type="number"], input[type="date"], input[type="time"] {
@@ -52,25 +52,25 @@
 }
 .block1 {
     left: inherit;
-    margin: 1.0rem;
-    width:75rem;
-    border-radius: 1.0rem;
+    margin: 10px;
+    width:750px;
+    border-radius: 10px;
 }
 .updatebox, .updatetab {
 
-    padding: 2rem;
-    border-radius: 1.0rem;
-    font-size: 2.0rem;
+    padding:2px;
+    border-radius: 10px;
+    font-size: 20px;
 }
     .updatebox{
-        margin-bottom:1rem;
+        margin-bottom: 10px;
     }
     .detail {
         flex-grow: 1;
-        margin: 1rem;
-        padding: 2rem;
-        border-radius: 1.0rem;
-        font-size: 2.0rem;
+        margin:1px;
+        padding:2px;
+        border-radius: 10px;
+        font-size: 20px;
     }
 table {
     width: 100%;
@@ -79,21 +79,21 @@ th{
     text-align:center;
 }
 td {
-    font-size: 2.0rem;
+    font-size: 20px;
     
-    padding: 1.5rem;
+    padding: 15px;
     text-align: left;
 }
 table span{
-    font-size:1.5rem;
+    font-size:15px;
 }
 input[type="text"], input[type="number"] {
-    border: .1rem solid Red;
-    border-radius: .5rem;
-    padding: .5rem;
-    font: 1.5rem/2.4rem 'Muli', sans-serif;
-    width: 40.0rem;
-    letter-spacing: .1rem;
+    border: 1px solid Red;
+    border-radius: 5px;
+    padding: 5px;
+    font: 15px/24px 'Muli', sans-serif;
+    width: 400px;
+    letter-spacing: 1px;
       
 }
 
@@ -105,14 +105,14 @@ input[type="text"], input[type="number"] {
 
 
 textarea {
-    border: .1rem solid Red;
-    border-radius: .5rem;
-    padding: .5rem;
-    font: 1.5rem/2.4rem 'Muli', sans-serif;
-    height: 15.0rem;
-    width: 41rem;
+    border: 1px solid Red;
+    border-radius: 5px;
+    padding: 5px;
+    font: 15px/24px 'Muli', sans-serif;
+    height: 150px;
+    width: 410px;
     box-sizing: border-box;
-    letter-spacing: .1rem;
+    letter-spacing: 1px;
     resize: none;
       
 }
@@ -124,9 +124,9 @@ input[type="submit"] {
     outline: none;
     background: #ff4545;
     cursor: pointer;
-    border-radius: .4rem;
+    border-radius: 4px;
     font-weight: 600;
-    padding: 1.1rem 4.5rem;
+    padding: 11px 45px;
     color:white;
 }
 
