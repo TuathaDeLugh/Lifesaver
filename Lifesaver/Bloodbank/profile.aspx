@@ -79,10 +79,10 @@
     </td>
 </tr>
 <tr><td><asp:Button ID="Button1" runat="server" Text="want to update" Height="40px" 
-        Width="200px" CausesValidation="False"/></td>
+         CausesValidation="False"/></td>
     
 <td><asp:Button ID="Button2" runat="server" Text="Save" Height="40px" 
-        Visible="False" Width="200px" /></td></tr>
+        Visible="False"  /></td></tr>
     </table></div></center>
     </div>
 </asp:Content>
