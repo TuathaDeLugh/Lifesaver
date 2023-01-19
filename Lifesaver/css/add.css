@@ -31,10 +31,10 @@
         ::-webkit-scrollbar-thumb:hover {
             background: #48494b;
         }
-    .bg-dark {
-        background-color: #214c79 !important;
+    :root {
+        --dark: black;
     }
-    html, img, iframe,.swal-overlay--show-modal{
+    html, img, iframe, .swal-overlay--show-modal{
         filter: invert(1) hue-rotate(180deg);
     }
 }
