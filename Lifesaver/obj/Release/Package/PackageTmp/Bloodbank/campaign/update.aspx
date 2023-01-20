@@ -3,8 +3,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head1" runat="server">
     <link href="../../style/Bloodbank/updatecamp.css" rel="stylesheet" />
             <style>.ur {
-    font-size:1.7rem;
-    font-weight:600;
+    font-weight: 700;
+    color: #F3525A;
     
 }</style>
 </asp:Content>

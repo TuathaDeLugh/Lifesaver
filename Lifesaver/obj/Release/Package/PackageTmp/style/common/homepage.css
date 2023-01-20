@@ -99,9 +99,13 @@
     font-weight: 300;
     transition: all 0.5s;
 }
-@media (max-width: 576px) {
+@media (max-width: 680px) {
      .card{
         width: auto;
         height: auto;
     }
+    .card__apply {
+        font-size: 12px;
+    }
+     }
 }

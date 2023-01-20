@@ -110,7 +110,7 @@ input[type="submit"]:active
             background: #D10000;
         }
 
-@media (max-width: 576px) {
+@media (max-width: 680px) {
 
     .block{
         margin:10px;

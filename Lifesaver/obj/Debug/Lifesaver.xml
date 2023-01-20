@@ -2405,45 +2405,72 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Lifesaver.bbmain._HyperLink1">
+<member name="F:Lifesaver.bbmain._HyperLink5">
 <summary>
-HyperLink1 control.
+HyperLink5 control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Lifesaver.bbmain._HyperLink2">
+<member name="F:Lifesaver.bbmain._HyperLink7">
 <summary>
-HyperLink2 control.
+HyperLink7 control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Lifesaver.bbmain._HyperLink3">
+<member name="F:Lifesaver.bbmain._HyperLink8">
 <summary>
-HyperLink3 control.
+HyperLink8 control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Lifesaver.bbmain._HyperLink4">
+<member name="F:Lifesaver.bbmain._HyperLink9">
 <summary>
-HyperLink4 control.
+HyperLink9 control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Lifesaver.bbmain._Label1">
+<member name="F:Lifesaver.bbmain._HyperLink17">
 <summary>
-Label1 control.
+HyperLink17 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.bbmain._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.bbmain._HyperLink19">
+<summary>
+HyperLink19 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.bbmain._HyperLink20">
+<summary>
+HyperLink20 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -2471,33 +2498,6 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Lifesaver.NestedMasterPage1._head1">
 <summary>
 head1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:Lifesaver.NestedMasterPage1._HyperLink1">
-<summary>
-HyperLink1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:Lifesaver.NestedMasterPage1._HyperLink2">
-<summary>
-HyperLink2 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:Lifesaver.NestedMasterPage1._HyperLink3">
-<summary>
-HyperLink3 control.
 </summary>
 <remarks>
 Auto-generated field.

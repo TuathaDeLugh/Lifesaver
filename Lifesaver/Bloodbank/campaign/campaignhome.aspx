@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Bloodbank/master/bbcapaign.master" CodeBehind="campaignhome.aspx.vb" Inherits="Lifesaver.campaignhome" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head1" runat="server">
     <link href="../../style/Bloodbank/bbcampaign.css" rel="stylesheet" />
-            <style>.chome {
-    font-size:1.7rem;
-    font-weight:600;
+        <style>.camp {
+    font-weight: 700;
+    color: #F3525A;
     
 }</style>
 </asp:Content> 

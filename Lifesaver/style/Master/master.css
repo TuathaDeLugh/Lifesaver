@@ -140,7 +140,7 @@ u{
 html{
     overflow-x:hidden;
 }
-@media (max-width: 576px) {
+@media (max-width: 680px) {
     .content{
         margin:0;
     }

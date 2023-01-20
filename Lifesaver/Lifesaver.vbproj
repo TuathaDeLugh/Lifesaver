@@ -133,7 +133,6 @@
     <Content Include="css\style.css" />
     <Content Include="files\certificate.png" />
     <Content Include="files\logo.png" />
-    <Content Include="files\pngtree-business-man-sleeping-at-work-desk-during-working-hours-png-image_6176467.png" />
     <Content Include="img\testimonial.jpg" />
     <Content Include="img\carousel-1.jpg" />
     <Content Include="img\carousel-2.jpg" />
@@ -145,7 +144,6 @@
     <Content Include="img\testimonial-1.jpg" />
     <Content Include="img\testimonial-2.jpg" />
     <Content Include="Index.html" />
-    <Content Include="js\index.js" />
     <Content Include="js\main.js" />
     <Content Include="js\sweet.js" />
     <Content Include="js\toast.css" />
@@ -164,7 +162,6 @@
     <Content Include="lib\owlcarousel\owl.carousel.min.js" />
     <Content Include="lib\waypoints\waypoints.min.js" />
     <Content Include="login.aspx" />
-    <Content Include="js\header.js" />
     <Content Include="style\accrecov.css" />
     <Content Include="style\Admin\addremove.css" />
     <Content Include="style\Admin\adminbbhome.css" />

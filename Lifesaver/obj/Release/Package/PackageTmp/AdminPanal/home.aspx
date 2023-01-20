@@ -7,6 +7,9 @@
     font-weight: 700;
     color: #F3525A;
 }
+        .card {
+            width: 15%;
+        }
     </style>
 </asp:Content>
 
@@ -91,7 +94,7 @@
              <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label18" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
-          B.B. Covered Pincode 
+          Covered Pincode By B.B.
       </h3>
     </div>
      <div class="card card-1">

@@ -1,7 +1,12 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/main.Master" CodeBehind="todupdate.aspx.vb" Inherits="Lifesaver.todupdate" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../style/common/profile.css" rel="stylesheet" type="text/css" />
-    <style>        @media (max-width: 576px) {
+    <style>
+        
+        textarea,td {
+                max-width:600px;
+            }  
+        @media (max-width: 576px) {
             textarea {
                 width: 90vw;
             }

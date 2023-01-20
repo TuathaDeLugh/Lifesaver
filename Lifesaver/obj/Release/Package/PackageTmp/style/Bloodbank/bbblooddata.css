@@ -72,7 +72,7 @@ input[type="number"] {
 input[type="submit"] {
     border: none;
     outline: none;
-    padding: 11px 25px;
+   
     background: #ff4545;
     cursor: pointer;
     border-radius: 4px;
@@ -93,3 +93,21 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background: #D10000;
 }
+
+
+
+    @media (max-width: 680px) {
+        td {
+            width: 15px;
+            overflow: hidden;
+            padding: 15px 0 15px 0;
+        }
+        .block{
+            width:auto;
+        }
+        input[type="number"] {
+            width: 30vw;
+        }
+
+   
+    }

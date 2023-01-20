@@ -2,6 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../style/common/homepage.css" rel="stylesheet" />
     <style type="text/css">
+           
+        .ahome {
+    font-weight: 700;
+    color: #F3525A;
+}
+    
         .card {
             width: 20%;
         }

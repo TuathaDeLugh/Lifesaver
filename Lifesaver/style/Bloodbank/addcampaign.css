@@ -106,14 +106,14 @@ input[type="submit"] {
     input[type="submit"]:hover {
         background: #D10000;
     }
-@media (max-width: 576px) {
+@media (max-width: 680px) {
     .block1,.block,.d{
         margin:0;
     }
     block {
         padding: 0;
     }
-    @media (max-width: 576px) {
+   
         td {
             width: 15px;
             overflow: hidden;
@@ -128,4 +128,4 @@ input[type="submit"] {
             width: 49vw;
         }
     }
-    }
+  

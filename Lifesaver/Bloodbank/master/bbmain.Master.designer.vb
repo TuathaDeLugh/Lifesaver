@@ -32,6 +32,51 @@ Partial Public Class bbmain
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''HyperLink5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents HyperLink5 As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
+    '''HyperLink7 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents HyperLink7 As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
+    '''HyperLink8 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents HyperLink8 As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
+    '''HyperLink9 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents HyperLink9 As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
+    '''HyperLink17 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents HyperLink17 As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
     '''HyperLink1 control.
     '''</summary>
     '''<remarks>
@@ -41,40 +86,31 @@ Partial Public Class bbmain
     Protected WithEvents HyperLink1 As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
-    '''HyperLink2 control.
+    '''Label2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents HyperLink2 As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''HyperLink3 control.
+    '''HyperLink19 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents HyperLink3 As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents HyperLink19 As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
-    '''HyperLink4 control.
+    '''HyperLink20 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents HyperLink4 As Global.System.Web.UI.WebControls.HyperLink
-
-    '''<summary>
-    '''Label1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents HyperLink20 As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
     '''LinkButton1 control.
