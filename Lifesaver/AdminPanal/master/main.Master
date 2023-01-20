@@ -56,7 +56,7 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Users</a>
                     <div class="dropdown-menu m-0">
-                       <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/AdminPanal/user/home.aspx" cssclass="dropdown-item"><u class="user">User</u></asp:HyperLink>
+                       <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/AdminPanal/user/home.aspx" cssclass="dropdown-item"><u class="user">Genral Data</u></asp:HyperLink>
                         <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/AdminPanal/user/bloodapprove.aspx" cssclass="dropdown-item"><u class="bd">  Blood Donation</u></asp:HyperLink>
                         <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/AdminPanal/user/organ.aspx" cssclass="dropdown-item" ><u class="org"> Organ request</u></asp:HyperLink>
                         <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/AdminPanal/user/removeuser.aspx" cssclass="dropdown-item" ><u class="rmu"> Remove users</u></asp:HyperLink>
@@ -70,9 +70,9 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blood Bank</a>
                     <div class="dropdown-menu m-0">
                         <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/AdminPanal/bb/home.aspx" cssclass="dropdown-item"><u class="bb"> Bloodbank </u></asp:HyperLink>
-                        <asp:HyperLink ID="HyperLink14" runat="server" NavigateUrl="~/AdminPanal/bb/blooddata.aspx" cssclass="dropdown-item"><u class=""> Blood Data</u></asp:HyperLink>
-                        <asp:HyperLink ID="HyperLink15" runat="server" NavigateUrl="~/AdminPanal/bb/add.aspx" cssclass="dropdown-item"><u class="">Add Bloodbank</u></asp:HyperLink>
-                        <asp:HyperLink ID="HyperLink16" runat="server" NavigateUrl="~/AdminPanal/bb/remove.aspx" cssclass="dropdown-item"><u class="">Remove Bloodbank</u></asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink14" runat="server" NavigateUrl="~/AdminPanal/bb/blooddata.aspx" cssclass="dropdown-item"><u class="bd"> Blood Data</u></asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink15" runat="server" NavigateUrl="~/AdminPanal/bb/add.aspx" cssclass="dropdown-item"><u class="add">Add Bloodbank</u></asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink16" runat="server" NavigateUrl="~/AdminPanal/bb/remove.aspx" cssclass="dropdown-item"><u class="remove">Remove Bloodbank</u></asp:HyperLink>
                     </div>
                 </div>
                 <asp:HyperLink ID="HyperLink4" runat="server" 
@@ -84,7 +84,7 @@
                     <a class="btn btn-primary nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></a>
                     <div class="dropdown-menu m-0">
                         <asp:HyperLink ID="HyperLink12" runat="server" NavigateUrl="~/AdminPanal/profile.aspx" cssclass="dropdown-item"><u class="profile">Profile</u></asp:HyperLink>
-                        <asp:HyperLink ID="HyperLink13" runat="server" NavigateUrl="~/AdminPanal/change.aspx" cssclass="dropdown-item"><u class="pass">Change Password</u></asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink13" runat="server" NavigateUrl="~/AdminPanal/change.aspx" cssclass="dropdown-item"><u class="changepass">Change Password</u></asp:HyperLink>
                         <asp:LinkButton ID="LinkButton1" runat="server" cssclass="dropdown-item" CausesValidation="False">Log Out</asp:LinkButton>
                       
                     </div>

@@ -1,6 +1,15 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/user.master" CodeBehind="home.aspx.vb" Inherits="Lifesaver.home3" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head1" runat="server">
     <link href="../../style/Admin/userhome.css" rel="stylesheet" />
+    <style>
+        .user {
+    font-weight: 700;
+    color: #F3525A;
+}
+        .card{
+            width:20%;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 

@@ -2,6 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
     <link href="../style/common/homepage.css" rel="stylesheet" type="text/css" />
+    <style>
+        .ahome {
+    font-weight: 700;
+    color: #F3525A;
+}
+    </style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -67,7 +73,7 @@
     <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label19" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
-          Avaliable campaign in total Pincode
+          Covered Pincode 
       </h3>
     </div>
     </div>
@@ -79,13 +85,13 @@
      <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label9" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
-          Total Blood bank
+          Total active Blood bank
       </h3>
     </div>
              <div class="card card-1">
     <h1 class="card__title"><asp:Label ID="Label18" runat="server" Text="Label"></asp:Label></h1>
           <h3 class="card__apply">
-          Blood Banks In total Pincode
+          B.B. Covered Pincode 
       </h3>
     </div>
      <div class="card card-1">

@@ -339,8 +339,16 @@ input[type="submit"] {
             color: #fff;
         }
 @media (max-width: 576px) {
-    #form1{
+    #form1 {
         width: auto;
-        height: auto;
+        
+    }
+
+    .box, .box:before, .box::after {
+        width: 100vw;
+    }
+
+    .inputBox, .inputBox input {
+        width: 80vw;
     }
 }
