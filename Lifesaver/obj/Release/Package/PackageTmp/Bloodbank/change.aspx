@@ -2,6 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../style/common/profile.css" rel="stylesheet" />
     <link href="../style/common/centerbox.css" rel="stylesheet" />
+        <style>
+        .changepass{
+            font-weight:700;
+    color:#F3525A;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="content">

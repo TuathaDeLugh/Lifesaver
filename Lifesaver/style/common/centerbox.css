@@ -16,12 +16,11 @@
 }
 
 .box {
-    top: 30%;
+    margin-top:25vh;
     padding:20px;
-    position: absolute;
     width: auto;
     height: auto;
     border-radius: 8px;
     overflow: hidden;
-    z-index:-1;
+
 }

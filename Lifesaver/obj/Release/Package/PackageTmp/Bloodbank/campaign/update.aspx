@@ -75,10 +75,10 @@
     </td>
 </tr>
 
-<tr><td><asp:Button ID="Button2" runat="server" Text="update Campaign" Height="40px" 
-        Width="200px" Enabled="False" /></td>
-    <td><asp:Button ID="Button3" runat="server" Text="remove Campaign" Height="40px" 
-        Width="200px" Enabled="False" /></td>
+<tr><td><asp:Button ID="Button2" runat="server" Text="update" Height="40px" 
+         Enabled="False" /></td>
+    <td><asp:Button ID="Button3" runat="server" Text="remove" Height="40px" 
+        Enabled="False" /></td>
 </tr>
     </table>
         </div>
@@ -94,10 +94,11 @@
         <Columns>
             <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="name" />
             <asp:BoundField DataField="Pincode" HeaderText="Pincode" SortExpression="pincode" />
-            <asp:BoundField DataField="MNo" HeaderText="Mobile no" SortExpression="mno" />
+            <asp:BoundField DataField="mno" HeaderText="Mobile Number" SortExpression="mno" />
             <asp:BoundField DataField="Date" HeaderText="Date" SortExpression="date" />
             <asp:BoundField DataField="Approve" HeaderText="Approve" SortExpression="approve" />
         </Columns>
+        <EmptyDataTemplate> <h4><center>No Data</center></h4></EmptyDataTemplate>
     </asp:GridView>
 
     <br />

@@ -38,11 +38,6 @@
     width: 650px;
     border-radius: 10px;
 }
-table {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
 
 tr {
     text-align: center;
@@ -50,7 +45,7 @@ tr {
 
 th {
     font-size: 25px;
-    width: 200px;
+    width: auto;
     padding: 15px;
 }
 
@@ -97,15 +92,18 @@ input[type="submit"]:hover {
 
 
     @media (max-width: 680px) {
+        th{
+            width: 30px;
+        }
         td {
             width: 15px;
             overflow: hidden;
-            padding: 15px 0 15px 0;
+            padding: 15px;
         }
         .block{
             width:auto;
         }
-        input[type="number"] {
+        input[type="number"] ,.inputBox{
             width: 30vw;
         }
 

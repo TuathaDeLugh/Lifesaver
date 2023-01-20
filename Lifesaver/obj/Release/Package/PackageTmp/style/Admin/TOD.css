@@ -63,11 +63,11 @@
 .card {
     margin: 20px;
     padding: 20px;
-    width:300px;
-
+    width: 300px;
+    overflow-wrap: anywhere;
     min-height: 200px;
     display: grid;
-    grid-template-rows:0px3px 1fr6px;
+    grid-template-rows: 0px3px 1fr6px;
     border-radius: 10px;
     transition: all 0.2s;
     border: solid 1px rgba(0,0,0,0.5);

@@ -1,6 +1,10 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Bloodbank/master/bbmain.Master" CodeBehind="profile.aspx.vb" Inherits="Lifesaver.profile1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../style/common/profile.css" rel="stylesheet" type="text/css" />
+        <style>.profile {
+    font-weight: 700;
+    color: #F3525A;
+}</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="content"><center>

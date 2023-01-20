@@ -17,7 +17,7 @@
 <tr>
 <td>Old Password</td>
 <td>
-    <asp:TextBox ID="TextBox1" runat="server"  CssClass="design" AutoPostBack="True" TextMode="Password"></asp:TextBox>
+    <asp:TextBox ID="TextBox1" runat="server" AutoPostBack="True" enabled="true" TextMode="Password"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Enter old password first" ControlToValidate="TextBox1" Display="Dynamic" ForeColor="#CC0000"></asp:RequiredFieldValidator>
    </td>
 </tr>
