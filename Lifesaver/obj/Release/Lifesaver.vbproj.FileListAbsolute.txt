@@ -31,3 +31,14 @@ C:\Users\Umang Sailor\source\repos\Lifesaver\Lifesaver\obj\Release\Lifesaver.vbp
 C:\Users\Umang Sailor\source\repos\Lifesaver\Lifesaver\obj\Release\Lifesaver.dll
 C:\Users\Umang Sailor\source\repos\Lifesaver\Lifesaver\obj\Release\Lifesaver.xml
 C:\Users\Umang Sailor\source\repos\Lifesaver\Lifesaver\obj\Release\Lifesaver.pdb
+C:\Users\ursai\source\repos\Lifesaver\Lifesaver\bin\Lifesaver.dll.config
+C:\Users\ursai\source\repos\Lifesaver\Lifesaver\bin\Lifesaver.dll
+C:\Users\ursai\source\repos\Lifesaver\Lifesaver\bin\Lifesaver.pdb
+C:\Users\ursai\source\repos\Lifesaver\Lifesaver\bin\Lifesaver.xml
+C:\Users\ursai\source\repos\Lifesaver\Lifesaver\obj\Release\Lifesaver.vbproj.AssemblyReference.cache
+C:\Users\ursai\source\repos\Lifesaver\Lifesaver\obj\Release\Lifesaver.Resources.resources
+C:\Users\ursai\source\repos\Lifesaver\Lifesaver\obj\Release\Lifesaver.vbproj.GenerateResource.cache
+C:\Users\ursai\source\repos\Lifesaver\Lifesaver\obj\Release\Lifesaver.vbproj.CoreCompileInputs.cache
+C:\Users\ursai\source\repos\Lifesaver\Lifesaver\obj\Release\Lifesaver.dll
+C:\Users\ursai\source\repos\Lifesaver\Lifesaver\obj\Release\Lifesaver.xml
+C:\Users\ursai\source\repos\Lifesaver\Lifesaver\obj\Release\Lifesaver.pdb

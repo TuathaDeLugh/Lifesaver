@@ -2,8 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 <link href="../../style/Admin/addremove.css" rel="stylesheet" type="text/css" />
         <style>.remove {
-    font-size:1.7rem;
-    font-weight:600;
+    font-weight: 700;
+    color: #F3525A;
     
 }</style>
 <center><div class="block1" >

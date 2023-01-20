@@ -4,301 +4,301 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\Umang Sailor\OneDrive\Desktop\LifeSaver</_PublishTargetUrl>
-    <History>True|2023-01-19T17:10:39.8701513Z;True|2023-01-18T22:13:09.8989553+05:30;True|2023-01-18T21:54:42.2762417+05:30;True|2023-01-10T18:58:07.6450604+05:30;True|2023-01-09T22:15:31.3391173+05:30;True|2023-01-06T21:24:44.4963873+05:30;True|2022-12-31T11:43:19.1661030+05:30;True|2022-12-30T20:37:36.1633416+05:30;True|2022-12-30T20:16:21.6660954+05:30;True|2022-12-30T19:35:31.3637944+05:30;True|2022-12-29T22:28:19.1480495+05:30;True|2022-12-29T13:07:15.4472539+05:30;True|2022-12-28T12:45:09.7931613+05:30;True|2022-12-27T18:18:01.9126786+05:30;True|2022-12-25T21:04:29.9910372+05:30;True|2022-12-18T17:45:16.2376159+05:30;True|2022-12-18T15:38:06.9119687+05:30;True|2022-12-15T22:21:07.5691011+05:30;True|2022-12-14T22:26:01.8189745+05:30;True|2022-12-14T22:25:35.5802603+05:30;True|2022-12-13T07:50:41.6829301+05:30;True|2022-12-09T22:11:58.9765824+05:30;True|2022-12-09T21:14:54.0223242+05:30;True|2022-12-07T16:13:28.0350725+05:30;True|2022-12-06T20:27:22.5853314+05:30;True|2022-12-06T20:19:22.1745137+05:30;True|2022-12-06T20:16:37.1581832+05:30;True|2022-12-06T20:09:12.8905128+05:30;True|2022-12-06T13:19:08.8934674+05:30;True|2022-12-05T17:42:50.3901407+05:30;True|2022-12-05T17:23:32.7019433+05:30;True|2022-12-05T17:12:57.3652385+05:30;True|2022-12-05T13:12:28.0943661+05:30;True|2022-12-05T12:49:24.2657734+05:30;True|2022-12-05T12:37:14.1878064+05:30;True|2022-12-04T18:54:35.5327418+05:30;</History>
+    <_PublishTargetUrl>C:\Users\ursai\Desktop\LIfeSaver</_PublishTargetUrl>
+    <History>False|2023-01-20T08:16:01.4193105Z;True|2023-01-19T22:40:39.8701513+05:30;True|2023-01-18T22:13:09.8989553+05:30;True|2023-01-18T21:54:42.2762417+05:30;True|2023-01-10T18:58:07.6450604+05:30;True|2023-01-09T22:15:31.3391173+05:30;True|2023-01-06T21:24:44.4963873+05:30;True|2022-12-31T11:43:19.1661030+05:30;True|2022-12-30T20:37:36.1633416+05:30;True|2022-12-30T20:16:21.6660954+05:30;True|2022-12-30T19:35:31.3637944+05:30;True|2022-12-29T22:28:19.1480495+05:30;True|2022-12-29T13:07:15.4472539+05:30;True|2022-12-28T12:45:09.7931613+05:30;True|2022-12-27T18:18:01.9126786+05:30;True|2022-12-25T21:04:29.9910372+05:30;True|2022-12-18T17:45:16.2376159+05:30;True|2022-12-18T15:38:06.9119687+05:30;True|2022-12-15T22:21:07.5691011+05:30;True|2022-12-14T22:26:01.8189745+05:30;True|2022-12-14T22:25:35.5802603+05:30;True|2022-12-13T07:50:41.6829301+05:30;True|2022-12-09T22:11:58.9765824+05:30;True|2022-12-09T21:14:54.0223242+05:30;True|2022-12-07T16:13:28.0350725+05:30;True|2022-12-06T20:27:22.5853314+05:30;True|2022-12-06T20:19:22.1745137+05:30;True|2022-12-06T20:16:37.1581832+05:30;True|2022-12-06T20:09:12.8905128+05:30;True|2022-12-06T13:19:08.8934674+05:30;True|2022-12-05T17:42:50.3901407+05:30;True|2022-12-05T17:23:32.7019433+05:30;True|2022-12-05T17:12:57.3652385+05:30;True|2022-12-05T13:12:28.0943661+05:30;True|2022-12-05T12:49:24.2657734+05:30;True|2022-12-05T12:37:14.1878064+05:30;True|2022-12-04T18:54:35.5327418+05:30;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
     <File Include="accountrecovar.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="AdminPanal/bb/add.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 12:37:21</publishTime>
     </File>
     <File Include="AdminPanal/bb/Blooddata.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 12:37:25</publishTime>
     </File>
     <File Include="AdminPanal/bb/home.aspx">
-      <publishTime>01/19/2023 22:38:01</publishTime>
+      <publishTime>01/20/2023 12:37:32</publishTime>
     </File>
     <File Include="AdminPanal/bb/remove.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 13:41:28</publishTime>
     </File>
     <File Include="AdminPanal/change.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 12:24:55</publishTime>
     </File>
     <File Include="AdminPanal/FaQ.aspx">
-      <publishTime>01/19/2023 21:14:33</publishTime>
+      <publishTime>01/20/2023 10:36:20</publishTime>
     </File>
     <File Include="AdminPanal/home.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 12:50:50</publishTime>
     </File>
     <File Include="AdminPanal/master/bb.master">
-      <publishTime>01/19/2023 22:37:47</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="AdminPanal/master/main.Master">
-      <publishTime>01/19/2023 22:20:09</publishTime>
+      <publishTime>01/20/2023 12:36:49</publishTime>
     </File>
     <File Include="AdminPanal/master/user.master">
-      <publishTime>01/19/2023 22:34:02</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="AdminPanal/profile.aspx">
-      <publishTime>01/19/2023 21:56:20</publishTime>
+      <publishTime>01/20/2023 12:28:10</publishTime>
     </File>
     <File Include="AdminPanal/tipoftheday.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 12:24:16</publishTime>
     </File>
     <File Include="AdminPanal/todupdate.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 12:22:47</publishTime>
     </File>
     <File Include="AdminPanal/user/bloodapprove.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 12:32:55</publishTime>
     </File>
     <File Include="AdminPanal/user/campaign.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 12:34:01</publishTime>
     </File>
     <File Include="AdminPanal/user/createcamp.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 12:55:57</publishTime>
     </File>
     <File Include="AdminPanal/user/home.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 12:40:09</publishTime>
     </File>
     <File Include="AdminPanal/user/organ.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 12:33:19</publishTime>
     </File>
     <File Include="AdminPanal/user/removeuser.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 12:33:42</publishTime>
     </File>
     <File Include="AdminPanal/user/updaterem.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 13:19:35</publishTime>
     </File>
     <File Include="bin/Lifesaver.dll">
-      <publishTime>01/19/2023 22:40:39</publishTime>
+      <publishTime>01/20/2023 13:50:39</publishTime>
     </File>
     <File Include="bin/Lifesaver.pdb">
-      <publishTime>01/19/2023 22:40:39</publishTime>
+      <publishTime>01/20/2023 13:50:39</publishTime>
     </File>
     <File Include="bin/Lifesaver.xml">
-      <publishTime>01/19/2023 22:40:39</publishTime>
+      <publishTime>01/20/2023 13:50:39</publishTime>
     </File>
     <File Include="Bloodbank/Blooddata.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="Bloodbank/campaign/Addcampaign.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="Bloodbank/campaign/campaignhome.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="Bloodbank/campaign/deletecampaign.aspx">
-      <publishTime>12/01/2022 11:25:37</publishTime>
+      <publishTime>01/12/2022 11:25:37</publishTime>
     </File>
     <File Include="Bloodbank/campaign/update.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="Bloodbank/change.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="Bloodbank/home.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="Bloodbank/master/bbcapaign.master">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="Bloodbank/master/bbmain.Master">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="Bloodbank/profile.aspx">
-      <publishTime>01/19/2023 22:12:15</publishTime>
+      <publishTime>01/20/2023 12:02:57</publishTime>
     </File>
     <File Include="contactus.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="css/add.css">
-      <publishTime>01/19/2023 20:08:55</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="css/bootstrap.min.css">
-      <publishTime>01/19/2023 16:58:19</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="css/dark.css">
-      <publishTime>01/19/2023 20:22:38</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="css/style.css">
-      <publishTime>01/19/2023 20:02:53</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="Default.html">
-      <publishTime>12/05/2022 12:34:48</publishTime>
+      <publishTime>05/12/2022 12:34:48</publishTime>
     </File>
     <File Include="files/certificate.png">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="files/logo.png">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="files/pngtree-business-man-sleeping-at-work-desk-during-working-hours-png-image_6176467.png">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="img/carousel-1.jpg">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="img/carousel-2.jpg">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="img/feature.jpg">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="img/quote.jpg">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="img/team-1.jpg">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="img/team-2.jpg">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="img/team-3.jpg">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="img/testimonial-1.jpg">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="img/testimonial-2.jpg">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="img/testimonial.jpg">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="index.html">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="js/blockshit.js">
-      <publishTime>01/10/2023 18:57:26</publishTime>
+      <publishTime>10/01/2023 18:57:26</publishTime>
     </File>
     <File Include="js/header.js">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="js/index.js">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="js/main.js">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="js/sweet.js">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="js/toast.css">
-      <publishTime>01/19/2023 18:07:18</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="js/toast.js">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="lib/easing/easing.js">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="lib/easing/easing.min.js">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="lib/owlcarousel/assets/ajax-loader.gif">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="lib/owlcarousel/assets/owl.carousel.css">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="lib/owlcarousel/assets/owl.carousel.min.css">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="lib/owlcarousel/assets/owl.theme.default.css">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="lib/owlcarousel/assets/owl.theme.default.min.css">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="lib/owlcarousel/assets/owl.theme.green.css">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="lib/owlcarousel/assets/owl.theme.green.min.css">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="lib/owlcarousel/assets/owl.video.play.png">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="lib/owlcarousel/LICENSE">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="lib/owlcarousel/owl.carousel.js">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="lib/owlcarousel/owl.carousel.min.js">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="lib/waypoints/links.php">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="lib/waypoints/waypoints.min.js">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="login.aspx">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="style/accrecov.css">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 11:21:20</publishTime>
     </File>
     <File Include="style/Admin/addremove.css">
-      <publishTime>01/19/2023 17:40:01</publishTime>
+      <publishTime>01/20/2023 13:38:27</publishTime>
     </File>
     <File Include="style/Admin/adminbbhome.css">
-      <publishTime>01/19/2023 17:40:28</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="style/Admin/approvecampaign.css">
-      <publishTime>01/19/2023 17:41:30</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="style/Admin/faq.css">
-      <publishTime>01/19/2023 18:10:43</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="style/Admin/TOD.css">
-      <publishTime>01/19/2023 17:43:29</publishTime>
+      <publishTime>01/20/2023 12:14:33</publishTime>
     </File>
     <File Include="style/Admin/userhome.css">
-      <publishTime>01/19/2023 17:44:03</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="style/Bloodbank/addcampaign.css">
-      <publishTime>01/19/2023 17:44:35</publishTime>
+      <publishTime>01/20/2023 13:13:52</publishTime>
     </File>
     <File Include="style/Bloodbank/bbblooddata.css">
-      <publishTime>01/19/2023 17:44:56</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="style/Bloodbank/bbcampaign.css">
-      <publishTime>01/19/2023 17:45:14</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="style/Bloodbank/updatecamp.css">
-      <publishTime>01/19/2023 17:48:43</publishTime>
+      <publishTime>01/20/2023 13:33:04</publishTime>
     </File>
     <File Include="style/common/centerbox.css">
-      <publishTime>01/19/2023 17:48:52</publishTime>
+      <publishTime>01/20/2023 12:08:09</publishTime>
     </File>
     <File Include="style/common/homepage.css">
-      <publishTime>01/19/2023 22:23:25</publishTime>
+      <publishTime>01/20/2023 12:45:12</publishTime>
     </File>
     <File Include="style/common/profile.css">
-      <publishTime>01/19/2023 22:23:08</publishTime>
+      <publishTime>01/20/2023 12:27:55</publishTime>
     </File>
     <File Include="style/index.css">
-      <publishTime>12/27/2022 16:56:25</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="style/Master/master.css">
-      <publishTime>01/19/2023 22:26:07</publishTime>
+      <publishTime>01/20/2023 11:31:53</publishTime>
     </File>
     <File Include="style/Master/nav.css">
-      <publishTime>01/19/2023 20:41:33</publishTime>
+      <publishTime>01/20/2023 12:42:58</publishTime>
     </File>
     <File Include="style/Master/side.css">
-      <publishTime>01/19/2023 22:36:03</publishTime>
+      <publishTime>01/20/2023 10:36:21</publishTime>
     </File>
     <File Include="style/style.css">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 11:17:28</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/19/2023 15:54:52</publishTime>
+      <publishTime>01/20/2023 13:47:59</publishTime>
     </File>
   </ItemGroup>
 </Project>

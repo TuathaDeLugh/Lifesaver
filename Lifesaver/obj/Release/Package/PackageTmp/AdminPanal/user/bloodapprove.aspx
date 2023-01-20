@@ -1,8 +1,9 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/user.master" CodeBehind="bloodapprove.aspx.vb" Inherits="Lifesaver.bloodapprove" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head1" runat="server">
         <style>.bd {
-    font-size:1.7rem;
-    font-weight:600;
+    font-weight: 700;
+    color: #F3525A;
+}
     
 }</style>
     <link href="../../style/Admin/approvecampaign.css" rel="stylesheet" />

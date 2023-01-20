@@ -3,6 +3,10 @@
     <link href="../style/homepage.css" rel="stylesheet" />
     <link href="../style/common/profile.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="../../js/sweet.js"></script>
+    <style>.profile {
+    font-weight: 700;
+    color: #F3525A;
+}</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="content"><center>

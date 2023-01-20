@@ -2,8 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../style/Admin/TOD.css" rel="stylesheet" type="text/css" />
         <style>.tod {
-    font-size:1.7rem;
-    font-weight:600;
+   font-weight:700;
+    color:#F3525A;
     
 }</style>
 </asp:Content>

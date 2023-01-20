@@ -105,12 +105,12 @@ h2,
 }
 
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
     h3,
     .h3 {
         font-size: 1.75rem;
     }
-}
+}*/
 
 h4,
 .h4 {

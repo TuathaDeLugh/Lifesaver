@@ -75,7 +75,7 @@
     padding: 20px;
     min-height: 150px;
     display: grid;
-    min-width: 5px;
+    
     grid-template-rows: 10px 07px 1fr 50px;
     border-radius: 10px;
     transition: all 0.2s;
@@ -98,11 +98,6 @@
     grid-row: 4/5;
     font-weight: 300;
     transition: all 0.5s;
-}
-.ahome {
-    font-size:17px;
-    font-weight:600;
-    
 }
 @media (max-width: 576px) {
      .card{

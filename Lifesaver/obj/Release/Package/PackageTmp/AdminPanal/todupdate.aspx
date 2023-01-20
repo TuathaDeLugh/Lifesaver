@@ -1,6 +1,12 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/main.Master" CodeBehind="todupdate.aspx.vb" Inherits="Lifesaver.todupdate" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../style/common/profile.css" rel="stylesheet" type="text/css" />
+    <style>        @media (max-width: 576px) {
+            textarea {
+                width: 90vw;
+            }
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="content">
@@ -11,7 +17,7 @@
 <td>Tip :</td></tr><tr>
 <td>
     <asp:TextBox ID="TextBox1" runat="server" CssClass="design" 
-        TextMode="MultiLine" Height="400px" Width="600px"></asp:TextBox>
+        TextMode="MultiLine" Height="400px"></asp:TextBox>
         <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Tip Data is require" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
 
     </td></tr><tr>

@@ -346,4 +346,11 @@ input[type="submit"]:active
 		width: auto;
 		height: auto;
 	}
+	.box, .box:before{
+		width: 100vw;
+	}
+	.inputBox, .inputBox input {
+		width: 80vw;
+	}
+
 }

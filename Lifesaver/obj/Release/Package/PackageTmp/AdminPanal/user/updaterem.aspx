@@ -2,8 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head1" runat="server">
     <link href="../../style/Bloodbank/updatecamp.css" rel="stylesheet" />
         <style>.ca {
-    font-size:1.7rem;
-    font-weight:600;
+    font-weight: 700;
+    color: #F3525A;
     
 }</style>
 </asp:Content>
@@ -74,10 +74,10 @@
     </td>
 </tr>
 
-<tr><td><asp:Button ID="Button2" runat="server" Text="update Campaign" Height="40px" 
-        Width="200px" Enabled="False" /></td>
-    <td><asp:Button ID="Button3" runat="server" Text="remove Campaign" Height="40px" 
-        Width="200px" Enabled="False" /></td>
+<tr><td><asp:Button ID="Button2" runat="server" Text="update" Height="40px" 
+         Enabled="False" /></td>
+    <td><asp:Button ID="Button3" runat="server" Text="remove" Height="40px" 
+        Enabled="False" /></td>
 </tr>
     </table>
         </div>

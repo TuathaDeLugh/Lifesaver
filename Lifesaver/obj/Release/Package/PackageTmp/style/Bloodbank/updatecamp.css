@@ -52,12 +52,11 @@
 }
 .block1 {
     left: inherit;
-    margin: 10px;
-    width:750px;
+    margin:0 10px 0 0;
+    width:710px;
     border-radius: 10px;
 }
 .updatebox, .updatetab {
-
     padding:2px;
     border-radius: 10px;
     font-size: 20px;
@@ -126,7 +125,7 @@ input[type="submit"] {
     cursor: pointer;
     border-radius: 4px;
     font-weight: 600;
-    padding: 11px 45px;
+    padding:0 10px 0 10px;
     color:white;
 }
 
@@ -136,4 +135,37 @@ input[type="submit"] {
 
     input[type="submit"]:hover {
         background: #D10000;
+    }
+.updatebox{
+    padding:10px;
+}
+
+@media (max-width: 576px) {
+    .block1, .block, .d {
+        margin: 0;
+    }
+
+    .block1 {
+        
+    }
+    .updatetab {
+        padding: 10px;
+    }
+    block {
+        padding: 0;
+    }
+
+        td {
+            width: 15px;
+            overflow: hidden;
+            padding: 15px 0 15px 0;
+        }
+
+        input[type="text"], input[type="number"], input[type="password"] {
+            width: 47vw;
+        }
+
+        textarea {
+            width: 49vw;
+        }
     }
