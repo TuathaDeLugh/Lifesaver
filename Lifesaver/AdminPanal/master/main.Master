@@ -69,13 +69,10 @@
                                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blood Bank</a>
                     <div class="dropdown-menu m-0">
-                        <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/AdminPanal/bb/home.aspx" cssclass="dropdown-item"><u class="bb"> Bloodbank</u></asp:HyperLink>
-                        <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                        <a href="detail.html" class="dropdown-item">Blog Detail</a>
-                        <a href="feature.html" class="dropdown-item">Features</a>
-                        <a href="quote.html" class="dropdown-item">Quote Form</a>
-                        <a href="team.html" class="dropdown-item">The Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/AdminPanal/bb/home.aspx" cssclass="dropdown-item"><u class="bb"> Bloodbank </u></asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink14" runat="server" NavigateUrl="~/AdminPanal/bb/blooddata.aspx" cssclass="dropdown-item"><u class=""> Blood Data</u></asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink15" runat="server" NavigateUrl="~/AdminPanal/bb/add.aspx" cssclass="dropdown-item"><u class="">Add Bloodbank</u></asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink16" runat="server" NavigateUrl="~/AdminPanal/bb/remove.aspx" cssclass="dropdown-item"><u class="">Remove Bloodbank</u></asp:HyperLink>
                     </div>
                 </div>
                 <asp:HyperLink ID="HyperLink4" runat="server" 
