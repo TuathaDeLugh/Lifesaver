@@ -87,10 +87,10 @@
 
     </td>
 </tr>
-<tr><td><asp:Button ID="Button1" runat="server" Text="update" Height="40px" 
+<tr><td><asp:Button CssClass="btn" ID="Button1" runat="server" Text="update" Height="40px" 
          CausesValidation="False"/></td>
     
-<td><asp:Button ID="Button2" runat="server" Text="Save" Height="40px" 
+<td><asp:Button CssClass="btn" ID="Button2" runat="server" Text="Save" Height="40px" 
         Visible="False"  /></td></tr>
     </table></div></center>
     </div>

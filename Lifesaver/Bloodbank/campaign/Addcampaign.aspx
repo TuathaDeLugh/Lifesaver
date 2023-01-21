@@ -73,7 +73,7 @@
 
 <tr><td></td>
     <td>
-        <asp:Button ID="Button1" runat="server" Text="Create Campaign" Height="40px" 
+        <asp:Button CssClass="btn" ID="Button1" runat="server" Text="Create Campaign" Height="40px" 
          /></td>
 </tr>
     </table></div></center>

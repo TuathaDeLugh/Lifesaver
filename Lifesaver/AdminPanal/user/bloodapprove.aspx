@@ -5,7 +5,7 @@
     color: #F3525A;
 }
     
-}</style>
+</style>
     <link href="../../style/Admin/approvecampaign.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">

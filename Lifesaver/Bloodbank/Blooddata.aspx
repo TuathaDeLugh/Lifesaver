@@ -69,7 +69,7 @@
                 </div>
  </tr>
      <tr>
-    <td colspan="2"><asp:Button ID="Button1" runat="server" Text="Save" /></td>
+    <td colspan="2"><asp:Button CssClass="btn" ID="Button1" runat="server" Text="Save" /></td>
 </tr>
  </table>
  </div>

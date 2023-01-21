@@ -67,10 +67,8 @@ th {
     background: #ff4545;
     cursor: pointer;
     border-radius: 4px;
-    font-weight: 600;
-    width: 100px;
 }
-.approve {
+.approve{
     color: white;
     border: none;
     outline: none;
@@ -79,8 +77,6 @@ th {
     background: #87CEFA;
     cursor: pointer;
     border-radius: 4px;
-    font-weight: 600;
-    width: 100px;
 }
 
 .approve:active, .reject:active {

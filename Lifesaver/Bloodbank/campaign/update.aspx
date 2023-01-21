@@ -12,7 +12,7 @@
     <div class="block1">
         <div class="updatebox">
             Enter Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-            <asp:Button ID="Button1" runat="server" Text="Fill" Height="40px" Width="110px" CausesValidation="False"/><br/>
+            <asp:Button CssClass="btn" ID="Button1" runat="server" Text="Fill" Height="40px" Width="110px" CausesValidation="False"/><br/>
         </div>
 
         <div class="updatetab">
@@ -75,9 +75,9 @@
     </td>
 </tr>
 
-<tr><td><asp:Button ID="Button2" runat="server" Text="update" Height="40px" 
+<tr><td><asp:Button CssClass="btn" ID="Button2" runat="server" Text="update" Height="40px" 
          Enabled="False" /></td>
-    <td><asp:Button ID="Button3" runat="server" Text="remove" Height="40px" 
+    <td><asp:Button CssClass="btn" ID="Button3" runat="server" Text="remove" Height="40px" 
         Enabled="False" /></td>
 </tr>
     </table>

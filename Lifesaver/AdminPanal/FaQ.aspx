@@ -57,8 +57,8 @@
 
                     </asp:ListView>
         <div class="button">
-        <asp:Button ID="Button1" runat="server" Text="Clear All"  />
-        <asp:Button ID="Button2" runat="server" Text="Add temp Data" />
+        <asp:Button CssClass="btn" ID="Button1" runat="server" Text="Clear All"  />
+        <asp:Button CssClass="btn" ID="Button2" runat="server" Text="Add temp Data" />
         </div>
         </div>
      </div>
