@@ -44,7 +44,11 @@
 				
                 </div>
                 <div class="links" style="margin-top:1rem;">
-				<asp:CheckBox ID="Rememberme" runat="server" Text="Remember me" />
+					<label class="switch">
+				<asp:CheckBox ID="Rememberme" runat="server" />
+				 <span class="slider round"></span>
+					</label>
+					Remember me
                 <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/accountrecovar.aspx" CausesValidation="False">Forgot Password</asp:LinkButton>
 			</div>
 			

@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../style/common/profile.css" rel="stylesheet" type="text/css" />
     <style>
-        
+ 
         textarea,td {
                 max-width:600px;
             }  
@@ -22,11 +22,11 @@
 <td>Tip :</td></tr><tr>
 <td>
     <asp:TextBox ID="TextBox1" runat="server" CssClass="design" 
-        TextMode="MultiLine" Height="400px"></asp:TextBox>
+        TextMode="MultiLine" Height="200px"></asp:TextBox>
         <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Tip Data is require" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
 
     </td></tr><tr>
-    <td><asp:Button ID="Button1" runat="server" Text="Update" /></td>
+    <td><asp:Button CssClass="btn" ID="Button1" runat="server" Text="Update" /></td>
 </tr>
 </table>
 </div></center>

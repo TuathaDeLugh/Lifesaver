@@ -39,9 +39,9 @@
         <EditItemTemplate>
             <tr style="">
                 <td>
-                    <asp:Button ID="UpdateButton" runat="server" CommandName="Update" 
+                    <asp:Button CssClass="btn" ID="UpdateButton" runat="server" CommandName="Update" 
                         Text="Update" />
-                    <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" 
+                    <asp:Button CssClass="btn" ID="CancelButton" runat="server" CommandName="Cancel" 
                         Text="Cancel" />
                 </td>
                 <td>
@@ -76,9 +76,9 @@
         <InsertItemTemplate>
             <tr style="">
                 <td>
-                    <asp:Button ID="InsertButton" runat="server" CommandName="Insert" 
+                    <asp:Button CssClass="btn" ID="InsertButton" runat="server" CommandName="Insert" 
                         Text="Insert" />
-                    <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" 
+                    <asp:Button CssClass="btn" ID="CancelButton" runat="server" CommandName="Cancel" 
                         Text="Clear" />
                 </td>
                 <td>

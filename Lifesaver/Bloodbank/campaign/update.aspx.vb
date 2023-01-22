@@ -27,8 +27,9 @@ Public Class update
                 TextBox4.Text = rd("pincode")
                 TextBox5.Text = rd("mno")
                 TextBox6.Text = rd("tagline")
-                TextBox7.Text = rd("date")
+            TextBox7.Text = rd("date")
             TextBox8.Text = rd("time")
+            TextBox10.Text = rd("map")
             TextBox2.Enabled = True
             TextBox3.Enabled = True
             TextBox4.Enabled = True
@@ -37,6 +38,7 @@ Public Class update
             TextBox6.Enabled = True
             TextBox7.Enabled = True
             TextBox8.Enabled = True
+            TextBox10.Enabled = True
             Button2.Enabled = True
             Button3.Enabled = True
         Else

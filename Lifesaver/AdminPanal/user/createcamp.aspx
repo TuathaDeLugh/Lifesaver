@@ -6,6 +6,7 @@
     color: #F3525A;
     
 }</style>
+    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 <center>
@@ -36,10 +37,27 @@
     </br><asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator3" runat="server" ErrorMessage="Campaign Address Pincode Is Required." ControlToValidate="TextBox3" ForeColor="Red"></asp:RequiredFieldValidator>
 
     </td>
+    <tr>
+        <td colspan="2">Wana include map link?&nbsp;&nbsp;
+				<asp:CheckBox ID="map" runat="server" AutoPostBack="True" />&nbsp;&nbsp;&nbsp;&nbsp;<span>*Tick if yes</span>
+				 
+					</td>
+        
+
 </tr>
-<tr>
-<td>Mobile Numnber</td>
+</tr><asp:Panel ID="Panel1" runat="server" Visible="false">
+        <tr>
+            
+<td>Map Link</td>
 <td>
+    <asp:TextBox ID="TextBox10" runat="server"  CssClass="design" Text="notgiven"></asp:TextBox>
+    </br><asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator7" runat="server" ErrorMessage="Campaign maplink is required" ForeColor="Red"></asp:RequiredFieldValidator>
+
+    </td>
+</tr></asp:Panel>
+
+<tr>
+<td>Mobile Numnber</td><td>
     <asp:TextBox ID="TextBox4" runat="server"  CssClass="design"></asp:TextBox>
       </br><asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator4" runat="server" ErrorMessage="Campaign Mobile Number Is Required." ControlToValidate="TextBox4" ForeColor="Red"></asp:RequiredFieldValidator>
 

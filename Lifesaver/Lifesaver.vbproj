@@ -133,6 +133,7 @@
     <Content Include="css\style.css" />
     <Content Include="files\certificate.png" />
     <Content Include="files\logo.png" />
+    <Content Include="img\location.png" />
     <Content Include="img\testimonial.jpg" />
     <Content Include="img\carousel-1.jpg" />
     <Content Include="img\carousel-2.jpg" />
@@ -174,6 +175,7 @@
     <Content Include="style\Bloodbank\updatecamp.css" />
     <Content Include="style\common\centerbox.css" />
     <Content Include="style\common\homepage.css" />
+    <Content Include="style\common\togglebutton.css" />
     <Content Include="style\Master\master.css" />
     <Content Include="style\common\profile.css" />
     <Content Include="style\Master\nav.css" />

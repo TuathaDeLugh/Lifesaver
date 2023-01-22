@@ -28,6 +28,7 @@ Public Class updaterem
             TextBox6.Text = rd("tagline")
             TextBox7.Text = rd("date")
             TextBox8.Text = rd("time")
+            TextBox10.Text = rd("map")
             TextBox2.Enabled = True
             TextBox3.Enabled = True
             TextBox4.Enabled = True
@@ -36,10 +37,11 @@ Public Class updaterem
             TextBox6.Enabled = True
             TextBox7.Enabled = True
             TextBox8.Enabled = True
+            TextBox10.Enabled = True
             Button2.Enabled = True
             Button3.Enabled = True
         Else
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' No Data found','','error')", True)
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal(' No Data found ','','error')", True)
 
         End If
 

@@ -20,4 +20,15 @@ Public Class Addcampaign
         ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Campaign Added Now Wait For Approvement','','success')", True)
         con.Close()
     End Sub
+    Protected Sub map_CheckedChanged(sender As Object, e As EventArgs) Handles map.CheckedChanged
+        If map.Checked Then
+            Panel1.Visible = True
+            TextBox10.Text = ""
+            RequiredFieldValidator7.ControlToValidate = "TextBox10"
+        ElseIf Not map.Checked Then
+            Panel1.Visible = False
+            TextBox10.Text = "notgiven"
+            RequiredFieldValidator7.ControlToValidate = ""
+        End If
+    End Sub
 End Class
