@@ -53,6 +53,7 @@
 <td>
     <asp:TextBox ID="TextBox10" runat="server"  CssClass="design" Text="notgiven"></asp:TextBox>
     </br><asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator7" runat="server" ErrorMessage="Campaign maplink is required" ForeColor="Red"></asp:RequiredFieldValidator>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Please put google maps link" Display="Dynamic" ForeColor="Red" ValidationExpression="http(s)?://([\w-]+\.)+[\w-]+(/[\w- ./?%&amp;=]*)?"></asp:RegularExpressionValidator>
 
     </td>
 </tr></asp:Panel>

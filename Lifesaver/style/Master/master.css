@@ -4,7 +4,7 @@
 
 @media (prefers-color-scheme: light) {
     body {
-        background-color: white;
+        background-color: rgba(255, 254, 242,0.5);
     }
 
 
@@ -33,6 +33,9 @@
 
     .nav-link {
         color:black;
+    }
+    .footer {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     }
 }
 
@@ -72,6 +75,11 @@
     .navbar-toggler-icon{
         filter:invert(1);
     }
+    .footer {
+        background:rgba(0,0,0,0.2);
+        box-shadow: rgba(100, 100, 100, 0.16) 0px 10px 36px 0px, rgba(100, 100, 100, 0.06) 0px 0px 0px 1px;
+        color: White;
+    }
     }
 
 * {
@@ -86,8 +94,7 @@ body {
 
 .footer {
     position: relative;
-    background: rgba(0,0,0,0.5);
-    color: White;
+
     padding-top: 3px;
     padding-bottom: 3px;
     left: 0;
@@ -96,7 +103,7 @@ body {
     text-align: center;
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
-    z-index: 999999;
+    z-index: 2;
     backdrop-filter: blur(10px);
 }
 
@@ -117,7 +124,7 @@ main {
 }
 .heading h2 {
     margin:auto;
-    color:red;
+    color:#f05561;
     text-align:center;
 }
 u{

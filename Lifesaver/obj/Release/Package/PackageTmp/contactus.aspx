@@ -85,6 +85,7 @@
                                       <div class="invalid-feedback">
                                       </div>
                                 <label for="form-floating-1">Full Name</label>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Full Name is Required" ControlToValidate="TextBox1" ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
                             </div>
                         </div>
                         <div class="col-6">
@@ -92,6 +93,8 @@
                                 <asp:TextBox ID="TextBox2" runat="server"
                                  cssclass="form-control" placeholder="abc" ></asp:TextBox>
                                 <label for="form-floating-2">Email address</label>
+                      <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Email is Required" ControlToValidate="TextBox2" ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
+                                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox2" ErrorMessage="*Write Proper Email" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ForeColor="Red"></asp:RegularExpressionValidator>
                             </div>
                         </div>
                             <div class="col-6">
@@ -110,6 +113,8 @@
                                 <asp:TextBox ID="TextBox3" runat="server"
                                  cssclass="form-control" placeholder="abc" ></asp:TextBox>
                                 <label for="form-floating-3">Subject</label>
+                                  <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="*Subject is Required" ControlToValidate="TextBox3" ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
+
                             </div>
                         </div>
                         <div class="col-12">
@@ -117,6 +122,7 @@
                                 <asp:TextBox ID="TextBox4" runat="server"
                                  cssclass="form-control" placeholder="abc" height="250px" TextMode="MultiLine"></asp:TextBox>
                                 <label for="form-floating-4">Message</label>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="*Message content is Required" ControlToValidate="TextBox4" ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
                               </div>
                         </div>
                         <div class="col-12">

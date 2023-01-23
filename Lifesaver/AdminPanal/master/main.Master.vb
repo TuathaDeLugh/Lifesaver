@@ -5,6 +5,7 @@
         If String.IsNullOrEmpty(Session("a")) Then
             Response.Redirect("~/login.aspx")
         End If
+        'Session("a") = "admin"
         Label1.Text = Session("a") + " loged in"
     End Sub
 

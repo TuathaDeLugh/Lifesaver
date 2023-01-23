@@ -7,8 +7,10 @@
     font-weight: 700;
     color: #F3525A;
 }
-        .card {
-            width: 15%;
+        @media (min-width: 800px) {
+            .card {
+                width: 15%;
+            }
         }
     </style>
 </asp:Content>

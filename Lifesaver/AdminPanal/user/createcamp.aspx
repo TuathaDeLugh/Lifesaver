@@ -19,8 +19,8 @@
 <td>
     <asp:TextBox ID="TextBox1" runat="server" CssClass="design"></asp:TextBox>
        </br><asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator1" runat="server" ErrorMessage="Campaign Name Is Required." ControlToValidate="TextBox2" ForeColor="Red"></asp:RequiredFieldValidator>
-
     </td>
+    
 </tr>
 <tr>
 <td>Address</td>
@@ -37,10 +37,10 @@
     </br><asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator3" runat="server" ErrorMessage="Campaign Address Pincode Is Required." ControlToValidate="TextBox3" ForeColor="Red"></asp:RequiredFieldValidator>
 
     </td>
+    </tr>
     <tr>
         <td colspan="2">Wana include map link?&nbsp;&nbsp;
 				<asp:CheckBox ID="map" runat="server" AutoPostBack="True" />&nbsp;&nbsp;&nbsp;&nbsp;<span>*Tick if yes</span>
-				 
 					</td>
         
 
@@ -52,6 +52,7 @@
 <td>
     <asp:TextBox ID="TextBox10" runat="server"  CssClass="design" Text="notgiven"></asp:TextBox>
     </br><asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator7" runat="server" ErrorMessage="Campaign maplink is required" ForeColor="Red"></asp:RequiredFieldValidator>
+        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Please put google maps link" Display="Dynamic" ForeColor="Red" ValidationExpression="http(s)?://([\w-]+\.)+[\w-]+(/[\w- ./?%&amp;=]*)?"></asp:RegularExpressionValidator>
 
     </td>
 </tr></asp:Panel>

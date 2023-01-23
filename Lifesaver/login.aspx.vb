@@ -21,8 +21,8 @@ Public Class login
             PASS.TextMode = TextBoxMode.SingleLine
             Response.Cookies("loginid").Value = ID.Text
             Response.Cookies("loginpass").Value = ConvertPwdtoMD5(PASS.Text)
-            Response.Cookies("loginid").Expires = DateTime.Now.AddMinutes(5)
-            Response.Cookies("loginpass").Expires = DateTime.Now.AddMinutes(5)
+            Response.Cookies("loginid").Expires = DateTime.Now.AddHours(5)
+            Response.Cookies("loginpass").Expires = DateTime.Now.AddHours(5)
         End If
         con.Open()
         Dim ad As New SqlDataAdapter("select * from weblogin where username='" & username & "'AND password='" & userpass & "'", con)

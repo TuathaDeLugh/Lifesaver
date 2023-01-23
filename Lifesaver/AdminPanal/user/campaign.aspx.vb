@@ -1,5 +1,6 @@
 ﻿
 Imports System.Data.SqlClient
+Imports System.Net.WebRequestMethods
 Imports Microsoft.VisualBasic.ApplicationServices
 
 Public Class campaign
@@ -58,10 +59,13 @@ Public Class campaign
                 Dim cd1 As New SqlCommand("select map from campaign where username='" & username & "'And name='" & name & "'", con)
                 Dim link As String = cd1.ExecuteScalar
                 If link = "notgiven" Then
-                    ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "NolertNotify.setConfig({type: ('danger'),position: ('bottom-right'),closeIn: 5000,iconType: ('success')});NolertNotify.trigger({message: 'maplink not found from " & name & "'});", True)
+                    ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "NolertNotify.setConfig({type: ('dark'),position: ('bottom-right'),closeIn: 5000,iconType: ('warning')});NolertNotify.trigger({message: 'maplink is not given for " & name & "'});", True)
 
+                ElseIf link Like "*https://goo.gl/maps*" Then
+                    ClientScript.RegisterClientScriptBlock(Me.GetType(), "Thennew", "window.open('" & link & "', '_newtab');", True)
                 Else
-                    ClientScript.RegisterClientScriptBlock(Me.GetType(), "new", "window.open('" & link & "', '_newtab');", True)
+                    ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "NolertNotify.setConfig({type: ('danger'),position: ('bottom-right'),closeIn: 5000,iconType: ('danger')});NolertNotify.trigger({message: 'maplink from " & name & " is not valid'});", True)
+
                 End If
 
             Catch

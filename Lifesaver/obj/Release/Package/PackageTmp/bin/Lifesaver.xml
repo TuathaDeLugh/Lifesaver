@@ -1460,6 +1460,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.createcamp._RegularExpressionValidator1">
+<summary>
+RegularExpressionValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.createcamp._TextBox4">
 <summary>
 TextBox4 control.
@@ -1958,6 +1967,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Lifesaver.Addcampaign._RequiredFieldValidator7">
 <summary>
 RequiredFieldValidator7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.Addcampaign._RegularExpressionValidator1">
+<summary>
+RegularExpressionValidator1 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -2855,9 +2873,36 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.contactus._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.contactus._TextBox2">
 <summary>
 TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.contactus._RequiredFieldValidator2">
+<summary>
+RequiredFieldValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.contactus._RegularExpressionValidator1">
+<summary>
+RegularExpressionValidator1 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -2882,9 +2927,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Lifesaver.contactus._RequiredFieldValidator3">
+<summary>
+RequiredFieldValidator3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Lifesaver.contactus._TextBox4">
 <summary>
 TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Lifesaver.contactus._RequiredFieldValidator4">
+<summary>
+RequiredFieldValidator4 control.
 </summary>
 <remarks>
 Auto-generated field.

@@ -80,7 +80,7 @@ textarea {
     padding: 5px;
     font: 15px/24px 'Muli', sans-serif;
     height: 150px;
-    max-width: 315px;
+    width: 315px;
     box-sizing: border-box;
     letter-spacing: .1px;
     resize: none;
