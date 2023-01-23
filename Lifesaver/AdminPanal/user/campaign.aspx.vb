@@ -52,7 +52,22 @@ Public Class campaign
             GridView1.DataBind()
             con.Close()
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "NolertNotify.setConfig({type: ('danger'),position: ('bottom-right'),closeIn: 5000,iconType: ('success')});NolertNotify.trigger({message: '" & name & " Rejected'});", True)
+        ElseIf e.CommandName = "map" Then
+            con.Open()
+            Try
+                Dim cd1 As New SqlCommand("select map from campaign where username='" & username & "'And name='" & name & "'", con)
+                Dim link As String = cd1.ExecuteScalar
+                If link = "notgiven" Then
+                    ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "NolertNotify.setConfig({type: ('danger'),position: ('bottom-right'),closeIn: 5000,iconType: ('success')});NolertNotify.trigger({message: 'maplink not found from " & name & "'});", True)
 
+                Else
+                    ClientScript.RegisterClientScriptBlock(Me.GetType(), "new", "window.open('" & link & "', '_newtab');", True)
+                End If
+
+            Catch
+                ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "NolertNotify.setConfig({type: ('danger'),position: ('bottom-right'),closeIn: 5000,iconType: ('success')});NolertNotify.trigger({message: 'No data found from" & name & "'});", True)
+
+            End Try
         End If
         con.Close()
     End Sub

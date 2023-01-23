@@ -14,7 +14,7 @@ Public Class Addcampaign
         datedata = TextBox6.Text + " To " + TextBox7.Text
         timedata = TextBox8.Text + " To " + TextBox9.Text
         con.Open()
-        Dim cmd1 As New SqlCommand("insert into campaign (username,name,address,pincode,mno,tagline,date,time,approve) values ('" & Session("a") & "','" & TextBox1.Text & "','" & TextBox2.Text & "','" & TextBox3.Text & "','" & TextBox4.Text & "','" & TextBox5.Text & "','" & datedata & "','" & timedata & "','no')", con)
+        Dim cmd1 As New SqlCommand("insert into campaign (username,name,address,pincode,mno,tagline,date,time,approve,map) values ('" & Session("a") & "','" & TextBox1.Text & "','" & TextBox2.Text & "','" & TextBox3.Text & "','" & TextBox4.Text & "','" & TextBox5.Text & "','" & datedata & "','" & timedata & "','no','" & TextBox10.Text & "')", con)
         cmd1.ExecuteNonQuery()
         con.Close()
         ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Campaign Added Now Wait For Approvement','','success')", True)

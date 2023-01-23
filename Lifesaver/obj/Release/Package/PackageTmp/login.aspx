@@ -10,6 +10,7 @@
     <script type="text/javascript" src="js/sweet.js"></script>
     <script type="text/javascript" src="js/toast.js"></script>
     <link href="js/toast.css" rel="stylesheet" />
+    <link href="style/common/togglebutton.css" rel="stylesheet" />
 </head>
 <body>
 	  <div class="header">

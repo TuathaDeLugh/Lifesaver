@@ -55,7 +55,7 @@ Public Class update
 
         Try
             con.Open()
-            Dim cd As New SqlCommand("update campaign set name='" & TextBox2.Text & "',address='" & TextBox3.Text & "',pincode='" & TextBox4.Text & "',mno='" & TextBox5.Text & "',tagline='" & TextBox6.Text & "',date='" & TextBox7.Text & "',time='" & TextBox8.Text & "',approve='no' where id=" & TextBox9.Text & "", con)
+            Dim cd As New SqlCommand("update campaign set name='" & TextBox2.Text & "',address='" & TextBox3.Text & "',pincode='" & TextBox4.Text & "',mno='" & TextBox5.Text & "',tagline='" & TextBox6.Text & "',date='" & TextBox7.Text & "',time='" & TextBox8.Text & "',map='" & TextBox10.Text & "',approve='no' where id=" & TextBox9.Text & "", con)
             cd.ExecuteNonQuery()
             con.Close()
             con.Open()

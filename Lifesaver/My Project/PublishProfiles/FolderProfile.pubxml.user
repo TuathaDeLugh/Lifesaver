@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\Umang Sailor\OneDrive\Desktop\Life Saver</_PublishTargetUrl>
-    <History>True|2023-01-21T06:42:25.7567755Z;True|2023-01-20T20:16:26.2641822+05:30;True|2023-01-20T19:56:44.0829993+05:30;True|2023-01-20T17:08:24.0446172+05:30;True|2023-01-20T16:49:33.6327247+05:30;True|2023-01-20T16:15:53.0795238+05:30;True|2023-01-20T16:12:09.6526708+05:30;False|2023-01-20T13:46:01.4193105+05:30;True|2023-01-19T22:40:39.8701513+05:30;True|2023-01-18T22:13:09.8989553+05:30;True|2023-01-18T21:54:42.2762417+05:30;True|2023-01-10T18:58:07.6450604+05:30;True|2023-01-09T22:15:31.3391173+05:30;True|2023-01-06T21:24:44.4963873+05:30;True|2022-12-31T11:43:19.1661030+05:30;True|2022-12-30T20:37:36.1633416+05:30;True|2022-12-30T20:16:21.6660954+05:30;True|2022-12-30T19:35:31.3637944+05:30;True|2022-12-29T22:28:19.1480495+05:30;True|2022-12-29T13:07:15.4472539+05:30;True|2022-12-28T12:45:09.7931613+05:30;True|2022-12-27T18:18:01.9126786+05:30;True|2022-12-25T21:04:29.9910372+05:30;True|2022-12-18T17:45:16.2376159+05:30;True|2022-12-18T15:38:06.9119687+05:30;True|2022-12-15T22:21:07.5691011+05:30;True|2022-12-14T22:26:01.8189745+05:30;True|2022-12-14T22:25:35.5802603+05:30;True|2022-12-13T07:50:41.6829301+05:30;True|2022-12-09T22:11:58.9765824+05:30;True|2022-12-09T21:14:54.0223242+05:30;True|2022-12-07T16:13:28.0350725+05:30;True|2022-12-06T20:27:22.5853314+05:30;True|2022-12-06T20:19:22.1745137+05:30;True|2022-12-06T20:16:37.1581832+05:30;True|2022-12-06T20:09:12.8905128+05:30;True|2022-12-06T13:19:08.8934674+05:30;True|2022-12-05T17:42:50.3901407+05:30;True|2022-12-05T17:23:32.7019433+05:30;True|2022-12-05T17:12:57.3652385+05:30;True|2022-12-05T13:12:28.0943661+05:30;True|2022-12-05T12:49:24.2657734+05:30;True|2022-12-05T12:37:14.1878064+05:30;True|2022-12-04T18:54:35.5327418+05:30;</History>
+    <History>True|2023-01-23T03:05:06.1449816Z;True|2023-01-22T23:06:34.6503181+05:30;True|2023-01-22T22:56:31.3113269+05:30;True|2023-01-21T12:12:25.7567755+05:30;True|2023-01-20T20:16:26.2641822+05:30;True|2023-01-20T19:56:44.0829993+05:30;True|2023-01-20T17:08:24.0446172+05:30;True|2023-01-20T16:49:33.6327247+05:30;True|2023-01-20T16:15:53.0795238+05:30;True|2023-01-20T16:12:09.6526708+05:30;False|2023-01-20T13:46:01.4193105+05:30;True|2023-01-19T22:40:39.8701513+05:30;True|2023-01-18T22:13:09.8989553+05:30;True|2023-01-18T21:54:42.2762417+05:30;True|2023-01-10T18:58:07.6450604+05:30;True|2023-01-09T22:15:31.3391173+05:30;True|2023-01-06T21:24:44.4963873+05:30;True|2022-12-31T11:43:19.1661030+05:30;True|2022-12-30T20:37:36.1633416+05:30;True|2022-12-30T20:16:21.6660954+05:30;True|2022-12-30T19:35:31.3637944+05:30;True|2022-12-29T22:28:19.1480495+05:30;True|2022-12-29T13:07:15.4472539+05:30;True|2022-12-28T12:45:09.7931613+05:30;True|2022-12-27T18:18:01.9126786+05:30;True|2022-12-25T21:04:29.9910372+05:30;True|2022-12-18T17:45:16.2376159+05:30;True|2022-12-18T15:38:06.9119687+05:30;True|2022-12-15T22:21:07.5691011+05:30;True|2022-12-14T22:26:01.8189745+05:30;True|2022-12-14T22:25:35.5802603+05:30;True|2022-12-13T07:50:41.6829301+05:30;True|2022-12-09T22:11:58.9765824+05:30;True|2022-12-09T21:14:54.0223242+05:30;True|2022-12-07T16:13:28.0350725+05:30;True|2022-12-06T20:27:22.5853314+05:30;True|2022-12-06T20:19:22.1745137+05:30;True|2022-12-06T20:16:37.1581832+05:30;True|2022-12-06T20:09:12.8905128+05:30;True|2022-12-06T13:19:08.8934674+05:30;True|2022-12-05T17:42:50.3901407+05:30;True|2022-12-05T17:23:32.7019433+05:30;True|2022-12-05T17:12:57.3652385+05:30;True|2022-12-05T13:12:28.0943661+05:30;True|2022-12-05T12:49:24.2657734+05:30;True|2022-12-05T12:37:14.1878064+05:30;True|2022-12-04T18:54:35.5327418+05:30;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -55,10 +55,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/21/2023 10:54:03</publishTime>
     </File>
     <File Include="AdminPanal/user/campaign.aspx">
-      <publishTime>01/21/2023 10:50:58</publishTime>
+      <publishTime>01/23/2023 08:28:55</publishTime>
     </File>
     <File Include="AdminPanal/user/createcamp.aspx">
-      <publishTime>01/21/2023 10:37:53</publishTime>
+      <publishTime>01/22/2023 22:48:40</publishTime>
     </File>
     <File Include="AdminPanal/user/home.aspx">
       <publishTime>01/20/2023 14:52:06</publishTime>
@@ -70,22 +70,22 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/20/2023 14:52:06</publishTime>
     </File>
     <File Include="AdminPanal/user/updaterem.aspx">
-      <publishTime>01/21/2023 10:33:05</publishTime>
+      <publishTime>01/22/2023 22:53:39</publishTime>
     </File>
     <File Include="bin/Lifesaver.dll">
-      <publishTime>01/21/2023 12:12:25</publishTime>
+      <publishTime>01/23/2023 08:35:05</publishTime>
     </File>
     <File Include="bin/Lifesaver.pdb">
-      <publishTime>01/21/2023 12:12:25</publishTime>
+      <publishTime>01/23/2023 08:35:05</publishTime>
     </File>
     <File Include="bin/Lifesaver.xml">
-      <publishTime>01/21/2023 12:12:25</publishTime>
+      <publishTime>01/23/2023 08:35:05</publishTime>
     </File>
     <File Include="Bloodbank/Blooddata.aspx">
       <publishTime>01/21/2023 10:40:15</publishTime>
     </File>
     <File Include="Bloodbank/campaign/Addcampaign.aspx">
-      <publishTime>01/21/2023 10:39:38</publishTime>
+      <publishTime>01/22/2023 22:49:22</publishTime>
     </File>
     <File Include="Bloodbank/campaign/campaignhome.aspx">
       <publishTime>01/20/2023 17:07:30</publishTime>
@@ -94,7 +94,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/12/2022 11:25:37</publishTime>
     </File>
     <File Include="Bloodbank/campaign/update.aspx">
-      <publishTime>01/21/2023 10:40:02</publishTime>
+      <publishTime>01/23/2023 08:32:50</publishTime>
     </File>
     <File Include="Bloodbank/change.aspx">
       <publishTime>01/21/2023 10:40:42</publishTime>
@@ -146,6 +146,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     </File>
     <File Include="img/feature.jpg">
       <publishTime>01/20/2023 14:52:06</publishTime>
+    </File>
+    <File Include="img/location.png">
+      <publishTime>01/22/2023 22:07:30</publishTime>
     </File>
     <File Include="img/quote.jpg">
       <publishTime>01/20/2023 14:52:06</publishTime>
@@ -238,7 +241,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/20/2023 14:52:06</publishTime>
     </File>
     <File Include="login.aspx">
-      <publishTime>01/21/2023 12:10:53</publishTime>
+      <publishTime>01/22/2023 22:13:11</publishTime>
     </File>
     <File Include="style/accrecov.css">
       <publishTime>01/20/2023 14:52:06</publishTime>
@@ -262,7 +265,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/20/2023 14:52:06</publishTime>
     </File>
     <File Include="style/Bloodbank/addcampaign.css">
-      <publishTime>01/20/2023 16:06:34</publishTime>
+      <publishTime>01/22/2023 22:44:56</publishTime>
     </File>
     <File Include="style/Bloodbank/bbblooddata.css">
       <publishTime>01/20/2023 16:49:16</publishTime>
@@ -282,6 +285,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="style/common/profile.css">
       <publishTime>01/21/2023 11:05:36</publishTime>
     </File>
+    <File Include="style/common/togglebutton.css">
+      <publishTime>01/22/2023 22:12:49</publishTime>
+    </File>
     <File Include="style/index.css">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
@@ -289,13 +295,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/20/2023 19:50:51</publishTime>
     </File>
     <File Include="style/Master/nav.css">
-      <publishTime>01/20/2023 19:55:54</publishTime>
+      <publishTime>01/22/2023 22:47:49</publishTime>
     </File>
     <File Include="style/Master/side.css">
       <publishTime>01/20/2023 14:52:06</publishTime>
     </File>
     <File Include="style/style.css">
-      <publishTime>01/21/2023 12:09:38</publishTime>
+      <publishTime>01/22/2023 22:12:42</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>01/20/2023 16:12:09</publishTime>

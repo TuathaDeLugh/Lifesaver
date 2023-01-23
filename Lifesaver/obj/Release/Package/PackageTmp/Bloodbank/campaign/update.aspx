@@ -42,6 +42,14 @@
 
     </td>
 </tr>
+          <tr>
+<td>Map link</td>
+<td>
+    <asp:TextBox ID="TextBox10" runat="server"  CssClass="design" Enabled="False"></asp:TextBox>
+                <asp:RequiredFieldValidator Display="Dynamic"  ID="RequiredFieldValidator1" runat="server" ErrorMessage="Campaign Map link Is Required." ControlToValidate="TextBox4" ForeColor="Red"></asp:RequiredFieldValidator>
+
+    </td>
+</tr>
 <tr>
 <td>Mobile Numnber</td>
 <td>

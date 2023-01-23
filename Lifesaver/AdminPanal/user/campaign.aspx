@@ -19,6 +19,9 @@
             <asp:BoundField DataField="tagline" HeaderText="Tagline" SortExpression="tagline" />
             <asp:BoundField DataField="date" HeaderText="Date" SortExpression="date" />
             <asp:BoundField DataField="time" HeaderText="Time" SortExpression="time" />
+            <asp:ButtonField CommandName="map" Text="map" ButtonType="Image" HeaderText="map" ImageUrl="~/img/location.png">
+                <ControlStyle CssClass="certi" />
+            </asp:ButtonField>
             <asp:ButtonField CommandName="approve" InsertVisible="False" Text="Approve" ButtonType="Button" HeaderText="Approve" >
             <ControlStyle CssClass="approve" />
             </asp:ButtonField>
