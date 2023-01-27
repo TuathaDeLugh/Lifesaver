@@ -63,8 +63,8 @@ table span {
     font-size: 15px;
     color:red;
 }
-input[type="text"], input[type="number"], input[type="password"]{
-    border: 1px solid Red;
+input[type="text"], input[type="number"], input[type="password"] {
+    border: 1px solid red;
     border-radius: 5px;
     padding: 5px;
     font: 15px/24px 'Muli', sans-serif;
@@ -75,16 +75,15 @@ input[type="text"], input[type="number"], input[type="password"]{
         cursor: no-drop;
     }
 textarea {
-    border: .1px solid Red;
+    border: .1px solid red;
     border-radius: 5px;
     padding: 5px;
     font: 15px/24px 'Muli', sans-serif;
     height: 150px;
     width: 315px;
     box-sizing: border-box;
-    letter-spacing: .1px;
+    letter-spacing: 1px;
     resize: none;
-  
 }
     textarea:disabled {
         cursor: no-drop;

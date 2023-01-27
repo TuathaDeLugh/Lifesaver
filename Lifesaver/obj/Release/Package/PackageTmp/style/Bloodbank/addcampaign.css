@@ -55,28 +55,26 @@ td {
 }
 
 input[type="text"], input[type="number"] {
-    border: 1px solid Red;
+    border: 1px solid red;
     border-radius: 5px;
     padding: 5px;
     font: 15px/24px 'Muli', sans-serif;
     width: 400px;
     letter-spacing: 1px;
-      
 }
 input[type="date"], input[type="time"] {
-    border: 1px solid Red;
+    border: 1px solid red;
     border-radius: 5px;
     padding: 5px;
     font: 15px/24px 'Muli', sans-serif;
     width: 178px;
     letter-spacing: 1px;
-      
 }
 
 
 
 textarea {
-    border: 1px solid Red;
+    border: 1px solid red;
     border-radius: 5px;
     padding: 5px;
     font: 15px/24px 'Muli', sans-serif;
@@ -85,7 +83,6 @@ textarea {
     box-sizing: border-box;
     letter-spacing: 1px;
     resize: none;
-      
 }
 
 input[type="submit"] {

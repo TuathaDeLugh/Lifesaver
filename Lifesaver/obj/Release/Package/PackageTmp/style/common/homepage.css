@@ -8,13 +8,11 @@
 
 
     .card {
-        box-shadow:0px 06px 10px rgba(0, 0, 0, 0.25);
-        background: radial-gradient(#1fe4f5, #3fbafe);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+       
+        background: #3fbafe;
     }
 
-        .card:hover {
-            box-shadow:0px 06px 10px rgba(0, 0, 0, 0.4);
-        }
 
     .card__title {
         color: #ffffff;
@@ -33,13 +31,10 @@
 
 
     .card {
-        background: radial-gradient(#7851a9,#6a5acd );
-        box-shadow:0px 6px 10px rgba(237, 237, 237, 0.25);
+        background: #6a5acd;
+        box-shadow: rgba(200, 200, 200, 0.16) 0px 10px 36px 0px, rgba(200, 200, 200, 0.06) 0px 0px 0px 1px;
     }
 
-        .card:hover {
-            box-shadow:0px 6px 10px rgba(255, 255, 255, 0.4);
-        }
 
     .card__title {
         color: #ededed;
@@ -54,7 +49,7 @@
 /*Design*/
 .block {
     align-content: center;
-    margin: 10px;
+    margin: 25px;
     padding: 10px;
     width: auto;
     display: grid;
@@ -75,7 +70,7 @@
     padding: 20px;
     min-height: 150px;
     display: grid;
-    
+    width:350px;
     grid-template-rows: 10px 07px 1fr 50px;
     border-radius: 10px;
     transition: all 0.2s;
@@ -83,8 +78,8 @@
 }
 
     .card:hover {
-        transform: scale(1.05);
-        z-index: 2;
+        transform: scale(1.02);
+        z-index: 1;
     }
 
 .card__title {
@@ -105,7 +100,7 @@
         height: auto;
     }
     .card__apply {
-        font-size: 12px;
+        font-size: 15px;
     }
      }
 }

@@ -13,7 +13,7 @@ Public Class home3
         ad.Fill(ds)
         GridView1.DataSource = ds
         GridView1.DataBind()
-        Dim sql2 As String = "select username,donername,pincode,address,mno,organname from organ"
+        Dim sql2 As String = "select username,donername,pincode,address,mno,organname from organ where approve='yes'"
         Dim ad2 As New SqlDataAdapter(sql2, con)
         Dim ds2 As New DataSet
         ad2.Fill(ds2)
