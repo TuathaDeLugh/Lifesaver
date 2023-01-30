@@ -129,7 +129,6 @@
     <Content Include="contactus.aspx" />
     <Content Include="css\add.css" />
     <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\dark.css" />
     <Content Include="css\style.css" />
     <Content Include="files\certificate.png" />
     <Content Include="files\logo.png" />
