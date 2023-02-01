@@ -88,7 +88,7 @@
 }
 
 body {
-    
+
     font-size: 15px;
 }
 
@@ -109,10 +109,7 @@ body {
 
 
 main {
-    
-    min-height: 89.5vh;
-
-    
+    min-height: calc(100vh - 152px);
 }
 
 .scroll-down .header {
@@ -152,6 +149,8 @@ html{
     .content{
         margin:0;
     }
-  
+    main {
+        min-height: calc(100vh - 124px);
+    }
 }
 

@@ -26,7 +26,7 @@
 	  <div class="squre" style="--i:3;"></div>
 	  <div class="squre" style="--i:4;"></div>
 	<div class="box">
-		<form id="form1" runat="server">
+		<form id="form1" runat="server" autocomplete="off">
 			<h2>Sign in</h2>
             <div class="autofill" style="margin-bottom:1rem;">
 				    <asp:LinkButton ID="autofill" runat="server" CausesValidation="False">auto fill & login</asp:LinkButton>

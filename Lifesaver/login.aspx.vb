@@ -15,33 +15,36 @@ Public Class login
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        username = ID.Text
-        userpass = ConvertPwdtoMD5(PASS.Text)
-        If Rememberme.Checked Then
-            PASS.TextMode = TextBoxMode.SingleLine
-            Response.Cookies("loginid").Value = ID.Text
-            Response.Cookies("loginpass").Value = ConvertPwdtoMD5(PASS.Text)
-            Response.Cookies("loginid").Expires = DateTime.Now.AddHours(5)
-            Response.Cookies("loginpass").Expires = DateTime.Now.AddHours(5)
-        End If
-        con.Open()
-        Dim ad As New SqlDataAdapter("select * from weblogin where username='" & username & "'AND password='" & userpass & "'", con)
-        Dim ds As New DataSet
-        ad.Fill(ds)
-        If ds.Tables(0).Rows.Count > 0 Then
-            Session("a") = username
-            If username = "admin" Then
-                Response.Redirect("~\AdminPanal/home.aspx")
-            Else
-                Response.Redirect("~\Bloodbank\home.aspx")
-
+        Try
+            username = ID.Text
+            userpass = ConvertPwdtoMD5(PASS.Text)
+            If Rememberme.Checked Then
+                PASS.TextMode = TextBoxMode.SingleLine
+                Response.Cookies("loginid").Value = ID.Text
+                Response.Cookies("loginpass").Value = ConvertPwdtoMD5(PASS.Text)
+                Response.Cookies("loginid").Expires = DateTime.Now.AddHours(5)
+                Response.Cookies("loginpass").Expires = DateTime.Now.AddHours(5)
             End If
-        Else
+            con.Open()
+            Dim ad As New SqlDataAdapter("select * from weblogin where username='" & username & "'AND password='" & userpass & "'", con)
+            Dim ds As New DataSet
+            ad.Fill(ds)
+            If ds.Tables(0).Rows.Count > 0 Then
+                Session("a") = username
+                If username = "admin" Then
+                    Response.Redirect("~\AdminPanal/home.aspx")
+                Else
+                    Response.Redirect("~\Bloodbank\home.aspx")
 
-            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Invalid Id or Password','','error')", True)
-        End If
-        con.Close()
+                End If
+            Else
 
+                ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Invalid Id or Password','','error')", True)
+            End If
+            con.Close()
+        Catch
+            ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "swal('Something Wrong Try Again.','','error')", True)
+        End Try
     End Sub
 
     Protected Sub autofill_Click(sender As Object, e As EventArgs) Handles autofill.Click
