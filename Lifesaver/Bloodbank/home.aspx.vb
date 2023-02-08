@@ -11,7 +11,7 @@ Public Class home2
         con.Open()
         Dim sql As String = "SELECT opve FROM blooddata where username='" & Session("a") & "'"
         Dim cd As New SqlCommand(sql, con)
-        Label0.Text = cd.ExecuteScalar
+        Label12.Text = cd.ExecuteScalar
         Dim sql1 As String = "SELECT onve FROM blooddata where username='" & Session("a") & "'"
         Dim cd1 As New SqlCommand(sql1, con)
         Label1.Text = cd1.ExecuteScalar
@@ -27,10 +27,10 @@ Public Class home2
         Dim sql5 As String = "SELECT bnve FROM blooddata where username='" & Session("a") & "'"
         Dim cd5 As New SqlCommand(sql5, con)
         Label5.Text = cd5.ExecuteScalar
-        Dim sql6 As String = "SELECT opve FROM blooddata where username='" & Session("a") & "'"
+        Dim sql6 As String = "SELECT abpve FROM blooddata where username='" & Session("a") & "'"
         Dim cd6 As New SqlCommand(sql6, con)
         Label6.Text = cd6.ExecuteScalar
-        Dim sql7 As String = "SELECT onve FROM blooddata where username='" & Session("a") & "'"
+        Dim sql7 As String = "SELECT abnve FROM blooddata where username='" & Session("a") & "'"
         Dim cd7 As New SqlCommand(sql7, con)
         Label7.Text = cd7.ExecuteScalar
         'campaign
