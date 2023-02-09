@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/AdminPanal/master/user.master" CodeBehind="bloodapprove.aspx.vb" Inherits="Lifesaver.bloodapprove" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head1" runat="server">
-        <style>.bd {
+        <style>.bdo {
     font-weight: 700;
     color: #F3525A;
 }

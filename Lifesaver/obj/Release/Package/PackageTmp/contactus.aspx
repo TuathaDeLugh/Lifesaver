@@ -37,6 +37,16 @@
 
 </head>
 <body>
+        <div class="back" id="back">
+        <div class="loading">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+    <div class="main" id="main">
         <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
         <a href="index.html" class="navbar-brand p-0">
@@ -187,9 +197,15 @@
         <p class="m-0">&copy; <a class="text-secondary border-bottom" href="https://umangsailor.bsite.net">umangsailor.bsite.net</a>. All Rights Reserved.</p>
     </div>
     <!-- Footer End -->
-
-
-
+</div>
+        <script>
+        var loader = document.getElementById("back");
+        var main = document.getElementById("main");
+    window.addEventListener("load",function(){
+        loader.style.display = "none";
+        main.style.display = "block";
+    })
+        </script>
     
 
 

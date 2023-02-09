@@ -1,4 +1,5 @@
-﻿Public Class main
+﻿
+Public Class main
     Inherits System.Web.UI.MasterPage
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
@@ -7,6 +8,11 @@
         End If
         'Session("a") = "admin"
         Label1.Text = Session("a") + " loged in"
+        'If Not (IsPostBack) Then
+        'End If
+        'If IsPostBack Then
+
+        'End If
     End Sub
 
     Protected Sub LinkButton1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles LinkButton1.Click

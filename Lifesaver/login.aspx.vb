@@ -11,7 +11,6 @@ Public Class login
 
     End Sub
     Protected Sub Rememberme_CheckedChanged(ByVal sender As Object, ByVal e As EventArgs) Handles Rememberme.CheckedChanged
-
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -73,7 +72,6 @@ Public Class login
 
             ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", "NolertNotify.setConfig({type: ('danger'),position: ('bottom-right'),closeIn: 5000,iconType: ('danger')});NolertNotify.trigger({message: 'Autofill Data Not Found'});", True)
         End Try
-
     End Sub
     Public Shared Function ConvertPwdtoMD5(strword As String) As String
         Dim md5 As MD5 = md5.Create()
@@ -84,5 +82,6 @@ Public Class login
             sBuilder.Append(hash(i).ToString("x2"))
         Next
         Return sBuilder.ToString()
+
     End Function
 End Class

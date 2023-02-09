@@ -37,6 +37,7 @@
     <script src="../../js/main.js"></script>
 </head>
 <body>
+        
     <form id="form1" runat="server" autocomplete="off">
 
         <!-- Navbar Start -->
@@ -53,7 +54,7 @@
                     NavigateUrl="~/BloodBank/home.aspx" cssclass="nav-item nav-link"><u class="ahome">Home</u></asp:HyperLink>
                 
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Campaign</a>
+                    <a href="#" class="nav-link dropdown-toggle ca" data-bs-toggle="dropdown">Campaign</a>
                     <div class="dropdown-menu m-0">
                        <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Bloodbank/campaign/campaignhome.aspx" cssclass="dropdown-item"><u class="camp">Genral Data</u></asp:HyperLink>
                         <asp:HyperLink ID="HyperLink8" runat="server" cssclass="dropdown-item" NavigateUrl="~/Bloodbank/campaign/Addcampaign.aspx"><u class="addc">Add Campaign</u></asp:HyperLink>
@@ -73,6 +74,7 @@
                     <div class="dropdown-menu m-0">
                         <asp:HyperLink ID="HyperLink19" runat="server" NavigateUrl="~/Bloodbank/profile.aspx" cssclass="dropdown-item"><u class="profile">Profile</u></asp:HyperLink>
                         <asp:HyperLink ID="HyperLink20" runat="server" NavigateUrl="~/Bloodbank/change.aspx" cssclass="dropdown-item"><u class="changepass">Change Password</u></asp:HyperLink>
+                        <div class="dropdown-divider"></div>
                         <asp:LinkButton ID="LinkButton1" runat="server" cssclass="btn btn-danger" CausesValidation="False" Style="margin-left:20px;">Log Out</asp:LinkButton>
                     </div>
                 </div>
@@ -80,8 +82,16 @@
             </div>
         </div>
     </nav>
-
-    <main>
+        <div class="back" id="back">
+    <div class="loading">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+    <main id="main">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
@@ -90,4 +100,12 @@
        <footer class="footer"><center>All copyrights are belongs to Lifesaver.co.in</center></footer>
     </form>
 </body>
+    <script>
+        var loader = document.getElementById("back");
+        var main = document.getElementById("main");
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+            main.style.display = "block";
+        })
+    </script>
 </html>

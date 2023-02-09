@@ -38,6 +38,7 @@
     <script src="../../js/main.js"></script>
 </head>
 <body>
+        
     <form id="form1" runat="server" autocomplete="off">
 
         <!-- Navbar Start -->
@@ -54,10 +55,10 @@
                     NavigateUrl="~/AdminPanal/home.aspx" cssclass="nav-item nav-link"><u class="ahome">Home</u></asp:HyperLink>
                 
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Users</a>
+                    <a href="#" class="nav-link dropdown-toggle meu" data-bs-toggle="dropdown">Users</a>
                     <div class="dropdown-menu m-0">
                        <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/AdminPanal/user/home.aspx" cssclass="dropdown-item"><u class="user">Genral Data</u></asp:HyperLink>
-                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/AdminPanal/user/bloodapprove.aspx" cssclass="dropdown-item"><u class="bd">  Blood Donation</u></asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/AdminPanal/user/bloodapprove.aspx" cssclass="dropdown-item"><u class="bdo">  Blood Donation</u></asp:HyperLink>
                         <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/AdminPanal/user/organ.aspx" cssclass="dropdown-item" ><u class="org"> Organ request</u></asp:HyperLink>
                         <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/AdminPanal/user/removeuser.aspx" cssclass="dropdown-item" ><u class="rmu"> Remove users</u></asp:HyperLink>
                     <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/AdminPanal/user/campaign.aspx" cssclass="dropdown-item" ><u class="ac"> Approve Campaign</u></asp:HyperLink>
@@ -67,7 +68,7 @@
                     </div>
                 </div>
                                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blood Bank</a>
+                    <a href="#" class="nav-link dropdown-toggle bbm" data-bs-toggle="dropdown">Blood Bank</a>
                     <div class="dropdown-menu m-0">
                         <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/AdminPanal/bb/home.aspx" cssclass="dropdown-item"><u class="bb"> Bloodbank </u></asp:HyperLink>
                         <asp:HyperLink ID="HyperLink14" runat="server" NavigateUrl="~/AdminPanal/bb/blooddata.aspx" cssclass="dropdown-item"><u class="bd"> Blood Data</u></asp:HyperLink>
@@ -95,8 +96,16 @@
         </div>
     </nav>
     <!-- Navbar End -->
-       
-    <main>
+       <div class="ba" id="back">
+    <div class="loading">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+    <main id="main">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
@@ -104,4 +113,13 @@
        <footer class="footer"><center>All copyrights are belongs to Lifesaver.co.in</center></footer>
     </form>
 </body>
+    <script>
+        var loader = document.getElementById("back");
+        var main = document.getElementById("main");
+    window.addEventListener("load",function(){
+        loader.style.display = "none";
+        main.style.display = "block";
+    })
+    </script>
+     
 </html>
