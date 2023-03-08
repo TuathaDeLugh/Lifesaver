@@ -1,4 +1,4 @@
-In SSMS:-
+In SSMS:-.
 🚀copy this
 ```
 use lifesaver;
