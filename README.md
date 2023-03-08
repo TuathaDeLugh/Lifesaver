@@ -1,4 +1,5 @@
 In SSMS:-
+🚀copy this
 ```
 use lifesaver;
 create table weblogin (id int identity(1,1),username varchar(255),name varchar(255),password varchar(255),email varchar(255),address varchar(255),pincode varchar(255),mno varchar(255),question varchar(255),answer varchar(255),time varchar(255));
