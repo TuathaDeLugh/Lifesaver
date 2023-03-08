@@ -1,4 +1,5 @@
 In SSMS:-
+```
 use lifesaver;
 create table weblogin (id int identity(1,1),username varchar(255),name varchar(255),password varchar(255),email varchar(255),address varchar(255),pincode varchar(255),mno varchar(255),question varchar(255),answer varchar(255),time varchar(255));
 create table tipofday(id int identity(1,1),tip varchar(255));
@@ -17,7 +18,7 @@ go
 create view bbrequest AS SELECT * FROM feedback WHERE type='bbhelp';
 
 insert into tipofday values('tip'); //run this 12 time
-
+```
 
 
 How to run??
@@ -28,9 +29,10 @@ Also insert admin in table weblogin .
 Username- admin
 
 In SSMS:-
+```
 Use lifesaver;
 Insert into weblogin values(‘admin’,‘admin’,‘admin’,’not applicable’,’not applicable’,’not applicable’,’not applicable’,’not applicable’,’not applicable’,’not applicable’) ;
-
+```
 
 Open project in vs
 Change connection string in web.config file.
